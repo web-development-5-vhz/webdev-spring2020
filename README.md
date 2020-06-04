@@ -30,4 +30,8 @@ We are looking for a well constructed skeleton that reflects the design in the w
 *  Appropriate semantic tags used, both the predefined tags and the appropriate use of div block tags.
 *  The range of different layout, formatting and media HTML tags used and their appropriate use (eg tables used as tables not for layout)
 *  Rich comments
-*  Accessibility, particularly in the use of the media tags. Tidy directory structure
+*  Accessibility, particularly in the use of the media tags. 
+*  Tidy directory structure
+
+**This is the money maker right here TAGS: https://www.w3schools.com/tags/ref_byfunc.asp**
+Should we say aim for ten tags each?
