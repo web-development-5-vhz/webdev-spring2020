@@ -33,5 +33,5 @@ We are looking for a well constructed skeleton that reflects the design in the w
 *  Accessibility, particularly in the use of the media tags. 
 *  Tidy directory structure
 
-**This is the money maker right here TAGS: https://www.w3schools.com/tags/ref_byfunc.asp**
+**This is the money maker right here TAGS: https://www.w3schools.com/tags/ref_byfunc.asp**  
 Should we say aim for ten tags each?
