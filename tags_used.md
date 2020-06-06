@@ -1,16 +1,17 @@
 # Keep a tally of the new tags you used
 
 ## Andy
-*  <div>
-*  <main>
-*  <aside>
-*  <ul> - Unordered List
-*  <address>
-*  <img>
-*  <a href>
-*  <button>
-*  <hx>
-*  <b>
-*  <button>
-*  <footer>
-*  <body>
+*  div
+*  main
+*  aside
+*  ul - unordered list
+*  img
+*  a href
+*  button
+*  h-x - various headers
+*  p
+*  button
+*  footer
+*  head
+*  body
+
