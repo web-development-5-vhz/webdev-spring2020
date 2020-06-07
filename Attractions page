@@ -1,0 +1,135 @@
+<html lang="en"><head>
+    <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      
+      <style>
+          
+          #bodyID{
+                background-image: url("https://cdn.pixabay.com/photo/2015/10/12/15/12/milky-way-984286__480.jpg");
+                 background-repeat: no-repeat;
+                 background-size: cover;
+            }
+          
+          #jumbotron{ 
+                background-image: url("https://media.istockphoto.com/photos/launch-of-space-shuttle-into-the-space-picture-id1191352160?b=1&k=6&m=1191352160&s=170667a&w=0&h=1kh9A4FrwzyWyje8AX40MH28EFyI5UsFN7Bv232k33k=");
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 margin-top: 50px;
+                }
+          
+          .display-4 {
+              color: #1a75ff;
+              font-family: Times New Roman;
+              font-size: 500%;
+          }
+          #Title {
+              color: #ffdb4d;
+              font-family: Times New Roman;
+              font-size: 320%;
+          }
+          
+          #blockquote{
+              color: #ffdb4d;
+              font-family: Times New Roman;
+              font-size: 50%;       
+          }
+          
+          #my_link{
+              color: #99ccff;
+              font-family: Times New Roman;
+              font-size: 50%;       
+          }
+      </style>
+
+      <title>Attractions Page</title>
+
+      
+    </head>
+    <body id="bodyID"><nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Project.html">   <img src="https://cdn.pixabay.com/photo/2012/11/28/11/26/soyuz-67719__480.jpg" width="30" height="30" alt=""> Attractions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Home_Page.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Planning</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+            </ul>
+  </div>
+</nav>
+
+      <div id="jumbotron" class="jumbotron jumbotron-fluid">
+          <div class="container">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <b> <h1 class="display-4">Welcome To The Attractions Page
+              </h1> </b>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+              <p class="lead"></p>
+          </div>
+      </div>
+        <h1 id = Title >Attractions</h1>
+        <h1>
+            <blockquote id = blockquote class="blockquote">
+                <ul>
+               <li><p class="mb-0">The amusement park hosts a total of 20 rides, </p></li>
+                    <ul>
+                        <li>
+                            10 rides for the children.
+                        </li>
+                        <li>
+                            5 family friendly rides.
+                        </li>
+                        <li>
+                            5 rides for all adults and adreneline junkies.
+                        </li>
+                    </ul>
+                <li><p class="mb-0">Each section of the park is designed to provide the best possible experience to our visitors.</p>  </li>
+                <li><p class="mb-0">The childrens section is a safe area that provides constant child supervision while parents explore the the theme park</p>  </li>
+                <li><p class="mb-0">Resturants and restrooms have a designated area that is well equip with fine dining establishments and all your favorite  joints.</p>  </li>
+                
+                </ul>
+            </blockquote></h1>
+        <br>
+        
+        <div id = Title class="container">
+          <div class="row">
+            <div class="col order-last">
+                <a id = "my_link" href = "#"> <img  src = "https://cdn.pixabay.com/photo/2016/09/28/18/12/roller-coaster-1701085__480.jpg" width="350" height="350" alt="">Adults only</a>
+
+            </div>
+            <div class="col">
+                <a id = "my_link" href = "#" ><img src = "https://images.unsplash.com/photo-1549109776-5a25ed5cce47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" width="350" height="350" alt=""> For the family</a>
+
+            </div>
+            <div class="col order-first">
+                <a id = "my_link" href = "#" ><img src = "https://media.istockphoto.com/photos/portrait-of-excited-elementary-school-pupils-on-playing-field-at-picture-id1160932512?b=1&k=6&m=1160932512&s=170667a&w=0&h=UGpr6-SNI-Rhf_gsfMQwkQc1coYPMMIG--YHVGdGUys=" width="350" height="350" alt="">Child friendly </a>
+            </div>
+          </div>
+        </div>
+    
+    
+    
+</body></html>
