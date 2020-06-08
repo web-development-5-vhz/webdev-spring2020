@@ -1,0 +1,284 @@
+<html lang="en"><head>
+    <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      
+      <style>
+          
+          #bodyID{
+                background-image: url("https://cdn.pixabay.com/photo/2015/10/12/15/12/milky-way-984286__480.jpg");
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 background-attachment: fixed;
+            }
+          
+          #jumbotron{ 
+                background-image: url("https://media.istockphoto.com/photos/launch-of-space-shuttle-into-the-space-picture-id1191352160?b=1&k=6&m=1191352160&s=170667a&w=0&h=1kh9A4FrwzyWyje8AX40MH28EFyI5UsFN7Bv232k33k=");
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 margin-top: 50px;
+                }
+          .toMoveLeft{
+              padding-left:12.5%;
+          }
+          
+          
+          .display-4 {
+              color: #1a75ff;
+              font-family: Times New Roman;
+              font-size: 480%;
+          }
+          
+          #Title {
+              color: #ffdb4d;
+              font-family: Times New Roman;
+              font-size: 320%;
+          }
+          
+          .New_container{
+              color: #ffdb4d;
+              font-family: Times New Roman;
+              font-size: 320%;
+          }
+          
+          .New_container_2{
+              color: #ffdb4d;
+              font-family: Times New Roman;
+              font-size: 100%;
+          }
+          
+          .New_container_3{
+              color: #ffdb4d;
+              font-family: Times New Roman;
+              font-size: 300%;
+          }
+          
+          #blockquote{
+              color: white;
+              font-family: Times New Roman;
+              font-size: 50%;  
+              background-color: black; /* black */
+              opacity: 0.75;
+          }
+          
+          .small_quote{
+              color: #ffdb4d;
+              font-family: Times New Roman;
+              font-size: 100%; 
+              margin-left: 20px;
+          }
+          
+          #my_link{
+              color: #99ccff;
+              font-family: Times New Roman;
+              font-size: 50%;       
+          }
+          
+          #map_Container{
+              color: #ffdb4d;
+              font-family: Times New Roman;
+              font-size: 600%;
+              
+              background-image: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+          
+          
+          .New_container{
+                    
+              background-image: url("https://images.unsplash.com/photo-1483488792196-78bedff29c21?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+          
+          #map_pic{
+
+           padding-left:10.5%;
+           padding-bottom: 5%;
+          }
+          
+          .small_quote{
+              color: white;
+              font-size: 60%;
+          }
+          
+          
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 150x; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  /*background-color: #d3ecf2; /* blue */
+  background-image: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffdb4d;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #7e8ff2;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+    
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+      </style>
+
+    <title>Attractions Page</title>
+
+      
+    </head>
+    <body class = "toMoveLeft" id="bodyID">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Project.html">   <img src="https://cdn.pixabay.com/photo/2012/11/28/11/26/soyuz-67719__480.jpg" width="30" height="30" alt=""> Attractions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Home_Page.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Planning</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+            </ul>
+  </div>
+</nav>
+
+      <div id="jumbotron" class="jumbotron jumbotron-fluid">
+          <div class="container">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <b> <h1 class="display-4">Welcome To The Attractions Page
+              </h1> </b>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+              <p class="lead"></p>
+          </div>
+      </div>
+        
+        <div class = "sidenav">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class = "button_class"> </div>
+             <a href = "#Title" > Attractions</a>
+             <a href = "#Rides" > Rides</a>
+             <a href = "#Map" > Map</a>
+        </div>
+        
+        <h2 id = Title></h2>
+        <br>
+        <br>
+
+        <h1>
+            <blockquote id = blockquote class="blockquote">
+                <h1  id = Title>Attractions</h1>
+                <ul>
+               <li><p class="mb-0">The amusement park hosts a total of 50 rides, </p></li>
+                    <ul>
+                        <li>
+                            15 rides for the children.
+                        </li>
+                        <li>
+                            15 family friendly rides.
+                        </li>
+                        <li>
+                            20 rides for all adults and adreneline junkies.
+                        </li>
+                    </ul>
+                <li><p class="mb-0">Each section of the park is designed to provide the best possible experience to our visitors.</p>  </li>
+                    <li><p class="mb-0">The childrens section is a safe area that provides constant child supervision while parents explore the the theme park.</p>  </li>
+                    <li><p class="mb-0">Resturants and restrooms have a designated area that is well equip with fine dining establishments and all your favorite  joints.</p>  </li>
+                    <li><p class="mb-0">Scenic flight to the moon.</p>  </li>
+                    <li><p class="mb-0">Moon landing and 2-hour space park adventur.</p>  </li>
+                    <li><p class="mb-0">Experienced guide.</p>  </li>
+                    <li><p class="mb-0">All equipment (full moon suit, oxygen, all the stuff you need ).</p>  </li>
+                    <li><p class="mb-0">A 2 day compulsory space training.</p>  </li>
+                </ul>
+            </blockquote></h1>
+
+        <h2 id = Rides></h2>
+        <br>
+        <br>
+        
+        
+        <div id = container class="New_container my_link">
+            <h1  class = "new_container_2">Rides</h1>
+            <br>
+          <div class="row">
+            <div class="col order-last">
+                <a id = "my_link" href = "#"> <img  src = "https://cdn.pixabay.com/photo/2016/09/28/18/12/roller-coaster-1701085__480.jpg" width="300" height="300" alt="">Adults only</a>
+
+            </div>
+            <div class="col">
+                <a id = "my_link"  href = "#" ><img src = "https://images.unsplash.com/photo-1549109776-5a25ed5cce47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" width="330" height="300" alt=""> For the family</a>
+
+            </div>
+            <div class="col order-first">
+                <a id = "my_link" href = "#" ><img src = "https://media.istockphoto.com/photos/portrait-of-excited-elementary-school-pupils-on-playing-field-at-picture-id1160932512?b=1&k=6&m=1160932512&s=170667a&w=0&h=UGpr6-SNI-Rhf_gsfMQwkQc1coYPMMIG--YHVGdGUys=" width="300" height="300" alt="">Child friendly </a>
+            </div>
+          </div>
+        </div>
+        
+        <br>
+        
+        <h2  id = Map ></h2>
+        <br>
+        <br>
+        <div class = "new_container_3" id = blockquote >
+            <div id = map_Container> 
+            <h1 > Map</h1>
+                <h2 class = "small_quote "> Fly over earths magical moon before making a landing ... Buzz Aldrin Style!
+
+            Explore this one of a kind cratered fun park, on a 2-hour professionally guided joyride.
+
+            Within the fun park excursions include a thrill option or lunar history experience for the more academically inclined visitors.</h2>
+            <img  id = "map_pic" src = "https://i.pinimg.com/originals/c4/6e/c0/c46ec039998d5d07ce9da23108c2bc8f.png" width="1000" height="1000" alt="">
+            </div>
+        </div>
+    
+</body></html>
