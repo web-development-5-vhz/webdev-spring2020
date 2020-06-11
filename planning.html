@@ -23,19 +23,12 @@
     </head>
 
     <!-- A nav tag is used to specify a block of navigation links, either within the current document or to other documents.-->
-    
-    <nav>
-
-        <!--Logo Needs To Be Input-->
-        
+    <body> <!-- This tag is used to contain the main contents of the web page -->  
+    <nav>     
         <!-- img tags are used when images are being employed.
              "src" is an attribute used to link the image to the web page
              and "alt" is the attribute that loades an alternate image if the innitial image is not found
-        
             The 'a' tag is a link tag, and the "href" attribute is given the value of the web page link that you would like to connect to.    -->
-        
-                <!--Logo Needs To Be Input-->
-                    <!--Logo Needs To Be Input-->
                     <img src="images/logo.png" alt="Company Logo">
                     <a href="index.html">Home</a> |
                     <a href="attractions.html">Attractions</a> |
@@ -44,7 +37,7 @@
                 </nav>
     
     
-    <body> <!-- This tag is used to contain the main contents of the web page -->
+
 
         <!--Title Containers for non-landing pages.
         Style these text lines later to be over the image  -->
@@ -52,16 +45,13 @@
         <!-- A div tag defines a division or a section and is used as a container 
              The 'h' tag identifies a header
              The 'p' tag is used to define a paragraph of text --> 
-        
-        
         <div class="secondary_header">
             <h1>Planning</h1>
             <img src="images/planning.jpg" alt="Planning Image">
         </div>
        <main>
            
-           <!-- Header --> 
-           
+           <!-- Header -->  
             <div class="Header Section" id="header_planning">
                 <h1>Planning</h1>
                 <p>It's important to prepair for this special opportunity.<br>
@@ -72,8 +62,7 @@
             </div>
            
            <!-- Schedule -->
-           
-           <div class="Header Section" id="header_schedule">
+           <div class="Header Section" id="header_schedule">  <!--id used as href location for index page button-->
                 <h2>Schedule and Holidays</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing<br>
                     and typesetting industry. Lorem Ipsum has been the <br>
@@ -84,7 +73,8 @@
            
             <section id="schedule">
                 <div id="calendar">
-                    <iframe src="https://calendar.google.com/calendar/embed?src=pf8bqdum4h1bvotl8on6ns4sis%40group.calendar.google.com&ctz=America%2FVancouver" style="border: 0" width="300" height="250" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?src=pf8bqdum4h1bvotl8on6ns4sis%40group.calendar.google.com&ctz=America%2FVancouver" 
+                    style="border: 0" width="300" height="250" ></iframe>
                 </div>
                 <div id="opening_hours">
                 <h3>Hours of Operation</h3>
@@ -112,19 +102,19 @@
                   <div class="slide">
                     <div class="numbertext">1 / 3</div>
                     <img src="images/spaceodyssey_event.jpg" width="300" alt="Photo from Space Odyssey 2019">
-                    <label class="event_slideshow"><h4>Space Odyssey Nights</h4></label>
+                    <label class="event_slideshow">Space Odyssey Nights</label>
                   </div>
 
                   <div class="event_slideshow">
                     <div class="numbertext">2 / 3</div>
                     <img src="images/colours_event.jpg" width="300" alt="Photo from the Carnival of Colours 2019">
-                    <label class="event_slideshow"><h4>Carnival of Colours</h4></label>
+                    <label class="event_slideshow">Carnival of Colours</label>
                   </div>
 
                   <div class="event_slideshow">
                     <div class="numbertext">3 / 3</div>
                     <img src="images/waterfight_event.jpg" width="300" alt="Photo from the 2018 Waterfight">
-                    <label class="event_slideshow"><h4>The Annual Waterfight on the Moon</h4></label>
+                    <label class="event_slideshow">The Annual Waterfight on the Moon</label>
                   </div>
                   <!-- Next and previous buttons -->
                   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -137,21 +127,16 @@
                   <span class="dot" onclick="currentSlide(2)"></span>
                   <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
-                </div>
             </section>
 
             <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
-    
             <div class="promo_banner" style="background-color: lightgray;">
                 <h3>Our Spaceshuttles Deploy on Sunny Days Only</h3>
                 <p>Find out more about weather conditions on weather.com</p>
-                <a href="https://www.weather.com/" target="_blank">
-                    <button type="button">Go to website!</button>
-                </a>  
+                <a href="https://www.weather.com/" target="_blank">Go to website!</a>  <!--Style as button-->  
             </div>
         
-            <!-- Hotels & restaurants -->
-           
+            <!-- Hotels & restaurants -->  
            <div class="Header Section" id="hotels_restaurants">
                 <h2>Hotels & Restaurants</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing<br>
@@ -162,8 +147,7 @@
             </div>
         
             <!-- HOTELS -->
-        
-            <section id="hotels">
+            <section id="hotels">   <!--id used as href location for index page button-->
                 <div class="hotels_list">
                     <h3>Hotels</h3>
                     <ul>
@@ -173,7 +157,7 @@
                                 <figcaption><h4>Space Hotel</h4></figcaption>
                                 <figcaption>$$</figcaption>
                                 <figcaption>Modern and slick rooms inspired by spaceships</figcaption>
-                                <a href="https://booking.com" target="_blank"><button>Book Now!</button></a>
+                                <a href="https://booking.com" target="_blank">Book Now!</a>  <!--Style as button-->
                             </figure>
                         </li>
                         <li>
@@ -182,7 +166,7 @@
                                 <figcaption><h4>Airship Hotel</h4></figcaption>
                                 <figcaption>$$$</figcaption>
                                 <figcaption>Steampunk inspired rooms with classic decor</figcaption>
-                                <a href="https://booking.com" target="_blank"><button>Book Now!</button></a>
+                                <a href="https://booking.com" target="_blank">Book Now!</a> <!--Style as button-->
                             </figure>
                         </li> 
                         <li>
@@ -191,7 +175,7 @@
                                 <figcaption><h4>Dark Side of the Moon Hotel</h4></figcaption>
                                 <figcaption>$$$</figcaption>
                                 <figcaption>Peacefully located in the heart of a crater</figcaption>
-                                <a href="https://booking.com" target="_blank"><button>Book Now!</button></a>
+                                <a href="https://booking.com" target="_blank">Book Now!</a> <!--Style as button-->
                             </figure>
                         </li> 
                     </ul>                
@@ -199,8 +183,7 @@
             </section>
         
             <!--RESTAURANTS-->
-        
-            <section id="restaurants">
+            <section id="restaurants">   <!--id used as href location for index page button-->
                 <div class="restaurants_list">
                     <h3>Restaurants</h3>
                     <ul>
@@ -210,7 +193,7 @@
                                 <figcaption><h4>The Chubby Spaceman</h4></figcaption>
                                 <figcaption>$</figcaption>
                                 <figcaption>Ⓥ</figcaption>
-                                <a href="https://www.tripadvisor.com" target="_blank"><button>Reserve Now!</button></a>
+                                <a href="https://www.tripadvisor.com" target="_blank">Reserve Now!</a> <!--Style as button-->
                             </figure>
                         </li>
                         <li>
@@ -219,7 +202,7 @@
                                 <figcaption><h4>Moonshine Pub & Eatery</h4></figcaption>
                                 <figcaption>$$</figcaption>
                                 <figcaption>+18</figcaption>
-                                <a href="https://www.tripadvisor.com" target="_blank"><button>Reserve Now!</button></a>
+                                <a href="https://www.tripadvisor.com" target="_blank">Reserve Now!</a> <!--Style as button-->
                             </figure>
                         </li> 
                         <li>
@@ -228,25 +211,22 @@
                                 <figcaption><h4>Restaurant at the End of the Universe</h4></figcaption>
                                 <figcaption>$$$</figcaption>
                                 <figcaption>Ⓥ</figcaption>
-                                <a href="https://www.tripadvisor.com" target="_blank"><button>Reserve Now!</button></a>
+                                <a href="https://www.tripadvisor.com" target="_blank">Reserve Now!</a> <!--Style as button-->
                             </figure>
                         </li> 
-                    </ul>                      
+                    </ul>  
+                </div>                    
             </section>
                 
             <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
-    
             <div class="promo_banner" style="background-color: lightgray;">
                 <h3>We value your feedback and want to reward you!</h3>
                 <p>Tell us about your experiance and enter a draw for a <strong>free yearly pass</strong></p>
-                <a href="contact.html">
-                    <button type="button">Contact Us!</button>
-                </a>  
+                <a href="contact.html">Contact Us! </a>  <!--Style as button-->
             </div>
                 
             <!--PACKAGES-->
-           
-            <div class="Header Section" id="packages">
+            <div class="Header Section" id="packages_header">
                 <h2>Packages</h2>
                 <p>Step up your planning game with our package deals!<br>
                    Cover all your dining, hospitality and transportation needs<br>
@@ -255,7 +235,7 @@
                 </p>
             </div>
                 
-            <section id="packages">
+            <section id="packages">   <!--id used as href location for index page button-->
                 <div class="packages_list">
                     <ul>
                         <li>
@@ -266,7 +246,7 @@
                                             Hotel<br>
                                             Unlimited Dehydrated Meals
                                 </figcaption>
-                                <a href="https://www.groupon.com" target="_blank"><button>Purchase Now!</button></a>
+                                <a href="https://www.groupon.com" target="_blank">Purchase Now!</a> <!--Style as button-->
                             </figure>
                         </li>
                         <li>
@@ -277,7 +257,7 @@
                                             Hotel<br>
                                             Buffet Breakfast Only
                                 </figcaption>
-                                <a href="https://www.groupon.com" target="_blank"><button>Purchase Now!</button></a>
+                                <a href="https://www.groupon.com" target="_blank">Purchase Now!</a> <!--Style as button-->
                             </figure>
                         </li> 
                         <li>
@@ -289,22 +269,20 @@
                                         All Inclussive Meals & Drinks<br>
                                         Fast Pass
                                 </figcaption>
-                                <a href="https://www.groupon.com" target="_blank"><button>Purchase Now!</button></a>
+                                <a href="https://www.groupon.com" target="_blank">Purchase Now!</a> <!--Style as button-->
                             </figure>
                         </li> 
-                    </ul>                      
+                    </ul>    
+                </div>                  
             </section>
                 
             <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
-    
-            <div class="promo_banner" style="background-color: lightgray;" id = "deals">
+            <div class="promo_banner" style="background-color: lightgray;" id = "deals">  <!--id used as href location for index page button-->
                 <h3>We have more deals for you!</h3>
                 <p>Check out Groupon.com for more information</p>
-                <a href="https://groupon.com" target="_blank">
-                    <button type="button">More Deals!</button>
-                </a>  
+                <a href="https://groupon.com" target="_blank">>More Deals!</a>   <!--Style as button-->
             </div>
-           
+        </main>
     </body>
 
 </html>
