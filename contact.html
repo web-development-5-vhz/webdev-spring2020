@@ -4,65 +4,49 @@
 <html lang="en">
 
 <head>
-  <title>Moon Shot - Contact</title>
-  <meta charset="UTF-8">
-  <meta name="description" content="Corporate Website for Moonshot Theme Park">
-  <meta name="author" content="Web development Group 55">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="refresh" content="600">
-  <meta name="keywords" content="Space Theme Park, Moon Shot, The Big Dipper">
-  <meta name="robots" content="noindex,nofollow">
-  
-  
-      <style>
-        
-        /* FOOOTER ADJUSTMENTS */
-         {
-          box-sizing: border-box;
-        }
-
-        .row {
-          display: flex;
-        }
-
-        /* Create two equal columns that sits next to each other */
-        .column {
-              float: left;
-              width: 20%;
-            padding-top: 50px;
-              padding-left: 10px;
-        }
-    
-    </style>
+    <title>Moon Shot - Contact</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Corporate Website for Moonshot Theme Park">
+    <meta name="author" content="Web development Group 55">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Space Theme Park, Moon Shot, The Big Dipper">
+    <meta name="robots" content="noindex,nofollow">
 </head>
 
-<body>
 
-    <nav>
-        <img src="images/logo.png" alt="Company Logo">
-        <a href="index.html">Home</a> |
-        <a href="attractions.html">Attractions</a> |
-        <a href="planning.html">Planning</a> |
-        <a href="contact.html">Contact</a> |
-    </nav>
+
+
+
 <!-- ***** CONTACT PAGE CODE STARTS HERE ***** -->
 
-    
+<body>
+    <nav>
+        <!--Logo Needs To Be Input-->
+        <img src="images/logo.png" alt="Company Logo">
+        <a href="/home/">Home</a> |
+        <a href="/attractions/">Attractions</a> |
+        <a href="/planning/">Planning</a> |
+        <a href="/contact/">Contact</a> |
+    </nav>
+
     <!-- contact us banner - FULL DEVICE WIDTH -->
+
     <div class="secondary_header">
-      <h1>Contact Us</h1>
-      <img src="images/contact.jpg" alt="Contact Banner">
+        <h1>Contact Us</h1>
+        <img src="images/contact.jpg" alt="Contact Banner">
     </div>
-    
+
     <!-- contact info -->
+
     <main>
         <div id="contact_info">
             <h2>Contact Information</h2>
             <address>
-            LunaCorp Moonshot Visitor Complex
-            <br>
-            23 - Space Commerce Way, Merritt Island, FL
-            <br>
+                LunaCorp Moonshot Visitor Complex
+                <br>
+                23 - Space Commerce Way, Merritt Island, FL
+                <br>
             </address>
             <label class="label_contactinfo">Phone:</label>
             <a class="phone" href="tel:1-800-423-3333">1-800-423-3333</a>
@@ -70,104 +54,63 @@
             <label class="label_contactinfo">Email:</label>
             <a class="email" href="mailto:info@moonshot.com">info@moonshot.com</a>
         </div>
-        <div id="map">    
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112094.50731561019!2d-80.72418986326602!3d28.601176157753294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e74b95a365c6fd%3A0x8b7339f246f869dd!2sKennedy%20Space%20Center!5e0!3m2!1sen!2sca!4v1591631881325!5m2!1sen!2sca" 
-            width="350" height="200"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <!--IFRAME NOT ALLOWED
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112094.50731561019!2d-80.72418986326602!3d28.601176157753294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e74b95a365c6fd%3A0x8b7339f246f869dd!2sKennedy%20Space%20Center!5e0!3m2!1sen!2sca!4v1591631881325!5m2!1sen!2sca"
+                width="350" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
         </div>
+        -->
     </main>
-    
+
     <!-- contact form -->
+
     <div id="contact_form">
         <h2 class="form">Contact Form</h2>
         <form id="contact">
             <!--mandatory input-->
-            <label class="label_form" id="first_name">First name*:</label>
-            <input type="text" name="first_name" value="">
+            <label class="label_form" for="first_name">First name*:</label>
+            <input type="text" id="first_name" value="">
             <br>
-            <label class="label_form" id="last_name">Last name:</label>
-            <input type="text" name="last_name" value="">
-            <br>
-            <!--mandatory input-->
-            <label class="label_form" id="email">Email*:</label>
-            <input type="text" name="email" value="">
-            <br>
-            <label class="label_form" id="phone">Phone Number:</label>
-            <input type="text" name="phone" value="">
+            <label class="label_form" for="last_name">Last name:</label>
+            <input type="text" id="last_name" value="">
             <br>
             <!--mandatory input-->
-            <label class="label_form" id="message">Message*:</label>
-            <input type="text" name="message" value="" style="width:400px; height:150px;"> 
+            <label class="label_form" for="email">Email*:</label>
+            <input type="text" id="email" value="">
             <br>
-            <input type="submit" value="Submit">    
+            <label class="label_form" for="phone">Phone Number:</label>
+            <input type="text" id="phone" value="">
+            <br>
+            <!--mandatory input-->
+            <label class="label_form" for="message">Message*:</label>
+            <input type="text" id="message" value="" style="width:400px; height:150px;">
+            <br>
+            <input type="submit" value="Submit">
         </form>
     </div>
-    
+
     <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
+
     <!-- ***REMOVE BACKGROUND COLOUR CSS FOR THE NEXT SUBMISSION*** -->
+
     <div class="promo_banner" style="background-color: lightgray;">
-    
-    <div class="promo_banner">
         <h3>See what our visitors have to say</h3>
         <p>Find us on tripadvisor.com</p>
-        <a href="https://www.tripadvisor.com/" target="_blank">Go to website!</a>
+
+        <button type="button">Go to website!</button>
+
     </div>
-    
+
     <!-- Not on the wireframes - some extra content for the very bottom of the page -->
+
     <aside>
-      <h4>Your Feedback is Important to us!</h4>
-      <p>
-          Tell us about your experiance for <strong>a chance to win a yearly pass!</strong><br> 
-          Simply begin your message with the words <q>Shoot for the moon</q><br> 
-          to automatically enter the draw!<br>
-      </p>
+        <h4>Your Feedback is Important to us!</h4>
+        <p>
+            Tell us about your experiance for <strong>a chance to win a yearly pass!</strong><br>
+            Simply begin your message with the words <q>Shoot for the moon</q><br>
+            to automatically enter the draw!<br>
+        </p>
     </aside>
-      
-      
-   <footer id = "footer_ID">
-    <!--Consider adding a bunch of buttons for investors, hiring etc...-->
-    <br>
-        
-        <div class="row">
-            <div class = "column">
-            <a href ="#">
-                <img src = "images/MoonshotLogo.png" width=" 200" height="100">
-            </a>
-            
-            </div>
-            <div class="column">
-                    <h4> 
-                        <u>Address</u><br><br>
-                            <address>
-                                Head Office:<br>
-                                Box 564, Suppville<br>
-                                Iron Islands<br>
-                                Westeros<br>
-                            </address>
-                </h4>
-            </div>
-            <div class="column">
-                <h4>
-                    <u>Contact us</u><br><br>
-   
-                    <a href ="#">
-                        <img src = "images/facebook.png" width="30" height="30">
-                    </a>
-                    
-                    <a href ="#">
-                        <img src = "images/twitter.png" width="30" height="30">
-                    </a>
-                    
-                    <a href ="#">
-                        <img src = "images/instagram.png" width="30" height="30"><br><br>
-                    </a>
-                    
-                        <a href="mailto:info@moonshot.com">info@moonshot.com</a>
-                    
-
-                </h4>
-            </div>
-
-        </div>
-        
-</footer>
 </body>
