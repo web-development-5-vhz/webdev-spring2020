@@ -236,3 +236,6 @@ Updated readme to include a checklist. @Vicus Brits @Mo @Mariyasha888 please rea
 
 Andy  3:16 PM
 Comments verified!
+
+Istvan 9:39 PM
+Added favicon and change the 'Lorem Ipsum' on the planning page
