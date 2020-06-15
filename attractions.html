@@ -9,27 +9,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="refresh" content="600">
     <meta name="robots" content="noindex,nofollow">
+
 </head>
 
-
-
 <body>
-    <!--The nave will be on the top of every page and allow navigation arount the site-->
-    <!--TODO: Links still need to be added-->
     <nav>
-
-        <img src="MoonshotLogo.png" alt="Company Logo">
-        <a href="/home/">Home</a> |
-        <a href="/attractions/">Attractions</a> |
-        <a href="/planning/">Planning</a> |
-        <a href="/contact/">Contact</a> |
+        <!--Same on every page. If you change one, don't foget to change them all-->  
+        <!--Logo Needs To Be Input-->
+        <div id=logo_image>
+        <img src = "images/MoonshotLogo.png" alt="Company Logo" width=200>                   
+        </div>
+        <div id =nav_elements>
+        <a href="index.html">Home</a> |
+        <a href="attractions.html">Attractions</a> |
+        <a href="planning.html">Planning</a> |
+        <a href="contact.html">Contact</a> |
+        </div>
     </nav>
 
     <!--Title Containers for non-landing pages.
     Style these text lines later to be over the image-->
     <div class="secondary_header">
         <h1>Attractions Headline</h1>
-        <img src="images/main.jpg" alt="Landing Image" width=512 height=211>
+        <img src="images/waterslide.jpg" alt="Landing Image" width=600>
     </div>
 
     <main>
@@ -44,21 +46,21 @@
             <br>
             <div class="row">
                 <div class="col order-last">
-                    <a id="my_link1" href="#"> <img
+                    <a id="rides_adults" href="#"> <img
                             src="https://cdn.pixabay.com/photo/2016/09/28/18/12/roller-coaster-1701085__480.jpg"
-                            width="300" height="300" alt="">Adults only</a>
+                            width=200 alt="">Adults only</a>
 
                 </div>
                 <div class="col">
-                    <a id="my_link2" href="#"><img
+                    <a id="rides_family" href="#"><img
                             src="https://images.unsplash.com/photo-1549109776-5a25ed5cce47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
-                            width="330" height="300" alt=""> For the family</a>
+                            width=200 alt=""> For the family</a>
 
                 </div>
                 <div class="col order-first">
-                    <a id="my_link" href="#"><img
+                    <a id="rides_children" href="#"><img
                             src="https://media.istockphoto.com/photos/portrait-of-excited-elementary-school-pupils-on-playing-field-at-picture-id1160932512?b=1&k=6&m=1160932512&s=170667a&w=0&h=UGpr6-SNI-Rhf_gsfMQwkQc1coYPMMIG--YHVGdGUys="
-                            width="300" height="300" alt="">Child friendly </a>
+                            width=200 alt="">Child friendly </a>
                 </div>
             </div>
         </div>
@@ -69,7 +71,7 @@
         <div class="thumbnail_container">
             <div class="thumbnail_item">
                 <h2>Fly to the moon day trip</h2>
-                <img src="images/attraction_placeholder.jpg" alt="Epic Moon Pic 1" width=300 height=140>
+                <img src="images/rollercoaster.jpg" alt="Epic Moon Pic 1" width=400>
                 <h3>What is included?</h3>
                 <ul>
                     <li>Scenic flight to the moon</li>
@@ -86,7 +88,7 @@
             </div>
             <div class="thumbnail_item">
                 <h2>Fly to the moon overnight excursions</h2>
-                <img src="images/attraction_placeholder.jpg" alt="Epic Moon Pic 2" width=300 height=140>
+                <img src="images/spaceman_package.jpg" alt="Epic Moon Pic 2" width=400>
                 <h3>What is included?</h3>
                 <ul>
                     <li>Overnight stay for as many night as you like</li>
@@ -123,25 +125,26 @@
 
                 Within the fun park excursions include a thrill option or lunar history experience for the more
                 academically inclined visitors.
-            <p>
-                <img id="map_pic" src="https://i.pinimg.com/originals/c4/6e/c0/c46ec039998d5d07ce9da23108c2bc8f.png"
-                    width="1000" height="1000" alt="">
+            </p>        
+                <img src="images/map.jpg" alt="Map of the Park" usemap="#parkmap" width="800">
+
+                <map name="parkmap">
+                  <area shape="circle" coords="500,60,30,30" alt="Rides for Adults" href="#rides_adults">
+                  <area shape="circle" coords="600,260,30,30" alt="Rides for Family" href="#rides_family">
+                  <area shape="circle" coords="350,320,30,30" alt="Rides for Children" href="#rides_children">
+                </map>
+
         </div>
 
     </aside>
-    <footer id="footer_ID">
+    <footer id="footer">
         <!--Same on every page. If you change one, don't foget to change them all-->
         <br>
-
         <div class="row">
             <div class="column">
-
-                <img src="MoonshotLogo.png" alt="Moonshot logo" width="200" height="100">
-
-
+                <img src="images/MoonshotLogo.png" alt="Moonshot logo" width="200" height="100">
             </div>
             <div class="column">
-
                 <h4><u>Address</u><br><br></h4>
                 <address>
                     LunaCorp Moonshot Visitor Complex
@@ -149,36 +152,24 @@
                     23 - Space Commerce Way, Merritt Island, FL
                     <br>
                 </address>
-
             </div>
             <div class="column">
                 <h4>
                     <u>Contact us</u><br><br>
-
                     <a href="#">
-                        <img src="facebook.png" alt="Facebook logo" width="30" height="30">
+                        <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
                     </a>
-
                     <a href="#">
-                        <img src="twitter.png" alt="Twitter logo" width="30" height="30">
+                        <img src="images/twitter.png" alt="Twitter logo" width="30" height="30">
                     </a>
-
                     <a href="#">
-                        <img src="instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
+                        <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
                     </a>
-
                     <a href="mailto:info@moonshot.com">info@moonshot.com</a>
-
-
                 </h4>
             </div>
-
         </div>
-
     </footer>
 
 </body>
-
-
-
 </html>

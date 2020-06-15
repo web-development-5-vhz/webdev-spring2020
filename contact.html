@@ -14,16 +14,19 @@
     <meta name="robots" content="noindex,nofollow">
 </head>
 
-
 <body>
     <nav>
-        <!--Same on every page. If you change one, don't forget to change them all-->
+        <!--Same on every page. If you change one, don't foget to change them all-->  
         <!--Logo Needs To Be Input-->
-        <img src="MoonshotLogo.png" alt="Company Logo">
-        <a href="/home/">Home</a> |
-        <a href="/attractions/">Attractions</a> |
-        <a href="/planning/">Planning</a> |
-        <a href="/contact/">Contact</a> |
+        <div id=logo_image>
+        <img src = "images/MoonshotLogo.png" alt="Company Logo" width=200>                   
+        </div>
+        <div id =nav_elements>
+        <a href="index.html">Home</a> |
+        <a href="attractions.html">Attractions</a> |
+        <a href="planning.html">Planning</a> |
+        <a href="contact.html">Contact</a> |
+        </div>
     </nav>
 
     <!-- contact us banner - FULL DEVICE WIDTH -->
@@ -31,35 +34,12 @@
     Style these text lines later to be over the image-->
     <div class="secondary_header">
         <h1>Contact Us</h1>
-        <img src="images/contact.jpg" alt="Contact Banner">
+        <img src="images/contact.jpg" alt="Contact Banner" width=600>
     </div>
 
     <!-- contact info -->
 
     <main>
-        <div id="contact_info">
-            <h2>Contact Information</h2>
-            <address>
-                LunaCorp Moonshot Visitor Complex
-                <br>
-                23 - Space Commerce Way, Merritt Island, FL
-                <br>
-            </address>
-            <label class="label_contactinfo">Phone:</label>
-            <a class="phone" href="tel:1-800-423-3333">1-800-423-3333</a>
-            <br>
-            <label class="label_contactinfo">Email:</label>
-            <a class="email" href="mailto:info@moonshot.com">info@moonshot.com</a>
-        </div>
-        <!--IFRAME NOT ALLOWED
-        <div id="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112094.50731561019!2d-80.72418986326602!3d28.601176157753294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e74b95a365c6fd%3A0x8b7339f246f869dd!2sKennedy%20Space%20Center!5e0!3m2!1sen!2sca!4v1591631881325!5m2!1sen!2sca"
-                width="350" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
-        </div>
-        -->
-    </main>
 
     <!-- contact form -->
 
@@ -92,15 +72,14 @@
 
     <!-- ***REMOVE BACKGROUND COLOUR CSS FOR THE NEXT SUBMISSION*** -->
 
-    <div class="promo_banner" style="background-color: lightgray;">
+    <div class="promo_banner">
         <h3>See what our visitors have to say</h3>
         <p>Find us on tripadvisor.com</p>
-
-        <button type="button">Go to website!</button>
-
+        
+        <a class="button" href="https://tripadvisor.com/", target="_blank">Go to website!</a>
     </div>
 
-    <!-- Not on the wireframes - some extra content for the very bottom of the page -->
+    </main>
 
     <aside>
         <h4>Your Feedback is Important to us!</h4>
@@ -110,51 +89,43 @@
             to automatically enter the draw!<br>
         </p>
     </aside>
-    <footer id="footer_ID">
-               <!--Same on every page. If you change one, don't foget to change them all-->  
+    <footer id="footer">
+        <!--Same on every page. If you change one, don't foget to change them all-->
         <br>
-
         <div class="row">
             <div class="column">
-
-                <img src="MoonshotLogo.png" alt="Moonshot logo" width="200" height="100">
-
-
+                <img src="images/MoonshotLogo.png" alt="Moonshot logo" width="200" height="100">
             </div>
             <div class="column">
-
-                <h4><u>Address</u><br><br></h4>
+                <h2>Adress</h2>
                 <address>
                     LunaCorp Moonshot Visitor Complex
                     <br>
                     23 - Space Commerce Way, Merritt Island, FL
                     <br>
                 </address>
-
+                <h2>Give us call or send a mail </h2>
+                <label class="label_contactinfo">Phone:</label>
+                <a class="phone" href="tel:1-800-423-3333">1-800-423-3333</a>
+                <br>
+                <label class="label_contactinfo">Email:</label>
+                <a class="email" href="mailto:info@moonshot.com">info@moonshot.com</a>
             </div>
             <div class="column">
                 <h4>
                     <u>Contact us</u><br><br>
-
                     <a href="#">
-                        <img src="facebook.png" alt="Facebook logo" width="30" height="30">
+                        <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
                     </a>
-
                     <a href="#">
-                        <img src="twitter.png" alt="Twitter logo" width="30" height="30">
+                        <img src="images/twitter.png" alt="Twitter logo" width="30" height="30">
                     </a>
-
                     <a href="#">
-                        <img src="instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
+                        <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
                     </a>
-
                     <a href="mailto:info@moonshot.com">info@moonshot.com</a>
-
-
                 </h4>
             </div>
-
         </div>
-
     </footer>
 </body>
