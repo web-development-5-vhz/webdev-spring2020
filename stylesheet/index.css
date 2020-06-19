@@ -1,3 +1,113 @@
 body {
     background: rgb(185, 244, 248);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
   }
+
+h1 {
+    font-weight: 700;
+}
+
+nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 3% 15%;
+    text-align: left;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+main img {
+    width: 600px;
+}
+
+.button_container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.button {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.button:active {
+    background-color: #333;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15% 3%;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+
+.copyright {
+    font-size: 0.7rem;
+}
+
+@media (max-width: 1024px) {
+    .button_container {
+        vertical-align: middle;
+    }
+        
+}
+    
+@media screen and (max-width: 600px) {
+  
+    main img {
+        width: 100%;
+    }
+    
+    .row {
+        display: block;
+    }
+}

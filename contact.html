@@ -13,7 +13,9 @@
     <meta name="keywords" content="Space Theme Park, Moon Shot, The Big Dipper">
     <meta name="robots" content="noindex,nofollow">
     <link rel="icon" href="images/favicon.ico">
-<link rel="stylesheet" type="text/css" href="stylesheet/contact.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
+    <!--Google font API-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,900|Ubuntu" rel="stylesheet">
 <!--included for assigment 3-->
 </head>
 
@@ -25,10 +27,10 @@
         <img src = "images/MoonshotLogo.png" alt="Company Logo" width=200>                   
         </div>
         <div id =nav_elements>
-        <a href="index.html">Home</a> |
-        <a href="attractions.html">Attractions</a> |
-        <a href="planning.html">Planning</a> |
-        <a href="contact.html">Contact</a> |
+        <a href="index.html">Home</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="planning.html">Planning</a>
+        <a href="contact.html">Contact</a>
         </div>
     </nav>
 
@@ -45,9 +47,10 @@
     <main>
 
     <!-- contact form -->
-
+<section>
+    <h2>Contact Form</h2>
     <div id="contact_form">
-        <h2 class="form">Contact Form</h2>
+        <div class="form">
         <form id="contact">
             <!--mandatory input-->
             <label class="label_form" for="first_name">First name*:</label>
@@ -64,15 +67,24 @@
             <input type="text" id="phone" value="">
             <br>
             <!--mandatory input-->
-            <label class="label_form" for="message">Message*:</label>
-            <input type="text" id="message" value="" style="width:400px; height:150px;">
-            <br>
-            <input type="submit" value="Submit">
+            <textarea id="message" placeholder="Your message*:" style="width:400px; height:150px;"></textarea>
+            <br><br>
+            <button type="button"class="call_to_action">Submit</button>
         </form>
+        </div>
     </div>
+        </section>
 
     <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
 
+<<<<<<< HEAD
+    <div class="promo_banner">
+        <h3>See what our visitors have to say</h3>
+        <p>Find us on tripadvisor.com</p>
+        <br>
+        <button type="button" class="call_to_action" onclick="window.open('https://tripadvisor.com', '_blank'); return false;">Go to website!</button>
+
+=======
     <!-- ***REMOVE BACKGROUND COLOUR CSS FOR THE NEXT SUBMISSION*** -->
 
     <div class="promo_banner">
@@ -80,14 +92,15 @@
         <p>Find us on tripadvisor.com</p>
         
         <a class="button" href="https://tripadvisor.com/" target="_blank">Go to website!</a>
+>>>>>>> 71aef6549dc014cc676af809a5afbe327284a9be
     </div>
 
     </main>
 
-    <aside>
+    <aside class="feedback">
         <h4>Your Feedback is Important to us!</h4>
         <p>
-            Tell us about your experiance for <strong>a chance to win a yearly pass!</strong><br>
+            Tell us about your experience for <strong>a chance to win a yearly pass!</strong><br>
             Simply begin your message with the words <q>Shoot for the moon</q><br>
             to automatically enter the draw!<br>
         </p>
@@ -130,5 +143,6 @@
                 </h4>
             </div>
         </div>
+        <p class="copyright">© Copyright 2020 LunaCorp</p>
     </footer>
 </body>
