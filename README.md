@@ -1,57 +1,34 @@
 In this document we store the project ticklist as well as evidence of team work
 
 ***********************************************************************
-PROJECT TICK LIST
+Assignment 2 TICK LIST
 
 # Guidelines from the assignment:
-[x] Think carefully about the use of layout tags such as tables, and only use them where content is really a table.  
+#### Markup wireframes with Appearance CSS
 
-[x]  Make sure that all the parts of the pages have a semantic identity, either by using existing semantic tags or by 
-defining "div" tags for the content.  
+Review the three wireframes that you produced for the large screen version of your web site from part 1 of the team project and add to them to ensure that they have the appearance that you wish your site to have. Ensure that you have agreed the colours that will be applied to the elements. Agree the font family or specific font that you will use for different parts of your site, and the colours that should be used.
 
-[x]  Attempt to use a range of the various formatting tags available to add richness and extra meaning to your content.  
+Work through the wireframes and decide on the correct CSS to build those pages, and add classes and identities to the pages. Mark up your wireframes accordingly. Upload a .zip file of these new marked-up versions of the wireframes into the Workspace: static web pages in week 10.
 
-[x]  Consider how different media can add to the way that your pages communicate information.  
-      ** (media will be considered again in CSS section of project)
+#### Set up and link stylesheet
 
-    
-### Step 1: 
-[x] Markup Wireframes with HTML (Consider how your HTML supports the use of your pages by users with disabilities.)  
+Code the CSS stylesheet with these appearance styling instructions and link them to the correct HTML elements using the class and id mechanism.
 
-### Step 2: 
-[x] Code the three pages in HTML and enter in some essential text content that you write yourself  
+#### Upload the pages to the static web page system
 
-[x]  Name the main/first page of your web site: index.html. Ensure that you use comments to help all the coders to 
-   understand the code.  
-   
-[x] Find some pictures and any other media that you consider appropriate and embed them into the pages using the 
-   correct HTML tags.  
-   
-[x]  Ensure that your code includes comments to help you work with the code and quickly relate it to the wireframes.  
+Upload your three new versions of HTML pages to the Workspace: static web page system in week 10 with the class and id properties and the CSS stylesheet within a tidy directory structure. Test that everything is working as expected by loading the pages in a browser using the shareable URL for your web site.
 
-[x] It could be helpful to include comments to indicate who contributed chunks of the code so that you can ensure 
-   you can work together as a team. **We will use commit log to ensure this**  
-   
-### Step 3: 
-[x] Validate the code in the pages: https://validator.w3.org/  
-
-   
-## Review Criteria
-We are looking for a well constructed skeleton that reflects the design in the wireframes and for content that is relevant and appropriate.
+<em>We are looking for evidence of application of the various appearance and text styling CSS using the CSS Box Model.</em>
 
 #### Marks will be awarded for the following:
 
-[deployment_deliverable]  Does the URL lead to the correct website?  
-
-[x]  Appropriate semantic tags used, both the predefined tags and the appropriate use of div block tags.  
-
-[x]  The range of different layout, formatting and media HTML tags used and their appropriate use (eg tables used as tables not for layout)  
-
-[x]  Rich comments  
-
-[x]  Accessibility, particularly in the use of the media tags.  
-
-[x]  Tidy directory structure.  
+[ ] Does the URL lead to the correct website?  
+[ ] Applying Appearance Styling: Stylesheets  
+[ ] Applying Appearance Styling - Styling Text  
+[ ] Applying Appearance Styling - Font Families  
+[ ] Applying Appearance Styling - HTML Object Colouring  
+[ ] Applying Appearance Styling - Colour Definition
+ 
 
 
 
