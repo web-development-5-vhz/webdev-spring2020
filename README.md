@@ -1,8 +1,6 @@
 In this document we store the project ticklist as well as evidence of team work
 
 ***********************************************************************
-Assignment 2 TICK LIST
-
 # Guidelines from the assignment:
 #### Markup wireframes with Appearance CSS
 
@@ -20,17 +18,24 @@ Upload your three new versions of HTML pages to the Workspace: static web page s
 
 <em>We are looking for evidence of application of the various appearance and text styling CSS using the CSS Box Model.</em>
 
-#### Marks will be awarded for the following:
-
+#### Assignment 2  
+Marks will be awarded for the following:  
 [ ] Does the URL lead to the correct website?  
-[ ] Applying Appearance Styling: Stylesheets  
-[ ] Applying Appearance Styling - Styling Text  
+[x] Applying Appearance Styling: Stylesheets  
+[x] Applying Appearance Styling - Styling Text  
 [ ] Applying Appearance Styling - Font Families  
-[ ] Applying Appearance Styling - HTML Object Colouring  
+[x] Applying Appearance Styling - HTML Object Colouring  
 [ ] Applying Appearance Styling - Colour Definition
  
-
-
+#### Assignment 3  
+We are looking for evidence of application of the various layout CSS using the various CSS measuring units.  
+Marks will be awarded for the following:  
+[ ] Does the link lead to the correct website?  
+[ ] Box Modelling Styling  
+[ ] X, Y, Z of Styling  
+[ ] Grids & Columns  
+[ ] Media Styling  
+[ ] Animation
 
 ***********************************************************************
 TEAM WORK EVIDENCE
