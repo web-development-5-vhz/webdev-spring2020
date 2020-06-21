@@ -1,210 +1,583 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en"><head>
+    <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
-<head>
-    <title>Moon Shot - Home</title>
-    <meta name="description" content="Corporate Website for Moonshot Theme Park">
-    <meta charset="UTF-8">
-    <meta name="keywords" content="Space Theme Park, Moon Shot, The Big Dipper">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="refresh" content="600">
-    <meta name="robots" content="noindex,nofollow">
-<<<<<<< HEAD
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
-    <!--Google font API-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,900|Ubuntu" rel="stylesheet">
-    <!--included for assigment 3-->
-=======
->>>>>>> 71aef6549dc014cc676af809a5afbe327284a9be
-</head>
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+    
+        
+    <style>
+        
+        /* FOOOTER ADJUSTMENTS */
+        
+        {
+          box-sizing: border-box;
+        }
 
-<body>
-    <nav>
-        <!--Same on every page. If you change one, don't foget to change them all-->
-        <!--Logo Needs To Be Input-->
-        <div id=logo_image>
-            <img src="images/MoonshotLogo.png" alt="Company Logo" width=200>
-        </div>
-        <div id=nav_elements>
-            <a href="index.html">Home</a>
-            <a href="attractions.html">Attractions</a>
-            <a href="planning.html">Planning</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </nav>
+        .row {
+          display: flex;
+        }
 
-    <!--Title Containers for non-landing pages.
-    Style these text lines later to be over the image-->
-    <div class="secondary_header">
-        <h1>Attractions Headline</h1>
-        <img src="images/waterslide.jpg" alt="Landing Image" width=600>
-    </div>
+        /* Create two equal columns that sits next to each other */
+        .column {
+            float: left;
+            width: 20%;
+            padding-top: 50px;
+            padding-left: 10px;
+        }
+          
+          #bodyID{
+                background-image: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=60");
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 background-attachment: fixed;
+        }
+        
+          
+          
+          .display-4 {
+              color:whitesmoke;
+              font-family: Times New Roman;
+              font-size: 460%;
+              padding-left: 5%;
+        }
+          
+          #Title {
+              color: whitesmoke;
+              font-family: Times New Roman;
+              font-size: 320%;
+        }
+          
+          .New_container{
+              color: whitesmoke;
+              font-family: Times New Roman;
+              font-size: 320%;
+        }
+        
+        .copyright{
+            font-family: 'Scheherazade', serif;
+            font-size: 20;
+            padding-left: 50;
+        }
+          
+          .New_container_2{
+              color: whitesmoke;
+              font-family: Times New Roman;
+              font-size: 100%;
+        }
+          
+          .New_container_3{
+              color: whitesmoke;
+              font-family: Times New Roman;
+              font-size: 300%;
+        }
+          
+          #blockquote{
+              color: white;
+              font-family: Times New Roman;
+              font-size: 50%;  
+              background-color: black; /* black */
+              opacity: 0.75;
+        }
+          
+          .small_quote{
+              color: whitesmoke;
+              font-family: Times New Roman;
+              font-size: 100%; 
+              margin-left: 20px;
+        }
+          
+          #my_link{
+              color: #99ccff;
+              font-family: Times New Roman;
+              font-size: 50%;
+        }
+          
+          #map_Container{
+              color: whitesmoke;
+              font-family: Times New Roman;
+              font-size: 600%;
+              background-color: black; /* black */
+              opacity: 0.85;
+              background-repeat: no-repeat;
+              background-size: cover;
+        }
+          
+          
+          .New_container{
+              
+              background-color: black; /* black */
+              opacity: 0.75;
+              background-repeat: no-repeat;
+              background-size: cover;
+        }
+        #map_pic{
+            padding-left:10.5%;
+            padding-bottom: 5%;
+        }
+        .small_quote{
+            color: white;
+            font-size: 60%;
+        }
+          
+        
+        .nav-pad{
+            padding-left: 3%;
+        }
+        
+        .iframe-Padding{
+            padding-left: 0%;
+            min-width: 100%;
+        }
+        
 
-    <main>
-        <div class="Header Section">
-            <h1><strong>Attractions</strong></h1>
-            <p>Go ballistic at any age with a thrust filled adventure to the moon powered by Moonshot Space Adventures.
-            </p>
-        </div>
-        <!--The following div will funnel visitors off to different sites describing rides suitable for their user profile-->
-        <div class="attractions">
-            <h1>Rides</h1>
-            <br>
-            <div class="row">
-                <div class="col order-last">
-<<<<<<< HEAD
-                    <a id="my_link1" href="#"> <img src="https://cdn.pixabay.com/photo/2016/09/28/18/12/roller-coaster-1701085__480.jpg" width=200 alt="">Adults only</a>
+        
+        
+        /* NAV BAR CSS */
 
+
+        .dropbtn {
+          color: black;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #c0c6cf;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        
+        
+        /* SLIDE SHOW */
+        
+        * {box-sizing: border-box}
+        .slide_body {font-family: 'Alfa Slab One';font-size: 22px; margin:0}
+        .mySlides {display: contents}
+        img {vertical-align: middle;}
+
+        /* Slideshow container */
+        .slideshow-container {
+            position: relative;
+            margin: auto;
+            width: 700px;
+            height: 700px;
+            align-content: center;
+            
+
+        }
+
+
+
+
+
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: whitesmoke;
+            font-size: 40px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            background-color:#b03030;
+            opacity: 0.8;
+        }
+
+
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 20px;
+          width: 20px;
+          margin: 0 2px;
+          background-color: #ffffff;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 3.0s;
+          animation-name: fade;
+          animation-duration: 3.0s;
+        }
+
+        @-webkit-keyframes fade {
+          from {opacity: 0.9} 
+          to {opacity: 1}
+        }
+
+        @keyframes fade {
+          from {opacity: .9} 
+          to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+
+
+        
+
+        
+
+        
+        /* FOOOTER ADJUSTMENTS */
+         {
+          box-sizing: border-box
+        }
+
+        .row {
+          display: flex;
+        }
+
+        /* Create Three equal columns that sits next to each other */
+        .column {
+            float: left;
+            width: 25%;
+            padding-top: 50px;
+            padding-left: 10px;
+
+        }
+        
+        #footer_ID{
+            color: black;
+            font-family: Times New Roman;
+            font-size: 70%;
+            background-color: gainsboro;
+        }
+        .copyright{
+            padding-left: 0px;
+        }
+
+        .toMoveLeft{
+            
+        }
+        
+      </style>
+    
+    
+
+    <title>Attractions Page</title>
+
+      
+    </head>
+    <body class = "toMoveLeft" id="bodyID">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            
+            <img src="MoonshotLogo.png" width = "110" height="60">
+            <div class="navbar-brand nav-pad" href="#">
+            <li class="nav-item dropdown ">Attractions 
+
+                <div class="dropdown-content bg-light">
+                    <a href="#Rides">Rides</a>
+                    <a href="#Map">Map</a>
                 </div>
-                <div class="col">
-                    <a id="my_link2" href="#"><img src="https://images.unsplash.com/photo-1549109776-5a25ed5cce47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" width=200 alt=""> For the family</a>
-
-                </div>
-                <div class="col order-first">
-                    <a id="my_link" href="#"><img src="https://media.istockphoto.com/photos/portrait-of-excited-elementary-school-pupils-on-playing-field-at-picture-id1160932512?b=1&k=6&m=1160932512&s=170667a&w=0&h=UGpr6-SNI-Rhf_gsfMQwkQc1coYPMMIG--YHVGdGUys=" width=200 alt="">Child friendly </a>
-=======
-                    <a id="rides_adults" href="#"> <img
-                            src="https://cdn.pixabay.com/photo/2016/09/28/18/12/roller-coaster-1701085__480.jpg"
-                            width=200 alt="">Adults only</a>
-
-                </div>
-                <div class="col">
-                    <a id="rides_family" href="#"><img
-                            src="https://images.unsplash.com/photo-1549109776-5a25ed5cce47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
-                            width=200 alt=""> For the family</a>
-
-                </div>
-                <div class="col order-first">
-                    <a id="rides_children" href="#"><img
-                            src="https://media.istockphoto.com/photos/portrait-of-excited-elementary-school-pupils-on-playing-field-at-picture-id1160932512?b=1&k=6&m=1160932512&s=170667a&w=0&h=UGpr6-SNI-Rhf_gsfMQwkQc1coYPMMIG--YHVGdGUys="
-                            width=200 alt="">Child friendly </a>
->>>>>>> 71aef6549dc014cc676af809a5afbe327284a9be
-                </div>
+                </li>
             </div>
+            
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active bg-light">
+        <a class="nav-link" href="Home_Page.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active bg-light">
+        <a class="nav-link" href="Planning.html">Planning</a>
+      </li>
+      <li class="nav-item active bg-light">
+        <a class="nav-link" href="Contact.html">Contact us</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+        
+        
+
+      <div >
+          <div class="container">
+              <br>
+              <br>
+              <br>
+              <br>
+              <b> <h1 class="display-4">Welcome To The Attractions Page
+              </h1> </b>
+              <br>
+              <br>
+              
+          </div>
+         
+              <br>
+              <br>
+
+
+              <p class="lead"></p>
+
+      </div>
+        
+                      <div id = "iFrame_div">
+                  <iframe  class = "iframe-padding"width = "1100" height="500" src="Videos/Video_final.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
         </div>
-
-
-        <!--Holds all the thumbnails. Style to do vertical or horizontal depending on computer vs. phone-->
-        <!--Describes available trips-->
-        <div class="thumbnail_container">
-            <div class="thumbnail_item">
-                <h2>Fly to the moon day trip</h2>
-                <img src="images/rollercoaster.jpg" alt="Epic Moon Pic 1" width=400>
-                <h3><br>What is included?</h3>
-                <ul>
-                    <li>Scenic flight to the moon</li>
-                    <li>Moon landing and 2-hour space park adventure</li>
-                    <li>Experienced guide</li>
-                    <li>All equipment (full moon suit, oxygen, all the stuff you need )</li>
-                    <li>2 day compulsory space training</li>
-                </ul>
-                <br>
-                <h3>What to expect?</h3>
-                <p>Fly over earths magical moon before making a landing ... Buzz Aldrin Style! </p>
-                <p>Explore this one of a kind cratered fun park ] on a 2-hour professionally guided joyride.</p>
-                <p>Within the fun park excursions include a thrill option or lunar history <br> experience for the more
-                    academically inclined visitors.</p>
-            </div>
-            <div class="thumbnail_item">
-                <h2>Fly to the moon overnight excursions</h2>
-                <img src="images/spaceman_package.jpg" alt="Epic Moon Pic 2" width=400>
-                <br>
-                <h3><br>What is included?</h3>
-                <ul>
-                    <li>Overnight stay for as many night as you like</li>
-                    <li>full access to all space park adventures</li>
-                    <li>Optional Daily moon fly-by's for the rocket addicts</li>
-                    <li>Fully cateres, of course</li>
-                    <li>3 day compulsory space training</li>
-                </ul>
-                <br>
-                <h3>What to expect?</h3>
-                <p>Get aclimitised to floating, this is a one of a kind experience</p>
-                <p>Delve into the moon's ancient history, learn about lunar maria and how it was formed.</p>
-            </div>
-        </div>
-    </main>
-    <!--Advertising Banner-->
-    <div class="Banner">
-        <ul>
-            <li>Best Rides</li>
-            <li>Lowest Prices</li>
-            <li>All Year Round</li>
-            <!--This link should point to planning page-->
-            <li><a href="mailto:info@moonshot.com">Buy Now</a></li>
-
-        </ul>
-    </div>
-    <!--Map of the park. Replace with interactive map when adding CSS-->
-    <aside>
-
-        <div id=map_Container>
-            <h2> Park Map</h2>
-            <p> Fly over earths magical moon before making a landing ... Buzz Aldrin Style!
-
-                Explore this one of a kind cratered fun park, on a 2-hour professionally guided joyride.
-
-                Within the fun park excursions include a thrill option or lunar history experience for the more
-                academically inclined visitors.
-<<<<<<< HEAD
-                <p>
-                    <img id="map_pic" src="https://i.pinimg.com/originals/c4/6e/c0/c46ec039998d5d07ce9da23108c2bc8f.png" width=600 alt="">
-=======
-            </p>        
-                <img src="images/map.jpg" alt="Map of the Park" usemap="#parkmap" width="800">
-
-                <map name="parkmap">
-                  <area shape="circle" coords="500,60,30" alt="Rides for Adults" href="#rides_adults">
-                  <area shape="circle" coords="600,260,30" alt="Rides for Family" href="#rides_family">
-                  <area shape="circle" coords="350,320,30" alt="Rides for Children" href="#rides_children">
-                </map>
-
->>>>>>> 71aef6549dc014cc676af809a5afbe327284a9be
-        </div>
-
-    </aside>
-    <footer id="footer">
-        <!--Same on every page. If you change one, don't foget to change them all-->
         <br>
-        <div class="row">
-            <div class="column">
-                <img src="images/MoonshotLogo.png" alt="Moonshot logo" width="200" height="100">
+        <br>
+        <br>
+        
+        <h2 id = Title></h2>
+        <br>
+        <br>
+
+        <h1>
+            <blockquote id = blockquote class="blockquote">
+                <h1  id = Title>Attractions</h1>
+                <ul>
+               <li><p class="mb-0">The amusement park hosts a total of 50 rides, </p></li>
+                    <ul>
+                        <li>
+                            15 rides for the children.
+                        </li>
+                        <li>
+                            15 family friendly rides.
+                        </li>
+                        <li>
+                            20 rides for all adults and adreneline junkies.
+                        </li>
+                    </ul>
+                <li><p class="mb-0">Each section of the park is designed to provide the best possible experience to our visitors.</p>  </li>
+                    <li><p class="mb-0">The childrens section is a safe area that provides constant child supervision while parents explore the the theme park.</p>  </li>
+                    <li><p class="mb-0">Resturants and restrooms have a designated area that is well equip with fine dining establishments and all your favorite  joints.</p>  </li>
+                    <li><p class="mb-0">Scenic flight to the moon.</p>  </li>
+                    <li><p class="mb-0">Moon landing and 2-hour space park adventur.</p>  </li>
+                    <li><p class="mb-0">Experienced guide.</p>  </li>
+                    <li><p class="mb-0">All equipment (full moon suit, oxygen, all the stuff you need ).</p>  </li>
+                    <li><p class="mb-0">A 2 day compulsory space training.</p>  </li>
+                </ul>
+            </blockquote></h1>
+
+        <h2 id = Rides></h2>
+        <br>
+        <br>
+
+        
+        <!-- SLIDE SHOW -->
+
+            <div class="slideshow-container slide_body ">
+
+            <div class="mySlides fade">
+              <img src="images/main.jpg" style="width:100%">
+              <div class="text">Rides</div>
             </div>
-            <div class="column">
-                <h4><u>Address</u><br><br></h4>
-                <address>
-                    LunaCorp Moonshot Visitor Complex
-                    <br>
-                    23 - Space Commerce Way, Merritt Island, FL
-                    <br>
-                </address>
+
+            <div class="mySlides fade">
+              <img src="images/rollercoaster.jpg" style="width:100%">
+              <div class="text">Roller coasters</div>
             </div>
-            <div class="column">
-                <h4>
-                    <u>Contact us</u><br><br>
-                    <a href="#">
-                        <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
-                    </a>
-                    <a href="#">
-                        <img src="images/twitter.png" alt="Twitter logo" width="30" height="30">
-                    </a>
-                    <a href="#">
-                        <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
-                    </a>
-                    <a href="mailto:info@moonshot.com">info@moonshot.com</a>
-                </h4>
+
+            <div class="mySlides fade">
+              <img src="images/spaceodyssey_event.jpg" style="width:100%">
+              <div class="text">Space odyssey Nights</div>
+            </div>
+                
+            <div class="mySlides fade">
+              <img src="images/colours_event.jpg" style="width:100%">
+              <div class="text">Carnival of colors</div>
+            </div>
+                
+            <div class="mySlides fade">
+              <img src="images/spaceman_package.jpg" style="width:100%">
+              <div class="text">Moon excursions</div>
+            </div>
+                
+                <br>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                </div>  
+
+            </div>
+
+        
+        <div id = container class="New_container my_link">
+            <h1  class = "new_container_2"></h1>
+          <div class="row">
+            <div class="col order-last">
+                <a id = "my_link" href = "#"> <img  src = "https://cdn.pixabay.com/photo/2016/09/28/18/12/roller-coaster-1701085__480.jpg" width="350" height="300" alt="">Adults only</a>
+            </div>
+            <div class="col">
+                <a id = "my_link"  href = "#" ><img src = "https://images.unsplash.com/photo-1549109776-5a25ed5cce47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" width="380" height="300" alt=""> For the family</a>
+
+            </div>
+            <div class="col order-first">
+                <a id = "my_link" href = "#" ><img src = "https://media.istockphoto.com/photos/portrait-of-excited-elementary-school-pupils-on-playing-field-at-picture-id1160932512?b=1&k=6&m=1160932512&s=170667a&w=0&h=UGpr6-SNI-Rhf_gsfMQwkQc1coYPMMIG--YHVGdGUys=" width="350" height="300" alt="">Child friendly </a>
+            </div>
+          </div>
+        </div>
+        
+        <br>
+        
+        <h2  id = Map ></h2>
+        <br>
+        <br>
+        <br>
+        <div class = "new_container_3" id = blockquote >
+            <div id = map_Container> 
+            <h1 > Map</h1>
+                <h2 class = "small_quote "> Fly over earths magical moon before making a landing ... Buzz Aldrin Style!
+
+            Explore this one of a kind cratered fun park, on a 2-hour professionally guided joyride.
+
+            Within the fun park excursions include a thrill option or lunar history experience for the more academically inclined visitors.</h2><br>
             </div>
         </div>
-        <p class="copyright">© Copyright 2020 LunaCorp</p>
-    </footer>
+        <img  id = "map_pic" src = "images/map.jpg" width="1200" height="600" alt="">
+        
+        
+        <div id = footer_ID>
+        
+                 <footer>
 
+                    <!--Consider adding a bunch of buttons for investors, hiring etc...-->
+
+                    <br>
+
+                        <div class="row">
+                            <div class = "column">
+                            <a href ="#">
+                                <img src = "MoonshotLogo.png" width=" 200" height="100">
+                            </a>
+
+                            </div>
+                            <div class="column">
+                                    <h4> 
+                                        <u> Head Office:</u><br><br>
+                                            <address id = "footer_ID">
+      
+                                                Box 564, Suppville<br>
+                                                Iron Islands<br>
+                                                Westeros<br>
+                                            </address>
+                                </h4>
+                            </div>
+                                <div class="column">
+                                    <h4>
+                                        <u>Address</u><br><br>
+                                        <address id = "footer_ID">
+                                            LunaCorp Moonshot Visitor Complex<br>
+                                            23 - Space Commerce Way <br>
+                                            Merritt Island <br>
+                                            FL 
+                                        </address>
+                            </h4>
+
+                                </div>
+                    
+                            
+                            <div class="column">
+                                <h4>
+                                    <u>Contact us</u><br><br>
+
+                                    <a href ="#">
+                                        <img src = "images/facebook.png" width="30" height="30">
+                                    </a>
+
+                                    <a href ="#">
+                                        <img src = "images/twitter.png" width="30" height="30">
+                                    </a>
+
+                                    <a href ="#">
+                                        <img src = "images/instagram.png" width="30" height="30"><br><br>
+                                    </a>
+
+                                        <a href="mailto:info@moonshot.com">info@moonshot.com</a>
+
+
+                                </h4>
+                            </div>
+                            
+                           <div class="column">
+                         </div>
+                         <div class="column">
+                         </div>
+                            <div class="column">
+                                <p class="copyright">© Copyright 2020 LunaCorp</p>
+                         </div>
+                            <div class="column">
+                         </div>
+                            
+                        </div>
+                     
+                </footer>
+
+        
+        </div>
+
+    
+        <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 3000); // Change image every 5 seconds
+        }
+        </script>        
+        
+ 
 </body>
-<<<<<<< HEAD
-
-
-
 </html>
-=======
-</html>
->>>>>>> 71aef6549dc014cc676af809a5afbe327284a9be
