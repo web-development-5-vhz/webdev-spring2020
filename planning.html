@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,14 +14,15 @@
         The name attribute pecifies a name for the metadata
         The content tag specifies the value associated with the http-equiv or name attribute
         A charset tag specifies the character encoding for the HTML document -->
-
-    <!--Same on every page. If you change one, don't foget to change them all-->
+    
+    <!--Same on every page. If you change one, don't foget to change them all-->  
     <meta name="description" content="Corporate Website for Moonshot Theme Park">
     <meta charset="UTF-8">
     <meta name="keywords" content="Space Theme Park, Moon Shot, The Big Dipper">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="refresh" content="600">
     <meta name="robots" content="noindex,nofollow">
+
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
     <!--Google font API-->
@@ -30,18 +31,32 @@
     <!--included for assigment 3-->
 </head>
 
+</head>
+<!--HTML NOTES-->
+<!--a nav tag is used to specify a block of navigation links, either within the current document or to other documents,
+    this tag is used to contain the main contents of the web page -->
+<!--Title Containers for non-landing pages. Style these text lines later to be over the image  -->
+<!--div tag defines a division or a section and is used as a container 
+    The 'h' tag identifies a header
+    The 'p' tag is used to define a paragraph of text -->
+<!--img tags are used when images are being employed.
+    "src" is an attribute used to link the image to the web page
+    and "alt" is the attribute that loades an alternate image if the innitial image is not found
+    The 'a' tag is a link tag, and the "href" attribute is given the value of the web page link that you would like to connect to.    -->
+
+
 <body>
     <nav>
-        <!--Same on every page. If you change one, don't foget to change them all-->
+        <!--Same on every page. If you change one, don't foget to change them all-->  
         <!--Logo Needs To Be Input-->
         <div id=logo_image>
-            <img src="images/MoonshotLogo.png" alt="Company Logo" width=200>
+        <img src = "images/MoonshotLogo.png" alt="Company Logo" width=200>                   
         </div>
-        <div id=nav_elements>
-            <a href="index.html">Home</a>
-            <a href="attractions.html">Attractions</a>
-            <a href="planning.html">Planning</a>
-            <a href="contact.html">Contact</a>
+        <div id =nav_elements>
+        <a href="index.html">Home</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="planning.html">Planning</a>
+        <a href="contact.html">Contact</a>
         </div>
     </nav>
 
@@ -57,12 +72,11 @@
         <div class="planning_header">
             <h1><strong>Planning</strong></h1>
             <p>It's important to prepair for this special opportunity.<br>
-                Not every day we get to travel to the moon, and that's why<br> it's important to bring your A-game when
-                you plan! <br>
+                Not every day we get to travel to the moon, and that's why<br> it's important to bring your A-game when you plan! <br>
                 As part of our all inclusive fee a specialist advisor will help you pack. <br>
                 The main things you need to worry about is: <br>
-                Which wonderfull <a href="planning.html#hotels">hotel</a> to stay in and <br>
-                Where to <a href="planning.html#restaurants">refuel</a> after a hard day of jet setting!
+                Which wonderfull <a href="planning.html#hotels" >hotel</a> to stay in and <br>
+                Where to <a href="planning.html#restaurants" >refuel</a> after a hard day of jet setting!  
             </p>
         </div>
 
@@ -101,25 +115,24 @@
             <h3>Upcoming Events</h3>
             <div class="slide" id="upcoming_events">
                 <!-- Full-width images with number and caption text -->
-
-                <div>
+                
+                    <div>
                     <img src="images/spaceodyssey_event.jpg" alt="Photo from Space Odyssey 2019">
 
                     <h4>Space Odyssey Nights</h4>
                 </div>
-
-                <div>
+                
+               <div>
                     <img src="images/colours_event.jpg" alt="Photo from the Carnival of Colours 2019">
 
                     <h4>Carnival of Colours</h4>
                 </div>
-
+                
                 <div>
                     <img src="images/waterfight_event.jpg" alt="Photo from the 2018 Waterfight">
 
                     <h4>The Annual Waterfight on the Moon</h4>
                 </div>
-            </div>
 
 
         </section>
@@ -131,13 +144,10 @@
 
             <p>Find out more about weather conditions on weather.com</p><br><br>
 
-            <button type="button" class="call_to_action"
-                onclick="window.open('https://weather.com/en-GB/weather/today/l/9b6a3580bd38d4efd844eef3e5b8cd5238397363f4b50e8eaed1a9feafc16013', '_blank'); return false;">Go
-                to website!</button>
+            <button type="button" class="call_to_action" onclick="window.open('https://weather.com/en-GB/weather/today/l/9b6a3580bd38d4efd844eef3e5b8cd5238397363f4b50e8eaed1a9feafc16013', '_blank'); return false;">Go to website!</button>
 
             <p>Find out more about weather conditions on weather.com</p>
             <a class="button" href="https://weather.com/" target="_blank">Check Weather!</a>
-
 
         </div>
 
@@ -160,52 +170,55 @@
             <h3>Hotels</h3>
             <div class="hotels_list">
 
+                
+                
 
-                <h3>Hotels</h3>
+                <h3>Hotels</h3>                
 
-                <figure class="hotels_figure">
-                    <img src="images/space_hotel.jpg" alt="Space Hotel Queen Room Setting">
+        
+            <figure class="hotels_figure">
+                <img src="images/space_hotel.jpg" alt="Space Hotel Queen Room Setting">
 
-                    <h4>Space Hotel</h4>
-                    <b>$$<br><br>Modern and slick rooms inspired by spaceships</b>
-                    <br><br>
-                    <button class="call_to_action">Book Now!</button>
+                <h4>Space Hotel</h4>
 
+                <b>$$<br><br>Modern and slick rooms inspired by spaceships</b>
+                <br><br>
+                <button class="call_to_action">Book Now!</button>
 
-                    <b>$$<br>Modern and slick rooms inspired by spaceships</b>
-                    <a class="button" href="https://www.booking.com/" target="_blank">Book Now!</a>
+                <b>$$<br>Modern and slick rooms inspired by spaceships</b>
+                <a class="button" href="https://www.booking.com/" target="_blank">Book Now!</a>
 
-                </figure>
+            </figure>
+        
+            <figure class="hotels_figure">
+                <img src="images/airship_hotel.jpg" alt="Airship Hotel Lobby Setting">
 
-                <figure class="hotels_figure">
-                    <img src="images/airship_hotel.jpg" alt="Airship Hotel Lobby Setting">
+                <h4>Airship Hotel</h4>
 
-                    <h4>Airship Hotel</h4>
-
-                    <b>$$$<br><br>Steampunk inspired rooms with classic decor</b><br><br>
-                    <button class="call_to_action">Book Now!</button>
-
-
-
-                    <b>$$$<br>Steampunk inspired rooms with classic decor</b>
-                    <a class="button" href="https://www.booking.com/" target="_blank">Book Now!</a>
-
-                </figure>
-
-                <figure class="hotels_figure">
-                    <img src="images/darkside_hotel.jpg" alt="Space Hotel Queen Room Setting">
-
-                    <h4>Dark Side of the Moon Hotel</h4>
-
-                    <b>$$$<br><br>Peacefully located in the heart of a crater</b><br><br>
-                    <button class="call_to_action">Book Now!</button>
+                <b>$$$<br><br>Steampunk inspired rooms with classic decor</b><br><br>
+                <button class="call_to_action">Book Now!</button>
 
 
-                    <b>$$$<br>Peacefully located in the heart of a crater</b>
-                    <a class="button" href="https://www.booking.com/" target="_blank">Book Now!</a>
 
-                </figure>
+                <b>$$$<br>Steampunk inspired rooms with classic decor</b>
+                <a class="button" href="https://www.booking.com/" target="_blank">Book Now!</a>
 
+            </figure>
+            
+            <figure class="hotels_figure">
+                <img src="images/darkside_hotel.jpg" alt="Space Hotel Queen Room Setting">
+
+                <h4>Dark Side of the Moon Hotel</h4>
+
+                <b>$$$<br><br>Peacefully located in the heart of a crater</b><br><br>
+                <button class="call_to_action">Book Now!</button>
+
+
+                <b>$$$<br>Peacefully located in the heart of a crater</b>
+                <a class="button" href="https://www.booking.com/" target="_blank">Book Now!</a>
+
+            </figure>
+        
             </div>
         </section>
 
@@ -215,48 +228,48 @@
 
             <h3>Restaurants</h3>
             <div class="restaurants_list">
-                <figure class="restaurants_figure">
-                    <img src="images/chubby_restaurant.jpg" alt="fast food">
+                    <figure class="restaurants_figure">
+                        <img src="images/chubby_restaurant.jpg" alt="fast food">
 
-                    <h4>The Chubby Spaceman</h4>
+                        <h4>The Chubby Spaceman</h4>
 
 
-                    <b>$<br>Ⓥ</b><br><br>
-                    <button class="call_to_action">Reserve Now!</button>
+                        <b>$<br>Ⓥ</b><br><br>
+                        <button class="call_to_action">Reserve Now!</button>
 
-                    <b>$<br>Ⓥ</b>
-                    <a class="button" href="https://www.tripadvisor.com/" target="_blank">Reserve Now!</a>
+                        <b>$<br>Ⓥ</b>
+                        <a class="button" href="https://www.tripadvisor.com/" target="_blank">Reserve Now!</a>
 
-                </figure>
+                    </figure>
+                
+                    <figure class="restaurants_figure">
+                        <img src="images/moonshine_restaurant.jpg" alt="Inside the Moonshine Pub">
 
-                <figure class="restaurants_figure">
-                    <img src="images/moonshine_restaurant.jpg" alt="Inside the Moonshine Pub">
+                        <h4>Moonshine Pub & Eatery</h4>
 
-                    <h4>Moonshine Pub & Eatery</h4>
+                        <b>$$<br>+18</b>
 
-                    <b>$$<br>+18</b>
+                        <br><br>
+                        <button class="call_to_action">Reserve Now!</button>
 
-                    <br><br>
-                    <button class="call_to_action">Reserve Now!</button>
+                        <a class="button" href="https://www.tripadvisor.com/" target="_blank">Reserve Now!</a>
 
-                    <a class="button" href="https://www.tripadvisor.com/" target="_blank">Reserve Now!</a>
+                    </figure>
+                
+                    <figure class="restaurants_figure">
+                        <img src="images/end_restaurant.jpg" alt="A sleek table with digital menus">
 
-                </figure>
+                        <h4>Restaurant at the End of the Universe</h4>
 
-                <figure class="restaurants_figure">
-                    <img src="images/end_restaurant.jpg" alt="A sleek table with digital menus">
 
-                    <h4>Restaurant at the End of the Universe</h4>
-
-                    <b>$$$<br>Ⓥ</b><br><br>
-                    <button class="call_to_action">Reserve Now!</button>
-                </figure>
+                        <b>$$$<br>Ⓥ</b><br><br>
+                        <button class="call_to_action">Reserve Now!</button>
+                    </figure>
             </div>
 
-            <b>$$$<br>Ⓥ</b>
-            <a class="button" href="https://www.tripadvisor.com/" target="_blank">Reserve Now!</a>
-            
-
+                        <b>$$$<br>Ⓥ</b>
+                        <a class="button" href="https://www.tripadvisor.com/" target="_blank">Reserve Now!</a>
+                    </figure>              
 
         </section>
     </main>
@@ -266,6 +279,7 @@
         <h3>We value your feedback and want to reward you!</h3>
         <p>Tell us about your experiance and enter a draw for a <strong>free yearly pass</strong></p><br><br>
 
+
         <button type="button" class="call_to_action">Contact Us!</button>
 
         <a class="button" href="contact.html">Contact us!</a>
@@ -274,6 +288,7 @@
     </div>
 
     <!--PACKAGES-->
+
 
     <div class="packages_header">
         <h2>Packages</h2>
@@ -285,46 +300,47 @@
     </div>
 
 
-
+    
 
     <section id="packages">
+        
 
-        <figure class="packages_figure">
-            <img src="images/spaceman_package.jpg" alt="Space Shuttle" width=300>
+                <figure class="packages_figure">
+                    <img src="images/spaceman_package.jpg" alt="Space Shuttle" width=300>
 
-            <h4>True Spaceman Package</h4>
+                    <h4>True Spaceman Package</h4>
 
-            <b>Spaceshuttle<br>
-                Hotel<br>
-                Unlimited Dehydrated Meals
-            </b><br><br><br>
-            <button class="call_to_action">Purchase Now!</button>
-        </figure>
+                    <b>Spaceshuttle<br>
+                        Hotel<br>
+                        Unlimited Dehydrated Meals
+                    </b><br><br><br>
+                    <button class="call_to_action">Purchase Now!</button>
+                </figure>
+           
+                <figure class="packages_figure">
+                    <img src="images/morningglory_package.jpg" alt="Buffet Breakfast" width=300>
 
-        <figure class="packages_figure">
-            <img src="images/morningglory_package.jpg" alt="Buffet Breakfast" width=300>
+                    <h4>Morning Glory Package</h4>
 
-            <h4>Morning Glory Package</h4>
+                    <b>Spaceshuttle<br>
+                        Hotel<br>
+                        Buffet Breakfast Only
+                    </b><br><br><br>
+                    <button class="call_to_action">Purchase Now!</button>
+                </figure>
+         
+                <figure class="packages_figure">
+                    <img src="images/delux_package.jpg" alt="Hotel Dining Room" width=300>
 
-            <b>Spaceshuttle<br>
-                Hotel<br>
-                Buffet Breakfast Only
-            </b><br><br><br>
-            <button class="call_to_action">Purchase Now!</button>
-        </figure>
+                    <h4>The Delux Package</h4>
 
-        <figure class="packages_figure">
-            <img src="images/delux_package.jpg" alt="Hotel Dining Room" width=300>
-
-            <h4>The Delux Package</h4>
-
-            <b>Spaceshuttle<br>
-                Hotel<br>
-                All Inclussive Meals & Drinks<br>
-                Fast Pass
-            </b><br><br>
-            <button class="call_to_action">Purchase Now!</button>
-        </figure>
+                    <b>Spaceshuttle<br>
+                        Hotel<br>
+                        All Inclussive Meals & Drinks<br>
+                        Fast Pass
+                    </b><br><br>
+                    <button class="call_to_action">Purchase Now!</button>
+                </figure>
 
         <div class="Header Section">
             <h2>Packages</h2>
@@ -333,7 +349,7 @@
                 with one single transaction!<br>
                 Cheers for a worry-free vecation in out facilities!
             </p>
-        </div>
+        </div>        
         <figure class="packages_figure">
             <img src="images/spaceman_package.jpg" alt="Space Shuttle" width=300>
 
@@ -371,19 +387,22 @@
             <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
         </figure>
 
-
+          
     </section>
 
     <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
 
     <div class="promo_banner">
         <h3>We have more deals for you!</h3>
+
         <p>Check out Groupon.com for more information</p><br><br>
         <button type="button" class="call_to_action">More Deals!</button>
+
         <p>Check out Groupon.com for more information</p>
         <a class="button" href="https://www.groupon.com/" target="_blank">More Deals!</a>
-    </div>
 
+    </div>
+    
     <footer id="footer">
         <!--Same on every page. If you change one, don't foget to change them all-->
         <br>
