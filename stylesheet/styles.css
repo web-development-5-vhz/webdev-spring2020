@@ -13,7 +13,7 @@ h1 {
 
 nav {
     display: -ms-flexbox;
-    display: flex;
+    display: flex;z
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-align: center;
@@ -60,7 +60,8 @@ main img {
     font-weight: 400;
     color: #212529;
     text-align: center;
-    background-color: transparent;
+    text-decoration: none;
+    background-color: #fff;
     border: 1px solid transparent;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
@@ -128,7 +129,9 @@ main img {
     transform: translateY(4px);
 }
 
-.packages_header, .hotels_header, .feedback {
+/* planning page */
+
+.planning_hader, .feedback {
     padding: 2rem 0;
     font-weight: 500;
     font-size: 2rem;
@@ -140,13 +143,19 @@ main img {
     font-size: 1.5rem;
 }
 
-#packages {
+.plackage_descr {
+    font-size: 0.75em;
+}
+
+#packages, #hotels, #restaurants {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
     padding: 5%;
 }
+
+/* I HAD TO COMMENT IT OUT - IT WAS DOING ISSUES - Mariya
 
 .hotels_list, .restaurants_list {
     display: flex;
@@ -155,13 +164,14 @@ main img {
     justify-content: space-around;
     padding: 5%;
 }
+*/
 
 .hotels_figure > img {
-    width: 600px;
+    width: 350px;
 }
 
 .restaurants_figure > img {
-    width: 600px;
+    width: 350px;
 }
 
 .promo_banner {
