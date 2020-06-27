@@ -13,7 +13,7 @@ h1 {
 
 nav {
     display: -ms-flexbox;
-    display: flex;z
+    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-align: center;
@@ -104,7 +104,7 @@ main img {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
-    padding: 5% 10%;
+    padding: 5%;
 }
 
 .call_to_action {
@@ -125,16 +125,28 @@ main img {
 }
 
 .call_to_action:active {
-    box-shadow: 0 5px #FE;
+    box-shadow: 0 5px ;
     transform: translateY(4px);
 }
 
 /* planning page */
 
-.planning_hader, .feedback {
+.planning_header, .feedback {
     padding: 2rem 0;
     font-weight: 500;
     font-size: 2rem;
+}
+
+.thumbnail_container_header{
+    
+    height: 50px;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #f2f2f2;
+    background-color: #333;
+    border-radius: 0.5rem;
+    
+
 }
 
 .planning_header {
@@ -147,32 +159,13 @@ main img {
     font-size: 0.75em;
 }
 
-#packages, #hotels, #restaurants {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
-    padding: 5%;
+
+
+.thumbnail > img {
+    width: 280px;
 }
 
-/* I HAD TO COMMENT IT OUT - IT WAS DOING ISSUES - Mariya
 
-.hotels_list, .restaurants_list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-around;
-    padding: 5%;
-}
-*/
-
-.hotels_figure > img {
-    width: 350px;
-}
-
-.restaurants_figure > img {
-    width: 350px;
-}
 
 .promo_banner {
     background-color: lightgray;
@@ -239,7 +232,7 @@ input {
    
     body {
         display: block;
-        width: 80%
+        width: 80%;
         margin-left: 10%;
         margin-right: 10%;
     }
