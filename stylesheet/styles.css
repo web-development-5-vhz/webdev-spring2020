@@ -131,7 +131,7 @@ main img {
 
 /* planning page */
 
-.planning_header, .feedback {
+.primary_header, .feedback {
     padding: 2rem 0;
     font-weight: 500;
     font-size: 2rem;
