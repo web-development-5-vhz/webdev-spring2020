@@ -71,7 +71,7 @@
         <!-- Header -->
         <div class="planning_header">
             <h1><strong>Planning</strong></h1>
-            <p class='plackage_descr'>
+            <p class='package_descr'>
                 It's important to prepair for this special opportunity.
                 <br>
                 Not every day we get to travel to the moon, and that's why
@@ -98,9 +98,10 @@
         </div>
 
         <section id="schedule">
-            <div id="opening_hours">
-                <br>
+            <div class= 'planning_hader'>
                 <h3>Hours of Operation</h3>
+            </div>
+            <div id='opening hours'>
                 <table id="table_openinghours">
                     <tr>
                         <th>Day</th>
@@ -124,28 +125,28 @@
                 <h3>Upcoming Events</h3>
             </div>
             <div class="slide" id="upcoming_events">
-                <!-- Full-width images with number and caption text -->
-                
-                    <div>
+                <!-- Full-width images with number and caption text -->                
+
+                <div class='event_container'>
+                    <img src="images/waterfight_event.jpg" alt="Photo from the 2018 Waterfight">
+                    <h4 class='events'>The Annual Waterfight on the Moon</h4>
+                    <br>
+                    <time datetime="2021-04-12">April 12, 2021</time>
+                </div>
+               <div class='event_container'>
+                    <img src="images/colours_event.jpg" alt="Photo from the Carnival of Colours 2019">
+                    <h4 class='events'>Carnival of Colours</h4>
+                    <br>
+                    <time datetime="2020-10-15">November 15, 2020</time>
+                </div>
+                <div class='event_container'>
                     <img src="images/spaceodyssey_event.jpg" alt="Photo from Space Odyssey 2019">
-                    <h4>Space Odyssey Nights</h4>
+                    <h4 class='events'>Space Odyssey Nights</h4>
                     <br>
                     <time datetime="2020-09-07">September 7, 2020</time>
                 </div>
                 
-               <div>
-                    <img src="images/colours_event.jpg" alt="Photo from the Carnival of Colours 2019">
-                    <h4>Carnival of Colours</h4>
-                    <br>
-                    <time datetime="2020-10-15">November 15, 2020</time>
-                </div>
-                
-                <div>
-                    <img src="images/waterfight_event.jpg" alt="Photo from the 2018 Waterfight">
-                    <h4>The Annual Waterfight on the Moon</h4>
-                    <br>
-                    <time datetime="2021-04-12">April 12, 2021</time>
-                </div>
+            </div>
         </section>
 
         <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
@@ -155,12 +156,13 @@
             <p>Find out more about weather conditions on weather.com</p>
             <a class="button" href="https://weather.com/" target="_blank">Check Weather!</a>
         </div>
+             
 
         <!-- Hotels & restaurants -->
 
         <div class="planning_hader">
             <h2>Hotels & Restaurants</h2>
-            <p class='plackage_descr'>
+            <p class='package_descr'>
                 We have 12 hotels and over 50 restaurants around the park.
                 <br>
                 Catering to guests from all around the world, our expert
@@ -225,10 +227,6 @@
 
         <!--RESTAURANTS-->
         <div class="secondary_header" id="restaurants">
-        
-            <h3>Restaurants</h3>
-        </div>
-        <div class="planning_hader">
             <h3>Restaurants</h3>
         </div>
 
@@ -279,17 +277,14 @@
     <div class="secondary_header" id="packages">
         <h3>Packages</h3>
     </div>
-    <div class="packages_header">
+    <div class='package_descr'>
        
         <p><br>Step up your planning game with our package deals!<br>
             Cover all your dining, hospitality and transportation needs<br>
             with one single transaction!<br>
             Cheers for a worry-free vecation in out facilities!
         </p>
-    </div>
-
-
-    
+    </div>    
 
     <section class="thumbnail_container">     
         <figure class="thumbnail">
@@ -346,7 +341,7 @@
         <br>
         <div class="row">
             <div class="column">
-                <img src="images/MoonshotLogo.png" alt="Moonshot logo" width="200" height="100">
+                <img id='logo_footer' src="images/MoonshotLogo.png" alt="Moonshot logo" width='200'>
             </div>
             <div class="column">
                 <h4><u>Address</u><br><br></h4>
