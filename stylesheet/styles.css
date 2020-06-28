@@ -137,7 +137,7 @@ main img {
     font-size: 2rem;
 }
 
-.thumbnail_container_header{
+.secondary_header{
     
     height: 50px;
     font-weight: 500;
@@ -205,20 +205,18 @@ input {
 .slide {
     width:600px; 
     height:500px; 
-    padding: 2rem 5% 5rem; 
-    overflow:hidden;
-    align-content: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .slide div {
-    display: block;
+
     margin-left: 30%;
     margin-right: 30%;
     position: absolute;
     animation: slide 21s infinite;
     opacity: 0;
-    width: 600px;
-    height: 400px;
+
 }
 
 @keyframes slide {25%{opacity: 1;} 40%{opacity: 0;}}
