@@ -107,6 +107,14 @@ main img {
     padding: 5%;
 }
 
+.thumbnail_container_large {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
 .call_to_action {
     background-color: #333;
     color: white;
@@ -164,6 +172,17 @@ main img {
 .thumbnail > img {
     width: 280px;
 }
+
+.thumbnail_large > img {
+    width: 350px;
+}
+
+.thumbnail_large {
+    
+    width: 350px;
+    
+}
+
 
 
 

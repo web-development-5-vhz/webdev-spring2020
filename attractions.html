@@ -49,7 +49,7 @@
         </div>
         <!--The following div will funnel visitors off to different sites describing rides suitable for their user profile-->
 
-            <div class="secondary_header">
+            <div class="secondary_header" id="rides">
                 <h3>Rides</h3>
             </div>
             <div class="thumbnail_container">   
@@ -76,12 +76,13 @@
 
         <!--Holds all the thumbnails. Style to do vertical or horizontal depending on computer vs. phone-->
         <!--Describes available trips-->
-        <div class="secondary_header">
+        <div class="secondary_header" id="stays">
             <h3>Stays</h3>
         </div>
-        <div class="thumbnail_container">
-            <div class="thumbnail_item">
-                <h2>Fly to the moon day trip</h2>
+        <iframe  class = "iframe-padding" width = "1100" height="500" src="https://vimeo.com/431192246" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="thumbnail_container_large">
+            <div class="thumbnail_large">
+                <h2>Day Trips</h2>
                 <img src="images/rollercoaster.jpg" alt="Epic Moon Pic 1" width=400>
                 <h3><br>What is included?</h3>
                 <ul>
@@ -94,12 +95,12 @@
                 <br>
                 <h3>What to expect?</h3>
                 <p>Fly over earths magical moon before making a landing ... Buzz Aldrin Style! </p>
-                <p>Explore this one of a kind cratered fun park ] on a 2-hour professionally guided joyride.</p>
-                <p>Within the fun park excursions include a thrill option or lunar history <br> experience for the more
-                    academically inclined visitors.</p>
+                <p>Explore this one of a kind cratered fun park  on a 2-hour professionally guided joyride.</p>
+                
+                    <br><a class="button" href="" target="_blank">Buy Now</a>
             </div>
-            <div class="thumbnail_item">
-                <h2>Fly to the moon overnight excursions</h2>
+            <div class="thumbnail_large">
+                <h2>Overnight excursions</h2>
                 <img src="images/spaceman_package.jpg" alt="Epic Moon Pic 2" width=400>
                 <br>
                 <h3><br>What is included?</h3>
@@ -114,25 +115,33 @@
                 <h3>What to expect?</h3>
                 <p>Get aclimitised to floating, this is a one of a kind experience</p>
                 <p>Delve into the moon's ancient history, learn about lunar maria and how it was formed.</p>
+                <br><a class="button" href="" target="_blank">Buy Now</a>
             </div>
         </div>
     </main>
     <!--Advertising Banner-->
-    <div class="Banner">
-        <ul>
-            <li>Best Rides</li>
-            <li>Lowest Prices</li>
-            <li>All Year Round</li>
-            <!--This link should point to planning page-->
-            <li><a href="mailto:info@moonshot.com">Buy Now</a></li>
+    <div class="button_container">
+        <button class="button" type="button" onclick="window.location.href='attractions.html#rides'">
+            Best Rides
+            </button>
+            <button class="button" type="button" onclick="window.location.href='planning.html'">
+            Lowest Prices
+            </button>
+            <button class="button" type="button" onclick="window.location.href='planning.html'">
+            All Year Round
+            </button>
+            <button class="button" type="button" onclick="window.location.href='index.html'">
+            Buy Now
+            </button>
 
-        </ul>
     </div>
     <!--Map of the park. Replace with interactive map when adding CSS-->
     <aside>
-
+        <div class="secondary_header">
+            <h3> Park Map</h3>
+        </div>
         <div id=map_Container>
-            <h2> Park Map</h2>
+            
             <p> Fly over earths magical moon before making a landing ... Buzz Aldrin Style!
 
                 Explore this one of a kind cratered fun park, on a 2-hour professionally guided joyride.
