@@ -37,9 +37,10 @@
     <!-- contact us banner - FULL DEVICE WIDTH -->
     <!--Title Containers for non-landing pages.
     Style these text lines later to be over the image-->
-    <div class="secondary_header">
-        <h1>Contact Us</h1>
-        <img src="images/contact.jpg" alt="Contact Banner" width=600>
+    <div class="page_header">
+        <img class='image_header' src="images/contact.jpg" alt="Contact Banner">
+        <div class='page_title'><h1>Contact Us</h1></div> 
+
     </div>
 
     <!-- contact info -->
@@ -47,51 +48,41 @@
     <main>
 
     <!-- contact form -->
-<section>
-    <h2>Contact Form</h2>
-    <div id="contact_form">
-        <div class="form">
-        <form id="contact">
-            <!--mandatory input-->
-            <label class="label_form" for="first_name">First name*:</label>
-            <input type="text" id="first_name" value="">
-            <br>
-            <label class="label_form" for="last_name">Last name:</label>
-            <input type="text" id="last_name" value="">
-            <br>
-            <!--mandatory input-->
-            <label class="label_form" for="email">Email*:</label>
-            <input type="text" id="email" value="">
-            <br>
-            <label class="label_form" for="phone">Phone Number:</label>
-            <input type="text" id="phone" value="">
-            <br>
-            <!--mandatory input-->
-            <textarea id="message" placeholder="Your message*:" style="width:400px; height:150px;"></textarea>
-            <br><br>
-            <button type="button"class="call_to_action">Submit</button>
-        </form>
+    <section>
+        <h2>Contact Form</h2>
+        <div id="contact_form">
+            <div class="form">
+            <form id="contact">
+                <!--mandatory input-->
+                <label class="label_form" for="first_name">First name*:</label>
+                <input type="text" id="first_name" value="">
+                <br>
+                <label class="label_form" for="last_name">Last name:</label>
+                <input type="text" id="last_name" value="">
+                <br>
+                <!--mandatory input-->
+                <label class="label_form" for="email">Email*:</label>
+                <input type="text" id="email" value="">
+                <br>
+                <label class="label_form" for="phone">Phone Number:</label>
+                <input type="text" id="phone" value="">
+                <br>
+                <!--mandatory input-->
+                <textarea id="message" placeholder="Your message*:" style="width:400px; height:150px;"></textarea>
+                <br><br>
+                <button type="button"class="call_to_action">Submit</button>
+            </form>
+            </div>
         </div>
-    </div>
         </section>
 
     <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
-
-
-    <div class="promo_banner">
-        <h3>See what our visitors have to say</h3>
-        <p>Find us on tripadvisor.com</p>
-        <br>
-        <button type="button" class="call_to_action" onclick="window.open('https://tripadvisor.com', '_blank'); return false;">Go to website!</button>
-
-
-    <!-- ***REMOVE BACKGROUND COLOUR CSS FOR THE NEXT SUBMISSION*** -->
 
     <div class="promo_banner">
         <h3>See what our visitors have to say</h3>
         <p>Find us on tripadvisor.com</p>
         
-        <a class="button" href="https://tripadvisor.com/" target="_blank">Go to website!</a>
+        <a class="button" id='promo_button' href="https://tripadvisor.com/" target="_blank">Go to website!</a>
 
     </div>
 
@@ -105,31 +96,29 @@
             to automatically enter the draw!<br>
         </p>
     </aside>
-    <footer id="footer">
+    <!-- FOOTER -->
+     <footer id="footer">
         <!--Same on every page. If you change one, don't foget to change them all-->
         <br>
         <div class="row">
             <div class="column">
-                <img src="images/MoonshotLogo.png" alt="Moonshot logo" width="200" height="100">
+                <img id='footer_logo' src="images/MoonshotLogo.png" alt="Moonshot logo">
             </div>
             <div class="column">
-                <h2>Adress</h2>
+                <h4>Address</h4>
+                <p>
                 <address>
                     LunaCorp Moonshot Visitor Complex
                     <br>
                     23 - Space Commerce Way, Merritt Island, FL
                     <br>
                 </address>
-                <h2>Give us call or send a mail </h2>
-                <label class="label_contactinfo">Phone:</label>
-                <a class="phone" href="tel:1-800-423-3333">1-800-423-3333</a>
+                </p>
                 <br>
-                <label class="label_contactinfo">Email:</label>
-                <a class="email" href="mailto:info@moonshot.com">info@moonshot.com</a>
+                <p id='copyright'>© Copyright 2020 LunaCorp</p>
             </div>
             <div class="column">
-                <h4>
-                    <u>Contact us</u><br><br>
+                <h4>Contact us</h4>
                     <a href="#">
                         <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
                     </a>
@@ -140,9 +129,7 @@
                         <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
                     </a>
                     <a href="mailto:info@moonshot.com">info@moonshot.com</a>
-                </h4>
             </div>
         </div>
-        <p class="copyright">© Copyright 2020 LunaCorp</p>
     </footer>
 </body>

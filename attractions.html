@@ -36,9 +36,9 @@
 
     <!--Title Containers for non-landing pages.
     Style these text lines later to be over the image-->
-    <div class="primary_header">
-        <h1>Attractions Headline</h1>
-        <img src="images/waterslide.jpg" alt="Landing Image" width=600>
+    <div class="page_header">
+        <img class='image_header' src="images/waterslide.jpg" alt="Landing Image">
+        <div class='page_title'><h1>Attractions</h1></div> 
     </div>
 
     <main>
@@ -66,10 +66,6 @@
                     <img src="https://media.istockphoto.com/photos/portrait-of-excited-elementary-school-pupils-on-playing-field-at-picture-id1160932512?b=1&k=6&m=1160932512&s=170667a&w=0&h=UGpr6-SNI-Rhf_gsfMQwkQc1coYPMMIG--YHVGdGUys=" width=200 alt="Kids huddled facing camera">
                     <br><a class="button" href="" target="_blank">Children</a>
                 </figure>
-                  
-
-               
-               
               
         </div>
 
@@ -79,7 +75,11 @@
         <div class="secondary_header" id="stays">
             <h3>Stays</h3>
         </div>
-        <iframe  class = "iframe-padding" width = "1100" height="500" src="https://vimeo.com/431192246" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+       <div class='video_container'>
+       <iframe src="https://player.vimeo.com/video/431192246" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
+       </div>
+        
         <div class="thumbnail_container_large">
             <div class="thumbnail_large">
                 <h2>Day Trips</h2>
@@ -97,7 +97,7 @@
                 <p>Fly over earths magical moon before making a landing ... Buzz Aldrin Style! </p>
                 <p>Explore this one of a kind cratered fun park  on a 2-hour professionally guided joyride.</p>
                 
-                    <br><a class="button" href="" target="_blank">Buy Now</a>
+                    <br><a class="button" href="" target="_blank"><b>Buy Now</b></a>
             </div>
             <div class="thumbnail_large">
                 <h2>Overnight excursions</h2>
@@ -115,12 +115,12 @@
                 <h3>What to expect?</h3>
                 <p>Get aclimitised to floating, this is a one of a kind experience</p>
                 <p>Delve into the moon's ancient history, learn about lunar maria and how it was formed.</p>
-                <br><a class="button" href="" target="_blank">Buy Now</a>
+                <br><a class="button" href="" target="_blank"><b>Buy Now</b></a>
             </div>
         </div>
     </main>
     <!--Advertising Banner-->
-    <div class="button_container">
+    <div class="button_container" id="attractions_buttons">
         <button class="button" type="button" onclick="window.location.href='attractions.html#rides'">
             Best Rides
             </button>
@@ -140,50 +140,61 @@
         <div class="secondary_header">
             <h3> Park Map</h3>
         </div>
+        <p>
+            Fly over earths magical moon before making a landing ... Buzz Aldrin Style!
+            <br>
+            Explore this one of a kind cratered fun park, on a 2-hour professionally guided joyride.
+            <br>
+            Within the fun park excursions include a thrill option or lunar history experience 
+            <br>
+            for the more academically inclined visitors.
+        </p>
         <div id=map_Container>
-            
-            <p> Fly over earths magical moon before making a landing ... Buzz Aldrin Style!
 
-                Explore this one of a kind cratered fun park, on a 2-hour professionally guided joyride.
-
-                Within the fun park excursions include a thrill option or lunar history experience for the more
-                academically inclined visitors.
-
-                <p>
-                    <img id="map_pic" src="https://i.pinimg.com/originals/c4/6e/c0/c46ec039998d5d07ce9da23108c2bc8f.png" width=600 alt="">
-
-            </p>        
                 <img src="images/map.jpg" alt="Map of the Park" usemap="#parkmap" width="800">
 
                 <map name="parkmap">
                   <area shape="circle" coords="500,60,30" alt="Rides for Adults" href="#rides_adults">
+                  <area shape="circle" coords="315,210,30" alt="Rides for Adults" href="#rides_adults">
                   <area shape="circle" coords="600,260,30" alt="Rides for Family" href="#rides_family">
                   <area shape="circle" coords="350,320,30" alt="Rides for Children" href="#rides_children">
                 </map>
 
-
         </div>
 
     </aside>
-    <footer id="footer">
+    
+    <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
+
+    <div class="promo_banner">
+        <h3>Our Spaceshuttles Deploy on Sunny Days Only</h3>
+        <p>Find out more about weather conditions on weather.com</p>
+        <a class="button" id='promo_button' href="https://weather.com/" target="_blank">Check Weather!</a>
+    </div>
+    
+  <!-- FOOTER -->
+  <footer id="footer">
         <!--Same on every page. If you change one, don't foget to change them all-->
         <br>
         <div class="row">
             <div class="column">
-                <img src="images/MoonshotLogo.png" alt="Moonshot logo" width="200" height="100">
+                <img id='footer_logo' src="images/MoonshotLogo.png" alt="Moonshot logo">
             </div>
             <div class="column">
-                <h4><u>Address</u><br><br></h4>
+                <h4>Address</h4>
+                <p>
                 <address>
                     LunaCorp Moonshot Visitor Complex
                     <br>
                     23 - Space Commerce Way, Merritt Island, FL
                     <br>
                 </address>
+                </p>
+                <br>
+                <p id='copyright'>© Copyright 2020 LunaCorp</p>
             </div>
             <div class="column">
-                <h4>
-                    <u>Contact us</u><br><br>
+                <h4>Contact us</h4>
                     <a href="#">
                         <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
                     </a>
@@ -194,10 +205,8 @@
                         <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
                     </a>
                     <a href="mailto:info@moonshot.com">info@moonshot.com</a>
-                </h4>
             </div>
         </div>
-        <p class="copyright">© Copyright 2020 LunaCorp</p>
     </footer>
 
 </body>

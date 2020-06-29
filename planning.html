@@ -31,7 +31,6 @@
     <!--included for assigment 3-->
 </head>
 
-</head>
 <!--HTML NOTES-->
 <!--a nav tag is used to specify a block of navigation links, either within the current document or to other documents,
     this tag is used to contain the main contents of the web page -->
@@ -60,15 +59,16 @@
         </div>
     </nav>
 
-    <!--Title Containers for non-landing pages.
-    Style these text lines later to be over the image-->
-    <div class="primary_header">
-        <h1>Planning</h1>
-        <img src="images/planning.jpg" alt="Planning Image" width=600>
+    <!--Main Page Header-->
+    
+    <div class="page_header">
+        <img class='image_header' src="images/planning.jpg" alt="Planning Image">
+        <div class='page_title'><h1>Planning</h1></div> 
     </div>
+    
     <main>
 
-        <!-- Header -->
+        <!-- Header Description -->
         <div class="planning_header">
             <h1><strong>Planning</strong></h1>
             <p class='package_descr'>
@@ -89,11 +89,10 @@
 
 
         <!-- Schedule -->
-
-        <div class="Header Section" id="header_schedule">
+        <div class="schedule_holidays" id="header_schedule">
             <h2>Schedule and Holidays</h2>
             <p>
-                The park observes no public holidays and is open 365.25 days a year.
+            The park observes no public holidays and is open 365.25 days a year.
             </p>
         </div>
 
@@ -125,8 +124,6 @@
                 <h3>Upcoming Events</h3>
             </div>
             <div class="slide" id="upcoming_events">
-                <!-- Full-width images with number and caption text -->                
-
                 <div class='event_container'>
                     <img src="images/waterfight_event.jpg" alt="Photo from the 2018 Waterfight">
                     <h4 class='events'>The Annual Waterfight on the Moon</h4>
@@ -154,7 +151,7 @@
         <div class="promo_banner">
             <h3>Our Spaceshuttles Deploy on Sunny Days Only</h3>
             <p>Find out more about weather conditions on weather.com</p>
-            <a class="button" href="https://weather.com/" target="_blank">Check Weather!</a>
+            <a class="button" id='promo_button' href="https://weather.com/" target="_blank">Check Weather!</a>
         </div>
              
 
@@ -269,7 +266,7 @@
         <h3>We value your feedback and want to reward you!</h3>
         <p>Tell us about your experiance and enter a draw for a <strong>free yearly pass</strong></p><br><br>
 
-        <a class="button" href="contact.html">Contact us!</a>
+        <a class="button" id='promo_button' href="contact.html">Contact us!</a>
     </div>
 
     <!--PACKAGES-->
@@ -332,48 +329,44 @@
         <h3>We have more deals for you!</h3>
 
         <p>Check out Groupon.com for more information</p>
-        <a class="button" href="https://www.groupon.com/" target="_blank">More Deals!</a>
+        <a class="button" id='promo_button' href="https://www.groupon.com/" target="_blank">More Deals!</a>
 
     </div>
     
-    <footer id="footer">
+<footer id="footer">
         <!--Same on every page. If you change one, don't foget to change them all-->
         <br>
         <div class="row">
             <div class="column">
-                <img id='logo_footer' src="images/MoonshotLogo.png" alt="Moonshot logo" width='200'>
+                <img id='footer_logo' src="images/MoonshotLogo.png" alt="Moonshot logo">
             </div>
             <div class="column">
-                <h4><u>Address</u><br><br></h4>
+                <h4>Address</h4>
+                <p>
                 <address>
                     LunaCorp Moonshot Visitor Complex
                     <br>
                     23 - Space Commerce Way, Merritt Island, FL
                     <br>
                 </address>
+                </p>
+                <br>
+                <p id='copyright'>© Copyright 2020 LunaCorp</p>
             </div>
             <div class="column">
-                <h4>
-                    <u>Contact us</u><br><br>
+                <h4>Contact us</h4>
                     <a href="#">
                         <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
                     </a>
                     <a href="#">
                         <img src="images/twitter.png" alt="Twitter logo" width="30" height="30">
                     </a>
-
                     <a href="#">
                         <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
                     </a>
-
                     <a href="mailto:info@moonshot.com">info@moonshot.com</a>
-
-
-                </h4>
             </div>
-
         </div>
-        <p class="copyright">© Copyright 2020 LunaCorp</p>
     </footer>
 </body>
 
