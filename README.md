@@ -1,3 +1,170 @@
+Tick List: 
+Part 4
+1) Use Box Model Styling in a way beyond what was taught in the course.
+2) Use X, Y and Z positioning to place elements a) absolutely on a page and b) relative to other elements.
+   Use the layer functions within the CSS language to position elements in front of or behind other elements
+3) Create a layout with various rows (with different number of collumns).
+4) CSS media styling beyond what was taught in the course.
+5) Animation clearly enhances the experience of using the site or makes the information on the site easier to understand.
+Part3
+6) Use different alignments for text.
+7) Call external fonts which enhances the website.
+8) Use of colour to support the primary user demographic identified.
+9) Use of opacity with colours.
+Part2
+10) Use semantic tags and div's to seperate content.
+11) Comments to help you work with the code and quickly relate it to the wireframes.
+12) Provide Alt tags for accessability where possible
+13) Make sure that all the parts of the pages have a semantic identity
+14) Validate your code using the W3C code validator.
+15) Sub directories for media
+Part 1
+16) Review Asssignment Part 1
+
+
+
+
+
+Peer Graded Assignment Part 1: 
+      Identification of purpose of web site to the appropriate stakeholders
+      Evidence and analysis of 5 theme park web sites
+      Identification of relevant and appropriate content for the web site
+      Identification of an appropriate structure for the pages for the content for this web site
+      Design of the wireframes as a clear model for the web site
+
+   OVERALL ASSIGNMENT RUBRIC
+      Extensive evidence of discussion of purpose of web site
+      Extensive evidence and analysis of 5 theme park web sites
+      Extensive evidence of discussion to agree relevant and appropriate content for the web site
+      Extensive evidence of discussion or agreement of identification of an appropriate structure for the pages for the content for this web site
+      Comprehensive design of the wireframes as a clear model for the web site presented
+
+
+Peer Graded Assignment Part 2: 
+   Think carefully about the use of layout tags such as tables, and only use them where content is really a table. 
+   Make sure that all the parts of the pages have a semantic identity, either by using existing semantic tags or by defining "div" tags for the content. 
+   Attempt to use a range of the various formatting tags available to add richness and extra meaning to your content. 
+   Consider how different media can add to the way that your pages communicate information.
+   Consider how your HTML supports the use of your pages by users with disabilities.
+   Ensure that you use comments to help all the coders to understand the code.
+   Ensure that your code includes comments to help you work with the code and quickly relate it to the wireframes. 
+   It could be helpful to include comments to indicate who contributed chunks of the code so that you can ensure you can work together as a team.
+   Validate your code using the W3C code validator.
+
+   OVERALL ASSIGNMENT RUBRIC
+      Comprehensive use of appropriate semantic tags used where all significant semantic spaces in the pages are defined semantically, both the predefined tags and the appropriate use of div block tags.
+      Extensive and innovative use of a wide range of different layout, formatting and media HTML tags used and their appropriate use, with good use of layout structures such as lists, extended and appropriate range of media and use of formatting tags that demonstrate a good understanding of the value in formatting content richly. They have gone beyond what was taught in the course.
+      Helpful comments showing intention behind a structure and contributor.
+      Helpful consideration of accessibility, for example describing the content of media files in the alt attribute of the <img> tag
+      Sub directories for media
+
+
+Peer Graded Assignment Part 3: 
+   Does the URL lead to the correct website?
+   Applying Appearance Styling: Stylesheets
+   Applying Appearance Styling - Styling Text
+   Applying Appearance Styling - Font Families
+   Applying Appearance Styling - HTML Object Colouring
+   Applying Appearance Styling - Colour Definition
+
+   OVERALL ASSIGNMENT RUBRIC
+      Use of a stylesheet to tailor the different styles across the various pages of the web site. The work goes beyond what was taught in the course.
+      Thoughtful use of text styling to enhance the communication of textual content, including the specification of text alignment. Goes beyond what was taught on the course.
+      Wow - I was really impressed by the careful use of font families, including calls to external fonts and it really seemed to enhance the look of the site.
+      Thoughtful use of colour to support the primary user demographic identified for the web site. The use of colour is clearly communicating something and enhancing the experience of using the site.
+      Thoughtful application of colours, including the use of opacity values with colours. Goes beyond what was taught on the course.
+
+
+
+Peer Graded Assignment Part 4: 
+   Does the link lead to the correct website?
+   Box Modelling Styling
+   X, Y, Z of Styling
+   Grids & Columns
+   Media Styling
+   Animation
+
+   OVERALL ASSIGNMENT RUBRIC
+      Box Modelling Styling.
+      Thoughtful and extensive use of the box model to style semantic structures within the web site. Goes beyond what was taught on the course.
+      X, Y, Z of Styling.
+      Thoughtful use of X, Y and Z positional instructions, both absolutely on a page and relative to other elements.
+      Grids & Columns.
+      Thoughtful use of columns to flow text and to provide column and grid content separation. The layout has various rows using different numbers of columns.
+      Media Styling.
+      Thoughtful use of CSS media styling instructions without affecting the performance of the web site. Goes beyond what was taught on the course.
+      Animation
+      Thoughtful application of animation to enhance the communication of information in the web site. The animation clearly enhances the experience of using the site or makes the information on the site easier to understand.
+
+
+
+Key Concepts per week: 
+Week 1:
+Describe the key components required to experience the web and their purpose and roles.
+Explain the function of HTML in delivering content to a user of the web.
+Explain the role of CSS in the presentation of information delivered through the web.
+Explain the role of the DOM of web pages and be able to interrogate it from within a browser.
+Explain the purpose and construction of core web HTTP protocols and associated error messages.
+
+Week 2:
+Explain the role of the DOM of web pages and be able to interrogate it from within a browser.
+Explain the purpose and construction of core web HTTP protocols and associated error messages.
+Assemble a simple web site by uploading HTML and CSS files to a web server.
+
+Week 3:
+Explain the need for design when developing web sites.
+Describe the role of different parts of typical web pages.
+Construct a wireframe showing the essential parts of a web page.
+Construct alternative wireframes for use with displays such as mobile devices and printers.
+Annotate the wireframes to show the type of content to be presented in the various parts of the pages.
+Annotate the wireframes to show how they will be presented.
+
+Week 4:
+Construct a wireframe showing the essential parts of a web page.
+Construct alternative wireframes for use with displays such as mobile devices and printers.
+Annotate the wireframes to show the type of content to be presented in the various parts of the pages.
+Annotate the wireframes to show how they will be presented.
+
+Week 5:
+Describe the role of HTML in describing and providing a framework for placing content within a web page.
+Access a variety of online and print resources that provide the latest reference for the HTML languages.
+Explain the function of a “head” section in an HTML document and the essential elements placed there.
+Choose the appropriate formatting and media tags to support the content of a HTML page.
+Attribute the semantics of content to the appropriately constructed HTML elements.
+Construct an HTML document using a code-editing application and upload the files to a web server.
+
+Week 6:
+Choose the appropriate formatting and media tags to support the content of an HTML page.
+Attribute the semantics of content to the appropriately constructed HTML elements.
+Construct an HTML document using a code-editing application and upload the files to a web server.
+
+Week 7:
+Describe the role of style and presentation in reinforcing the message of content for target users.
+Use a wireframe to produce a detailed responsive style design.
+Apply: Style web pages using in page style instructions and external style sheets.
+Compose appropriate CSS for setting the appearance of web page elements, including bounded spaces and fonts.
+
+Week 8:
+Style web pages using in-page style instructions and external style sheets.
+Compose appropriate CSS for setting the appearance of web page elements, including bounded spaces and fonts.
+
+Week 9:
+Manipulate HTML elements with block or inline behaviours are displayed.
+Understand the purpose of and use the various font and element size definitions.
+Use the various CSS absolute and relative positioning functions to position HTML within a page.
+Use the layer functions within the CSS language to position elements in front of or behind other elements.
+
+Week 10:
+Use the layer functions within the CSS language to position elements in front of or behind other elements.
+Use the various CSS absolute and relative positioning functions to position HTML within a page.
+
+
+
+
+
+
+
+******************************************************************************************************************************
 In this document we store the project ticklist as well as evidence of team work
 
 ***********************************************************************
