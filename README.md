@@ -10,6 +10,7 @@ ACTIONS:
 ACTIONS: 
 2.1 Create button which remains static positioned no matter where you are, 
    eg. a [Book now]  or [Contact us] or [Live Chat] on the bottom right of screen
+   --> Book Now button added to bottom right of Home|Planning|Attractions
 2.2 Find a clever way to use the z index 
    e.g. https://www.w3schools.com/cssref/tryit.asp?filename=trycss_zindex 
    Perhaps in the promo banner? 
@@ -48,6 +49,7 @@ ACTIONS:
 9) Use of opacity with colours.
 ACTIONS:
 9.1 Add opacity, eg. in the class = page_title we can add a background colour with opacity to still see the image
+--> page_header img has opacity already, consider of more is required? 
 
 
 Part2
@@ -55,7 +57,9 @@ Part2
 ACTIONS:
 10.1 Check if all the tags make sense and simplify where possible
       eg. We use <ASIDE> is there a reason for that? 
+      -->The HTML <aside> element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
       eg. is the <MAIN> tag used consistently, what is the rule for including/excluding elements
+      --> The HTML <main> element represents the dominant content of the <body> of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application
 
 
 11) Comments to help you work with the code and quickly relate it to the wireframes.'
