@@ -379,6 +379,16 @@ input {
     margin:5px;
 }
 
+/* FIXED position button */
+.fixed_button{ 
+    position: absolute; 
+    bottom: 5px;
+    right: 5px;
+    width: 200px; 
+    border: 0px solid #d6d6d6; 
+    background-color: #D34869; 
+    }
+
 
 @keyframes slide {25%{opacity: 1;} 40%{opacity: 0;}}
 .slide div:nth-child(3){animation-delay: 0s;}

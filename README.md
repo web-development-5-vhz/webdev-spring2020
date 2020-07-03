@@ -108,7 +108,8 @@ Peer Graded Assignment Part 1:
       Extensive evidence and analysis of 5 theme park web sites
       Extensive evidence of discussion to agree relevant and appropriate content for the web site
       Extensive evidence of discussion or agreement of identification of an appropriate structure for the pages for the content for this web site
-      Comprehensive design of the wireframes as a clear model for the web site presented
+      Comprehensive design of the wireframes as a
+       clear model for the web site presented
 
 
 Peer Graded Assignment Part 2: 
