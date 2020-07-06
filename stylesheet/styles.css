@@ -140,7 +140,7 @@ a:hover {
     color: white;
 }
 
-#promo_button:hover {
+.promo_button:hover {
     background-color: #21272B;
     color: white;
 }
