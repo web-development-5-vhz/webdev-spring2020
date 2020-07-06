@@ -347,6 +347,7 @@ input {
 .video_container {
     padding:30px;
     background-color: white;
+    border:none;
 }
 
 #table_openinghours {
