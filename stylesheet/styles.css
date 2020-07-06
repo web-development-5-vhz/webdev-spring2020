@@ -350,6 +350,10 @@ input {
     border:none;
 }
 
+.video_border{
+    border:none;
+}
+
 #table_openinghours {
     display: flex;
     justify-content: space-around;
