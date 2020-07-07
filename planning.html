@@ -37,7 +37,8 @@
         <img class='image_header' src="images/planning.jpg" alt="Planning Image of man working on a white board">
         <div class='page_title'><h1>Planning</h1></div> 
     </div>
-    <!-- Main content section -->
+
+    <!-- Main content area -->
     <main>
         <!-- Header Description -->
         <div class="planning_header">
@@ -52,73 +53,70 @@
                 <br>
                 The main things you need to worry about is:
                 <br>
-                Which wonderfull <a href="planning.html#hotels" >hotel</a> to stay in and
+                Which wonderfull <a href="planning.html#hotels" > 
+                    hotel</a> to stay in and
                 <br>
                 Where to <a href="planning.html#restaurants" >refuel</a> after a hard day of jet setting! 
             </p>
         </div>
 
-
-        <!-- Schedule -->
-        <div class="schedule_holidays" id="header_schedule">
+        <!-- Schedule section containing info about public holidays, operating hours and upcoming events-->
+        <section id="schedule">
+        <div class="schedule_holidays" id="header_schedule"> <!-- ID used as a link target from index page href='planning.html#header_schedule' -->
             <h2>Schedule and Holidays</h2>
             <p>
             The park observes no public holidays and is open 365.25 days a year.
             </p>
         </div>
-
-        <section id="schedule">
-            <div class= 'planning_hader'>
-                <h3>Hours of Operation</h3>
+        <div class= 'planning_header'>
+            <h3>Hours of Operation</h3>
+        </div>
+        <div id='opening_hours'>
+            <table id="table_openinghours">
+                <tr>
+                    <th>Day</th>
+                    <th>Opening</th>
+                    <th>Closing</th>
+                </tr>
+                <tr>
+                    <td>Weekdays</td>
+                    <td><time datetime="08:00">08:00</time></td>
+                    <td><time datetime="18:00">18:00</time></td>
+                </tr>
+                <tr>
+                    <td>Weekends</td>
+                    <td><time datetime="07:00">07:00</time></td>
+                    <td><time datetime="20:00">20:00</time></td>
+                </tr>
+            </table>
+        </div>  
+        <div class='planning_header'>
+            <h3>Upcoming Events</h3>
+        </div>
+        <div class="slide" id="upcoming_events">
+            <div class='event_container'>
+                <img src="images/waterfight_event.jpg" alt="Photo from the 2018 Waterfight">
+                <h4 class='events'>The Annual Waterfight on the Moon</h4>
+                <br>
+                <time datetime="2021-04-12">April 12, 2021</time>
             </div>
-            <div id='opening_hours'>
-                <table id="table_openinghours">
-                    <tr>
-                        <th>Day</th>
-                        <th>Opening</th>
-                        <th>Closing</th>
-                    </tr>
-                    <tr>
-                        <td>Weekdays</td>
-                        <td><time datetime="08:00">08:00</time></td>
-                        <td><time datetime="18:00">18:00</time></td>
-                    </tr>
-                    <tr>
-                        <td>Weekends</td>
-                        <td><time datetime="07:00">07:00</time></td>
-                        <td><time datetime="20:00">20:00</time></td>
-                    </tr>
-                </table>
+            <div class='event_container'>
+                <img src="images/colours_event.jpg" alt="Photo from the Carnival of Colours 2019">
+                <h4 class='events'>Carnival of Colours</h4>
+                <br>
+                <time datetime="2020-10-15">November 15, 2020</time>
+            </div>
+            <div class='event_container'>
+                <img src="images/spaceodyssey_event.jpg" alt="Photo from Space Odyssey 2019">
+                <h4 class='events'>Space Odyssey Nights</h4>
+                <br>
+                <time datetime="2020-09-07">September 7, 2020</time>
             </div>
             
-            <div class='planning_hader'>
-                <h3>Upcoming Events</h3>
-            </div>
-            <div class="slide" id="upcoming_events">
-                <div class='event_container'>
-                    <img src="images/waterfight_event.jpg" alt="Photo from the 2018 Waterfight">
-                    <h4 class='events'>The Annual Waterfight on the Moon</h4>
-                    <br>
-                    <time datetime="2021-04-12">April 12, 2021</time>
-                </div>
-               <div class='event_container'>
-                    <img src="images/colours_event.jpg" alt="Photo from the Carnival of Colours 2019">
-                    <h4 class='events'>Carnival of Colours</h4>
-                    <br>
-                    <time datetime="2020-10-15">November 15, 2020</time>
-                </div>
-                <div class='event_container'>
-                    <img src="images/spaceodyssey_event.jpg" alt="Photo from Space Odyssey 2019">
-                    <h4 class='events'>Space Odyssey Nights</h4>
-                    <br>
-                    <time datetime="2020-09-07">September 7, 2020</time>
-                </div>
-                
-            </div>
+        </div>
         </section>
 
         <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
-
         <div class="promo_banner">
             <h3>Our Spaceshuttles Deploy on Sunny Days Only</h3>
             <p>Find out more about weather conditions on weather.com</p>
@@ -126,9 +124,9 @@
         </div>
              
 
-        <!-- Hotels & restaurants -->
-
-        <div class="planning_hader">
+        <!-- Main section containing information on Hotels & restaurants -->
+        <section>
+        <div class="planning_header">
             <h2>Hotels & Restaurants</h2>
             <p class='package_descr'>
                 We have 12 hotels and over 50 restaurants around the park.
@@ -149,11 +147,10 @@
 
         <!-- HOTELS -->
         <div class="secondary_header">
-        
             <h3>Hotels</h3>
         </div>
-
-        <section class="thumbnail_container" id="hotels">        
+        <!-- Hotels thumbnail container -->
+        <section class="thumbnail_container" id="hotels">    <!-- ID used as a link target from index page href='planning.html#hotels' -->    
 
             <figure class="thumbnail">
                 <img src="images/space_hotel.jpg" alt="Space Hotel Queen Room Setting">
@@ -194,10 +191,10 @@
         </section>
 
         <!--RESTAURANTS-->
-        <div class="secondary_header" id="restaurants">
+        <div class="secondary_header" id="restaurants"> <!-- ID used as a link target from index page href='planning.html#restaurants' -->
             <h3>Restaurants</h3>
         </div>
-
+        <!-- Restaurants thumbnail container -->
         <section class="thumbnail_container">
                 <figure class="thumbnail">
                     <img src="images/chubby_restaurant.jpg" alt="fast food available in Moon Shot Park">
@@ -230,9 +227,10 @@
                 </figure>              
 
         </section>
+    </section>
     </main>
-    <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
 
+    <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
     <div class="promo_banner">
         <h3>We value your feedback and want to reward you!</h3>
         <p>Tell us about your experiance and enter a draw for a <strong>free yearly pass</strong></p><br><br>
@@ -240,20 +238,17 @@
         <a class="button promo_button" href="contact.html">Contact us!</a>
     </div>
 
-    <!--PACKAGES-->
-
-    <div class="secondary_header" id="packages">
+    <!--Description of different packages available-->
+    <div class="secondary_header" id="packages"> <!-- ID used as a link target from index page href='planning.html#packages' -->
         <h3>Packages</h3>
     </div>
     <div class='package_descr'>
-       
         <p><br>Step up your planning game with our package deals!<br>
             Cover all your dining, hospitality and transportation needs<br>
             with one single transaction!<br>
             Cheers for a worry-free vecation in out facilities!
         </p>
     </div>    
-
     <section class="thumbnail_container">     
         <figure class="thumbnail">
             <img src="images/spaceman_package2.jpg" alt="Dehydrated food available in space" width=300>
@@ -266,7 +261,6 @@
             </p>
             <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
         </figure>
-
         <figure class="thumbnail">
             <img src="images/morningglory_package.jpg" alt="Buffet Breakfast server with Morning Glory package" width=300>
 
@@ -278,10 +272,8 @@
             </p>
             <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
         </figure>
-
         <figure class="thumbnail">
             <img src="images/delux_package.jpg" alt="Hotel Dining Room , all meals and drinks included with Delux package" width=300>
-
             <h4>The Delux Package</h4>
             <p>
                 Spaceshuttle + Hotel + Fast Pass
@@ -290,19 +282,14 @@
             </p>
             <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
         </figure>
-
-          
     </section>
-
     <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
-
     <div class="promo_banner">
         <h3>We have more deals for you!</h3>
-
         <p>Check out Groupon.com for more information</p>
         <a class="button promo_button" href="https://www.groupon.com/" target="_blank">More Deals!</a>
-
     </div>
+
     <!--Footer Container - repeated on each page-->
     <footer id="footer">
         <!--Same on every page. If you change one, don't foget to change them all-->
