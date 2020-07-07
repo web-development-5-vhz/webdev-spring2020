@@ -24,6 +24,10 @@ p {
     width : 200px;
 }
 
+#logo_image a:hover {
+    background-color: #EDEDED;
+}
+
 nav {
     display: -ms-flexbox;
     display: flex;
