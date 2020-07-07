@@ -2,72 +2,43 @@
 <html lang="en">
 
 <head>
-
-    <title>Moon Shot - Home</title>
-    <!--  The title tag:
-        1. defines a title in the browser toolbar.
-        2. provides a title for the page when it is added to favorites.
-        3. displays a title for the page in search-engine results. -->
-
-    <!--The code below contains the meta data of the web page.
-        
-        The name attribute pecifies a name for the metadata
-        The content tag specifies the value associated with the http-equiv or name attribute
-        A charset tag specifies the character encoding for the HTML document -->
-    
     <!--Same on every page. If you change one, don't foget to change them all-->  
+    <title>Moon Shot - Home</title>
     <meta name="description" content="Corporate Website for Moonshot Theme Park">
     <meta charset="UTF-8">
     <meta name="keywords" content="Space Theme Park, Moon Shot, The Big Dipper">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="refresh" content="600">
     <meta name="robots" content="noindex,nofollow">
-
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
     <!--Google font API-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,900%7CUbuntu" rel="stylesheet">
-
-    <!--included for assigment 3-->
 </head>
 
-<!--HTML NOTES-->
-<!--a nav tag is used to specify a block of navigation links, either within the current document or to other documents,
-    this tag is used to contain the main contents of the web page -->
-<!--Title Containers for non-landing pages. Style these text lines later to be over the image  -->
-<!--div tag defines a division or a section and is used as a container 
-    The 'h' tag identifies a header
-    The 'p' tag is used to define a paragraph of text -->
-<!--img tags are used when images are being employed.
-    "src" is an attribute used to link the image to the web page
-    and "alt" is the attribute that loades an alternate image if the innitial image is not found
-    The 'a' tag is a link tag, and the "href" attribute is given the value of the web page link that you would like to connect to.    -->
-
-
-<body>
-    <nav>
-        <!--Same on every page. If you change one, don't foget to change them all-->  
-        <!--Logo Needs To Be Input-->
-        <div id=logo_image>
-        <img src = "images/MoonshotLogo.png" alt="Moon Shot Company Logo" width=200>                   
-        </div>
-        <div id =nav_elements>
-        <a href="index.html">Home</a>
-        <a href="attractions.html">Attractions</a>
-        <a href="planning.html">Planning</a>
-        <a href="contact.html">Contact</a>
-        </div>
-    </nav>
-
-    <!--Main Page Header-->
-    
+    <body>
+    <!-- Navigation Menu - repeated on each page -->
+        <nav>
+            <!--Same on every page. If you change one, don't foget to change them all-->  
+            <div id='logo_image'>
+            <img src = "images/MoonshotLogo.png" alt="Moon Shot Company Logo">                   
+            </div>
+            <!-- Navigation is completely styled with nav {} using flexbox, div id=nav_elements for future use  -->
+            <div id=nav_elements>
+                <a href="index.html">Home</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="planning.html">Planning</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    <!-- Header image section, repeated for all pages except Home/Index -->
+    <!-- Same styling with different image and text on each page -->    
     <div class="page_header">
         <img class='image_header' src="images/planning.jpg" alt="Planning Image of man working on a white board">
         <div class='page_title'><h1>Planning</h1></div> 
     </div>
-    
+    <!-- Main content section -->
     <main>
-
         <!-- Header Description -->
         <div class="planning_header">
             <h1><strong>Planning</strong></h1>
@@ -332,9 +303,10 @@
         <a class="button promo_button" href="https://www.groupon.com/" target="_blank">More Deals!</a>
 
     </div>
-    
-<footer id="footer">
+    <!--Footer Container - repeated on each page-->
+    <footer id="footer">
         <!--Same on every page. If you change one, don't foget to change them all-->
+        <!--Styled into rows and columns by making id=footer a flexbox container  -->
         <br>
         <div class="row">
             <div class="column">
@@ -342,14 +314,12 @@
             </div>
             <div class="column">
                 <h4>Address</h4>
-
                 <address>
                     LunaCorp Moonshot Visitor Complex
                     <br>
                     23 - Space Commerce Way, Merritt Island, FL
                     <br>
                 </address>
-
                 <br>
                 <p id='copyright'>© Copyright 2020 LunaCorp</p>
             </div>
@@ -368,7 +338,7 @@
             </div>
         </div>
     </footer>
-
+    <!--Static call to action button - repeated on each page-->
     <div class = fixed_button>
         <a href="mailto:info@moonshot.com">Book NOW!</a> 
     </div>

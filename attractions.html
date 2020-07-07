@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!--Same on every page. If you change one, don't foget to change them all-->  
     <title>Moon Shot - Home</title>
     <meta name="description" content="Corporate Website for Moonshot Theme Park">
     <meta charset="UTF-8">
@@ -9,23 +10,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="refresh" content="600">
     <meta name="robots" content="noindex,nofollow">
-
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
     <!--Google font API-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,900%7CUbuntu" rel="stylesheet">
-    <!--included for assigment 3-->
-
-
 </head>
 
 <body>
+
+    <!-- Navigation Menu - repeated on each page -->
     <nav>
-        <!--Same on every page. If you change one, don't foget to change them all-->
-        <!--Logo Needs To Be Input-->
-        <div id=logo_image>
-            <img src="images/MoonshotLogo.png" alt="Moon Shot Company Logo" width=200>
+        <!--Same on every page. If you change one, don't foget to change them all-->  
+        <div id='logo_image'>
+        <img src = "images/MoonshotLogo.png" alt="Moon Shot Company Logo">                   
         </div>
+        <!-- Navigation is completely styled with nav {} using flexbox, div id=nav_elements for future use  -->
         <div id=nav_elements>
             <a href="index.html">Home</a>
             <a href="attractions.html">Attractions</a>
@@ -33,53 +32,49 @@
             <a href="contact.html">Contact</a>
         </div>
     </nav>
-
-    <!--Title Containers for non-landing pages.
-    Style these text lines later to be over the image-->
+    <!-- Header image section, repeated for all pages except Home/Index -->
+    <!-- Same styling with different image and text on each page -->
     <div class="page_header">
         <img class='image_header' src="images/waterslide.jpg" alt="Family having fun on waterslide - landing image">
         <div class='page_title'><h1>Attractions</h1></div> 
     </div>
 
+    <!-- Main content section -->
     <main>
+        <!--Attention grabbing headline -->
         <div class="header_section">
             <h1><strong>Attractions</strong></h1>
             <p>Go ballistic at any age with a thrust filled adventure to the moon powered by Moonshot Space Adventures.
             </p>
         </div>
-        <!--The following div will funnel visitors off to different sites describing rides suitable for their user profile-->
-
-            <div class="secondary_header" id="rides">
-                <h3>Rides</h3>
-            </div>
-            <div class="thumbnail_container">   
-
-                <figure class="thumbnail">
-                    <img src="https://cdn.pixabay.com/photo/2016/09/28/18/12/roller-coaster-1701085__480.jpg" width=200 alt="adults on a rollercoaster">
-                    <br><a class="button" href="" target="_blank">Adults</a>
-                </figure>
-                <figure class="thumbnail">
-                    <img src="images/families.jpg" width=200 alt="Family strolling in the Moon Shot park">
-                    <br><a class="button" href="" target="_blank">Families</a>
-                </figure>
-                <figure class="thumbnail">
-                    <img src="https://media.istockphoto.com/photos/portrait-of-excited-elementary-school-pupils-on-playing-field-at-picture-id1160932512?b=1&k=6&m=1160932512&s=170667a&w=0&h=UGpr6-SNI-Rhf_gsfMQwkQc1coYPMMIG--YHVGdGUys=" width=200 alt="Kids huddled facing camera">
-                    <br><a class="button" href="" target="_blank">Children</a>
-                </figure>
-              
+        <!--Thumbnail containers describing which rides are suitable to which customer groups -->
+        <!--In the next website release the thumbnail buttons will funnel visitors off to different sites describing rides suitable for their user profile-->
+        <div class="secondary_header" id="rides">
+            <h3>Rides</h3>
         </div>
-
-
-        <!--Holds all the thumbnails. Style to do vertical or horizontal depending on computer vs. phone-->
-        <!--Describes available trips-->
+        <div class="thumbnail_container">   
+            <figure class="thumbnail">
+                <img src="https://cdn.pixabay.com/photo/2016/09/28/18/12/roller-coaster-1701085__480.jpg" width=200 alt="adults on a rollercoaster">
+                <br><a class="button" href="" target="_blank">Adults</a>
+            </figure>
+            <figure class="thumbnail">
+                <img src="images/families.jpg" width=200 alt="Family strolling in the Moon Shot park">
+                <br><a class="button" href="" target="_blank">Families</a>
+            </figure>
+            <figure class="thumbnail">
+                <img src="https://media.istockphoto.com/photos/portrait-of-excited-elementary-school-pupils-on-playing-field-at-picture-id1160932512?b=1&k=6&m=1160932512&s=170667a&w=0&h=UGpr6-SNI-Rhf_gsfMQwkQc1coYPMMIG--YHVGdGUys=" width=200 alt="Kids huddled facing camera">
+                <br><a class="button" href="" target="_blank">Children</a>
+            </figure>  
+        </div>
+        <!-- Rich video media designed to grab the users intention  -->
         <div class="secondary_header" id="stays">
             <h3>Stays</h3>
         </div>
-        
        <div class='video_container'>
        <iframe class='video_border' src="https://player.vimeo.com/video/431192246"  allow="autoplay; fullscreen" width="640" height="360"  allowfullscreen ></iframe>  
        </div>
-        
+        <!--Thumbnail container describes available trips-->
+        <!--Holds all the thumbnails. Style to do vertical or horizontal depending on computer vs. phone-->
         <div class="thumbnail_container_large">
             <div class="thumbnail_large">
                 <h2>Day Trips</h2>
@@ -96,9 +91,10 @@
                 <h3>What to expect?</h3>
                 <p>Fly over earths magical moon before making a landing ... Buzz Aldrin Style! </p>
                 <p>Explore this one of a kind cratered fun park  on a 2-hour professionally guided joyride.</p>
-                
-                    <br><a class="button" href="" target="_blank"><b>Buy Now</b></a>
+                <br><a class="button" href="" target="_blank"><b>Buy Now</b></a>
             </div>
+            <!-- Split customers beteen day trippers and overnight visitors -->
+            <!-- Change in thumbnail columns from 3 collumns to 2 collumns  -->
             <div class="thumbnail_large">
                 <h2>Overnight excursions</h2>
                 <img src="images/spaceman_package.jpg" alt="Moon Shot transfer aircraft" width=400>
@@ -133,9 +129,8 @@
             <button class="button" type="button" onclick="window.location.href='index.html'">
             Buy Now
             </button>
-
     </div>
-    <!--Map of the park. Replace with interactive map when adding CSS-->
+    <!--Interactive Map of the park-->
     <aside>
         <div class="secondary_header">
             <h3> Park Map</h3>
@@ -161,20 +156,18 @@
                 </map>
 
         </div>
-
     </aside>
-    
     <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
-
     <div class="promo_banner">
         <h3>Our Spaceshuttles Deploy on Sunny Days Only</h3>
         <p>Find out more about weather conditions on weather.com</p>
         <a class="button promo_button" href="https://weather.com/" target="_blank">Check Weather!</a>
     </div>
     
-  <!-- FOOTER -->
-  <footer id="footer">
+     <!--Footer Container - repeated on each page-->
+     <footer id="footer">
         <!--Same on every page. If you change one, don't foget to change them all-->
+        <!--Styled into rows and columns by making id=footer a flexbox container  -->
         <br>
         <div class="row">
             <div class="column">
@@ -182,14 +175,12 @@
             </div>
             <div class="column">
                 <h4>Address</h4>
-   
                 <address>
                     LunaCorp Moonshot Visitor Complex
                     <br>
                     23 - Space Commerce Way, Merritt Island, FL
                     <br>
                 </address>
-
                 <br>
                 <p id='copyright'>© Copyright 2020 LunaCorp</p>
             </div>
@@ -208,13 +199,11 @@
             </div>
         </div>
     </footer>
-
+    <!--Static call to action button - repeated on each page-->
     <div class = fixed_button>
         <a href="mailto:info@moonshot.com">Book NOW!</a> 
     </div>
+
 </body>
 
-
 </html>
-
-

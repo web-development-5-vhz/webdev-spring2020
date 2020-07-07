@@ -14,17 +14,16 @@
     <link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
     <!--Google font API-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,900%7CUbuntu" rel="stylesheet">
-<!--included for assigment 3-->
 </head>
 
 <body>
-
+    <!-- Navigation Menu - repeated on each page -->
     <nav>
         <!--Same on every page. If you change one, don't foget to change them all-->  
-        <!--Logo Needs To Be Input-->
         <div id='logo_image'>
         <img src = "images/MoonshotLogo.png" alt="Moon Shot Company Logo">                   
         </div>
+        <!-- Navigation is completely styled with nav {} using flexbox, div id=nav_elements for future use  -->
         <div id=nav_elements>
             <a href="index.html">Home</a>
             <a href="attractions.html">Attractions</a>
@@ -35,14 +34,14 @@
     
     <!--Main Container Landing Page-->
     <main class='main_container'>
-        <!--Style these text lines later to be over the image-->
         <div id='index_header'>
             <h1>WE TAKE YOU TO<br>THE MOON AND BACK!</h1>
         </div>
         <img id="main_img" src="images/main.jpg" alt="Corporate Image of Moon Shot Park">
     </main>
 
-    <!--This container holds six buttons-->
+    <!--Secondary navigation buttons to help users find the info they need quickly-->
+    <!-- Styled with .button class -->
     <div class="button_container">
 
         <button class="button" type="button" onclick="window.location.href='planning.html#packages'">
@@ -64,8 +63,10 @@
         Deals
         </button>
     </div>
+    <!--Footer Container - repeated on each page-->
     <footer id="footer">
         <!--Same on every page. If you change one, don't foget to change them all-->
+        <!--Styled into rows and columns by making id=footer a flexbox container  -->
         <br>
         <div class="row">
             <div class="column">
@@ -97,13 +98,11 @@
             </div>
         </div>
     </footer>
-
+    <!--Static call to action button - repeated on each page-->
     <div class = fixed_button>
         <a href="mailto:info@moonshot.com">Book NOW!</a> 
     </div>
 
 </body>
-
-
 
 </html>
