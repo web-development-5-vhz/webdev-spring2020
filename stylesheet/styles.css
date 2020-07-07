@@ -4,11 +4,11 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0, 5%;
+    padding: 0.5%;
 }
 
 h1, h2, h3, h4 {
-    font-weight: 510;
+    font-weight: 500;
     color: #3D4E54;
 }
 
@@ -40,24 +40,24 @@ nav {
 }
 
 nav a {
-float: left;
-display: block;
-color: #2E2735;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
-margin:10px;
+    float: left;
+    display: block;
+    color: #2E2735;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin:10px;
 }
 
 nav a:hover {
-background-color: #546E7A;
-color: white;
+    background-color: #546E7A;
+    color: white;
 }
 
 nav a:active {
-background-color: #D8D7D6;
-color: white;
+    background-color: #D8D7D6;
+    color: white;
 }
 
 
@@ -89,7 +89,6 @@ a:hover {
     padding: 0 15% 3%;
     align-items: stretch;
     justify-content: space-between;
-    
 }
 
 .copyright {
@@ -271,21 +270,21 @@ a:hover {
     width : 1550px;
 }
 .main_container {
-position: relative;
-text-align: center;
-color: white;
-margin: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0px;
 }
 
 #index_header h1{
     color:white;
 }
 #index_header {
-position: absolute;
-top: 20%;
-left: 25%;
-transform: translate(-50%, -50%);
-color: #EDEDED;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #EDEDED;
 }
 
 #index_header h1 {
@@ -409,31 +408,30 @@ input {
 /* used on ALL except INDEX page */
 /* Header */
 .page_header {
-position: relative;
-text-align: center;
-color: white;
-background-color: white;
-padding: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: white;
+    padding: 20px;
 }
 
 .page_title {
-position: absolute;
-top: 13%;
-left: 36%;
-transform: translate(-50%, -50%);
-color: #3D4E54;
+    position: absolute;
+    top: 13%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    color: #3D4E54;
 }
 
 .page_title h1{
-font-size: 18px;
-font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .page_header img {
     width: 600px;
     text-align: left;
     opacity: 70%;
-    position: top-left;
 }
 
 /* Promo */
@@ -467,9 +465,9 @@ main img {
 }
 
 .slide {
-width:100%; 
-height:500px;
-overflow:hidden;
+    width:100%; 
+    height:500px;
+    overflow:hidden;
 }
 
 .slide div {
