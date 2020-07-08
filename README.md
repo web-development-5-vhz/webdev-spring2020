@@ -1,98 +1,98 @@
 Tick List: 
 Part 4
-1) [x] Use Box Model Styling in a way beyond what was taught in the course.
+1) Use Box Model Styling in a way beyond what was taught in the course.
 ACTIONS: 
-1.1. [x] Upgrade the look and feel of the buttons with Box Model styling 
+1.1. Upgrade the look and feel of the buttons with Box Model styling 
       eg. https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/A_cool_looking_box
 
-2) [x] Use X, Y and Z positioning to place elements a) absolutely on a page and b) relative to other elements.
+2) Use X, Y and Z positioning to place elements a) absolutely on a page and b) relative to other elements.
    Use the layer functions within the CSS language to position elements in front of or behind other elements
 ACTIONS: 
-2.1 [x] Create button which remains static positioned no matter where you are, 
+2.1 Create button which remains static positioned no matter where you are, 
    eg. a [Book now]  or [Contact us] or [Live Chat] on the bottom right of screen
    --> Book Now button added to bottom right of Home|Planning|Attractions
-2.2 [x] Find a clever way to use the z index 
+2.2 Find a clever way to use the z index 
    e.g. https://www.w3schools.com/cssref/tryit.asp?filename=trycss_zindex 
    Perhaps in the promo banner? 
 
-3) [x]Create a layout with various rows (with different number of collumns).
+3) Create a layout with various rows (with different number of collumns).
 ACTIONS: 
 DONE? 
 
-4) [ ] CSS media styling beyond what was taught in the course.
+4) CSS media styling beyond what was taught in the course.
 ACTIONS: 
-4.1 [ ] Add mouse over effect on the class = thumbnail, make specific comment in the CSS code about where you borrowed the code from
+4.1 Add mouse over effect on the class = thumbnail, make specific comment in the CSS code about where you borrowed the code from
 eg. https://www.w3schools.com/w3css/tryw3css_templates_band.htm , scroll down to Tickets/New York image 
-4.2 [ ] Add subtle cool effects, make specific comment in the CSS code about where you borrowed the code from
+4.2 Add subtle cool effects, make specific comment in the CSS code about where you borrowed the code from
 
 
-5) [x] Animation clearly enhances the experience of using the site or makes the information on the site easier to understand.
+5) Animation clearly enhances the experience of using the site or makes the information on the site easier to understand.
 ACTIONS: 
-5.1. [x] Create mouse over effect for buttons, make specific comment in the CSS code about where you borrowed the code from
+5.1. Create mouse over effect for buttons, make specific comment in the CSS code about where you borrowed the code from
       eg. http://www.corelangs.com/css/box/hover.html
 
 
 Part3
-6) [ ] Use different alignments for text, thoughtfull use of text styling.
+6) Use different alignments for text, thoughtfull use of text styling.
 ACTIONS: 
-6.1 [ ] Thoughtfull use of text styling... not sure what that means.. 
+6.1 Thoughtfull use of text styling... not sure what that means.. 
 
 
-7) [ ] Call external fonts which enhances the website.
+7) Call external fonts which enhances the website.
 ACTIONS: 
-7.1 [ ] Somewhere (H1 Title tags?) Use a font that is obviously not standard and stands out. 
+7.1 Somewhere (H1 Title tags?) Use a font that is obviously not standard and stands out. 
 
-8) [ ] Use of colour to support the primary user demographic identified.
+8) Use of colour to support the primary user demographic identified.
 ACTIONS:
-8.1 [x] Do some research supporting our colour choice and include in the Assignment 1 deliverable
+8.1 Do some research supporting our colour choice and include in the Assignment 1 deliverable
 
-9) [ ] Use of opacity with colours.
+9) Use of opacity with colours.
 ACTIONS:
-9.1 [ ] Add opacity, eg. in the class = page_title we can add a background colour with opacity to still see the image
+9.1 Add opacity, eg. in the class = page_title we can add a background colour with opacity to still see the image
 --> page_header img has opacity already, consider of more is required? 
 
 
 Part2
-10) [ ] Use semantic tags and div's to seperate content.
+10) Use semantic tags and div's to seperate content.
 ACTIONS:
-10.1 [ ] Check if all the tags make sense and simplify where possible
+10.1 Check if all the tags make sense and simplify where possible
       eg. We use <ASIDE> is there a reason for that? 
       -->The HTML <aside> element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
       eg. is the <MAIN> tag used consistently, what is the rule for including/excluding elements
       --> The HTML <main> element represents the dominant content of the <body> of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application
 
 
-11) [ ] Comments to help you work with the code and quickly relate it to the wireframes.'
+11) Comments to help you work with the code and quickly relate it to the wireframes.'
 ACTIONS:
-11.1 [ ] Update Wireframes to the code base
-11.2 [ ] Consistently comment code to make it easier to navigate
+11.1 Update Wireframes to the code base
+11.2 Consistently comment code to make it easier to navigate
       Indicate which components are repeated
       Indicate which components are linked , eg. If you change this id tag for style , it is also used a link, change that as well
 
-12) [ ] Provide Alt tags for accessability where possible
+12) Provide Alt tags for accessability where possible
 ACTIONS: 
-12.1 [ ] Research where alt tags can be added, make sure it is done. 
-12.2 [ ] Review all ALT descriptions to ensure they are user friendly 
+12.1 Research where alt tags can be added, make sure it is done. 
+12.2 Review all ALT descriptions to ensure they are user friendly 
 
-13) [ ] Make sure that all the parts of the pages have a semantic identity.
+13) Make sure that all the parts of the pages have a semantic identity.
 ACTIONS: 
-13.1 [ ] Fix <p> not enclosed in <div> or other tags, by enclosing them. 
+13.1 Fix <p> not enclosed in <div> or other tags, by enclosing them. 
 
-14) [ ] Validate your code using the W3C code validator.
+14) Validate your code using the W3C code validator.
 ACTIONS:
-14.1 [ ] Continiously validate
-14.2 [ ] Validate before final submission
+14.1 Continiously validate
+14.2 Validate before final submission
 
-15) [ ]Sub directories for media
+15) Sub directories for media
 ACTIONS: 
 DONE
 
 Part 1
-16) [x]Review Asssignment Part 1
+16) Review Asssignment Part 1
 ACTIONS:
-16.1 [x] Review the word doc as per Assignment 1 Requirements
-16.2 [x] Make sure there is mention of discussions around content of the website, structure of pages. 
-16.3 [x]Include analysis on appropriate colour pallette. 
+16.1 Review the word doc as per Assignment 1 Requirements
+16.2 Make sure there is mention of discussions around content of the website, structure of pages. 
+16.3 Include analysis on appropriate colour pallette. 
 
 
 http://www.corelangs.com/css/box/hover.html

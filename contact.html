@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Same on every page. If you change one, don't foget to change them all-->  
+    <title>Moon Shot - Home</title>
+    <meta name="description" content="Corporate Website for Moonshot Theme Park">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Space Theme Park, Moon Shot, The Big Dipper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
+    <!--Google font API-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,900%7CUbuntu" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Menu - repeated on each page -->
+    <nav>
+        <!--Same on every page. If you change one, don't foget to change them all-->  
+        <div id='logo_image'>
+            <a  href="index.html">
+        <img src = "images/MoonshotLogo.png" alt="Moon Shot Company Logo">    
+        </a>
+        </div>
+        <!-- Navigation is completely styled with nav {} using flexbox, div id=nav_elements for future use  -->
+        <div id=nav_elements>
+            <a href="index.html">Home</a>
+            <a href="attractions.html">Attractions</a>
+            <a href="planning.html">Planning</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>>
+    <!-- Header image section, repeated for all pages except Home/Index -->
+    <!-- Same styling with different image and text on each page -->
+    <div class="page_header">
+        <img class='image_header' src="images/contact.jpg" alt="Contact Banner Hand with cell phone">
+        <div class='page_title'><h1>Contact Us</h1></div> 
+    </div>
+
+    <!-- Main content area -->   
+    <main>
+    <!-- Section containing contact form -->
+    <section>
+        <h2>Contact Form</h2>
+        <div id="contact_form">
+            <div class="form">
+            <form id="contact">
+                <!--mandatory input-->
+                <label class="label_form" for="first_name">First name*:</label>
+                <input type="text" id="first_name" value="">
+                <br>
+                <label class="label_form" for="last_name">Last name:</label>
+                <input type="text" id="last_name" value="">
+                <br>
+                <!--mandatory input-->
+                <label class="label_form" for="email">Email*:</label>
+                <input type="text" id="email" value="">
+                <br>
+                <label class="label_form" for="phone">Phone Number:</label>
+                <input type="text" id="phone" value="">
+                <br>
+                <!--mandatory input-->
+                <textarea id="message" placeholder="Your message*:" style="width:400px; height:150px;"></textarea>
+                <br><br>
+                <button type="button" class="call_to_action">Submit</button>
+            </form>
+            </div>
+        </div>
+    </section>
+    <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
+    <div class="promo_banner">
+        <h3>See what our visitors have to say</h3>
+        <p>Find us on tripadvisor.com</p>
+        <a class="button promo_button" href="https://tripadvisor.com/" target="_blank">Go to website!</a>
+    </div>
+    </main>
+    <!-- Aside containing a request for feedback -->
+    <aside class="feedback">
+        <h4>Your Feedback is Important to us!</h4>
+        <p>
+            Tell us about your experience for <strong>a chance to win a yearly pass!</strong><br>
+            Simply begin your message with the words <q>Shoot for the moon</q><br>
+            to automatically enter the draw!<br>
+        </p>
+    </aside>
+    
+     <!--Footer Container - repeated on each page-->
+     <footer id="footer">
+        <!--Same on every page. If you change one, don't foget to change them all-->
+        <!--Styled into rows and columns by making id=footer a flexbox container  -->
+        <br>
+        <div class="row">
+            <div class="column">
+                <a  href="index.html"> <img id='footer_logo' src="images/MoonshotLogo.png" alt="Moon Shot Company Logo"> </a>
+            </div>
+            <div class="column">
+                <h4>Address</h4>
+                <address>
+                    LunaCorp Moonshot Visitor Complex
+                    <br>
+                    23 - Space Commerce Way, Merritt Island, FL
+                    <br>
+                </address>
+                <br>
+                <p id='copyright'>© Copyright 2020 LunaCorp</p>
+            </div>
+            <div class="column">
+                <h4>Contact us</h4>
+                    <a href="#">
+                        <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
+                    </a>
+                    <a href="#">
+                        <img src="images/twitter.png" alt="Twitter logo" width="30" height="30">
+                    </a>
+                    <a href="#">
+                        <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
+                    </a>
+                    <a href="mailto:info@moonshot.com">info@moonshot.com</a>
+            </div>
+        </div>
+    </footer>
+    <!--Static call to action button - repeated on each page-->
+    <div class = fixed_button>
+        <a href="mailto:info@moonshot.com">Book NOW!</a> 
+    </div>
+
+</body>
+
+</html>
