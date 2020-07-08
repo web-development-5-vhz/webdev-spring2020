@@ -1,21 +1,21 @@
 Tick List: 
 Part 4
-1) [ ] Use Box Model Styling in a way beyond what was taught in the course.
+1) [x] Use Box Model Styling in a way beyond what was taught in the course.
 ACTIONS: 
-1.1. [ ] Upgrade the look and feel of the buttons with Box Model styling 
+1.1. [x] Upgrade the look and feel of the buttons with Box Model styling 
       eg. https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/A_cool_looking_box
 
-2) [ ] Use X, Y and Z positioning to place elements a) absolutely on a page and b) relative to other elements.
+2) [x] Use X, Y and Z positioning to place elements a) absolutely on a page and b) relative to other elements.
    Use the layer functions within the CSS language to position elements in front of or behind other elements
 ACTIONS: 
 2.1 [x] Create button which remains static positioned no matter where you are, 
    eg. a [Book now]  or [Contact us] or [Live Chat] on the bottom right of screen
    --> Book Now button added to bottom right of Home|Planning|Attractions
-2.2 [ ] Find a clever way to use the z index 
+2.2 [x] Find a clever way to use the z index 
    e.g. https://www.w3schools.com/cssref/tryit.asp?filename=trycss_zindex 
    Perhaps in the promo banner? 
 
-3) [ ]Create a layout with various rows (with different number of collumns).
+3) [x]Create a layout with various rows (with different number of collumns).
 ACTIONS: 
 DONE? 
 
@@ -26,7 +26,7 @@ eg. https://www.w3schools.com/w3css/tryw3css_templates_band.htm , scroll down to
 4.2 [ ] Add subtle cool effects, make specific comment in the CSS code about where you borrowed the code from
 
 
-5) [ ] Animation clearly enhances the experience of using the site or makes the information on the site easier to understand.
+5) [x] Animation clearly enhances the experience of using the site or makes the information on the site easier to understand.
 ACTIONS: 
 5.1. [x] Create mouse over effect for buttons, make specific comment in the CSS code about where you borrowed the code from
       eg. http://www.corelangs.com/css/box/hover.html
