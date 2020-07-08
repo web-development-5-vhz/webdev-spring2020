@@ -195,7 +195,8 @@
             <h3>Restaurants</h3>
         </div>
         <!-- Restaurants thumbnail container -->
-        <section class="thumbnail_container">
+        <section class="thumbnail_container" id="restaurants">
+
                 <figure class="thumbnail">
                     <img src="images/chubby_restaurant.jpg" alt="fast food available in Moon Shot Park">
 
@@ -289,45 +290,41 @@
         <p>Check out Groupon.com for more information</p>
         <a class="button promo_button" href="https://www.groupon.com/" target="_blank">More Deals!</a>
     </div>
-
     <!--Footer Container - repeated on each page-->
-    <footer id="footer">
-        <!--Same on every page. If you change one, don't foget to change them all-->
-        <!--Styled into rows and columns by making id=footer a flexbox container  -->
-        <br>
-        <div class="row">
-            <div class="column">
-                <img id='footer_logo' src="images/MoonshotLogo.png" alt="Moon Shot Company Logo">
-            </div>
-            <div class="column">
-                <h4>Address</h4>
-                <address>
-                    LunaCorp Moonshot Visitor Complex
-                    <br>
-                    23 - Space Commerce Way, Merritt Island, FL
-                    <br>
-                </address>
-                <br>
-                <p id='copyright'>© Copyright 2020 LunaCorp</p>
-            </div>
-            <div class="column">
-                <h4>Contact us</h4>
-                    <a href="#">
-                        <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
-                    </a>
-                    <a href="#">
-                        <img src="images/twitter.png" alt="Twitter logo" width="30" height="30">
-                    </a>
-                    <a href="#">
-                        <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
-                    </a>
-                    <a href="mailto:info@moonshot.com">info@moonshot.com</a>
-            </div>
+    <footer class="footer">
+        <img class = "footer_element" id='footer_logo' src="images/MoonshotLogo.png" alt="Moon Shot Company Logo">
+        <div class = "footer_element" id="footer_addresstitle"><h4>Address</h4></div>
+        <div class = "footer_element" id="footer_address">
+            <div class="covid_banner"><p>Office Closed Temporatily Due to COVID</p></div>
+            <address>
+            LunaCorp Moonshot Visitor Complex
+            <br>
+            23 - Space Commerce Way, Merritt Island, FL
+            <br>
+            </address>
+
+            <p id='copyright'>© Copyright 2020 LunaCorp</p>
         </div>
+        <div class="footer_element" id="footer_contactustitle"><h4>Contact us</h4></div>
+        <div class = "footer_element" id="footer_contactus"> <a href="#">
+            <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
+        </a>
+        <a href="#">
+            <img src="images/twitter.png" alt="Twitter logo" width="30" height="30">
+        </a>
+        <a href="#">
+            <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
+        </a>
+        <a href="mailto:info@moonshot.com">info@moonshot.com</a></div>
+
+
     </footer>
+
     <!--Static call to action button - repeated on each page-->
+
+
     <div class = fixed_button>
-        <a href="mailto:info@moonshot.com">Book NOW!</a> 
+        <a href="mailto:info@moonshot.com">BOOK NOW!</a> 
     </div>
 
 </body>
