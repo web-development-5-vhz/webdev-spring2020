@@ -196,11 +196,12 @@ a:hover {
  
     -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
     transform: translateX(-9%) translateY(-25%) rotate(45deg);
-
- 
-
     
 }
+/*Used to change label on the button when hovered"*/
+.fixed_button .hover_btn_label { display: none; }
+.fixed_button:hover .regular_btn_label { display: none; }
+.fixed_button:hover .hover_btn_label { display: inline; }
 
 
 /* CALL to ACTION */
@@ -366,11 +367,13 @@ textarea {
 }
 
 .slide {
+    position: relative;
     width:600px; 
     height:500px; 
     display: flex;
     justify-content: space-around;
-    margin: 30px;
+    padding: 2% 7%;
+  
 }
 
 .slide div {
@@ -551,13 +554,11 @@ input {
     list-style-type:none;
 }
 
-/*Following code is test code related to the fixed button */
 
-.fixed_button .hover_btn_label { display: none; }
-.fixed_button:hover .regular_btn_label { display: none; }
-.fixed_button:hover .hover_btn_label { display: inline; }
 
-/*End of test code*/
+
+
+
 
 #footer_logo {grid-area:footer_logo;} 
 #footer_addresstitle {grid-area:footer_addresstitle;}
