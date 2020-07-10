@@ -150,10 +150,10 @@ a:hover {
 /* FIXED position button */
 /* Hover Effect : https://codepen.io/sfoxy/details/XpOoJe/ */
 .fixed_button{ 
+    width: 150px;
     position: fixed; 
     bottom: 240px;
     right: 5px;
-    /* width: 200px;  */
     border: 0px solid #d6d6d6; 
     background-color: #D34869;  
     transform: translate(-50%, -50%); 
@@ -550,6 +550,14 @@ input {
 .no-list{
     list-style-type:none;
 }
+
+/*Following code is test code related to the fixed button */
+
+.fixed_button .hover_btn_label { display: none; }
+.fixed_button:hover .regular_btn_label { display: none; }
+.fixed_button:hover .hover_btn_label { display: inline; }
+
+/*End of test code*/
 
 #footer_logo {grid-area:footer_logo;} 
 #footer_addresstitle {grid-area:footer_addresstitle;}
