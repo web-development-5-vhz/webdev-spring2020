@@ -36,19 +36,33 @@
     </nav>
     <!-- Header image section, repeated for all pages except Home/Index -->
     <!-- Same styling with different image and text on each page -->
-    <div class="page_header">
-        <img class='image_header' src="images/waterslide.jpg" alt="Family having fun on waterslide - landing image">
-        <div class='page_title'><h1>Attractions</h1></div> 
-    </div>
+    <div class='header_container'>
+        <div class="page_header">
+            <img class='image_header' src="images/waterslide.jpg" alt="Family having fun on waterslide - landing image">
+            <div class='page_title'><h1>Attractions</h1></div> 
+        </div>
 
-    <!-- Main content area -->
-    <main>
-        <!--Attention grabbing headline -->
-        <div class="header_section">
+        <!--Attractions Description -->
+        <div class="page_header_main">
             <h1><strong>Attractions</strong></h1>
-            <p>Go ballistic at any age with a thrust filled adventure to the moon powered by Moonshot Space Adventures.
+            <p class='page_header_descr'>
+            Go ballistic with a thrust filled adventure to the moon
+            <br>
+            powered by <strong>Moon Shot</strong> Space Adventures.
+            <br>
+            We offer activities for every age and mood, and capture 
+            <br>
+            the magical atmosphere of the moon! 
+            <br>
+            Join us in Space and have a great time at the park!
+            <br>
+            We promise an out-of-the-world experiance.
             </p>
         </div>
+    </div>
+        
+         <!-- Main content area -->
+        <main>          
         <!--Thumbnail containers describing which rides are suitable to which customer groups -->
         <!--In the next website release the thumbnail buttons will funnel visitors off to different sites describing rides suitable for their user profile-->
         <div class="secondary_header" id="rides">
@@ -82,67 +96,69 @@
                 <h2>Day Trips</h2>
 
                 <!-- <img src="images/rollercoaster.jpg" alt="Park ride with moon in background" width=400> -->
-                <ul class="no-list">
-                    <li>
-                        <ul class="fly-away effect no-list">
-                            <li>
-                                <h2>Looking for something affordable?<br></h2>
-                                <h3>
-                                Nothing like a quick weekend in space!<br>
-                                Scroll down and hit the <br> Buy Now Button!<br>
-                                </h3>
-                                <img class="top" src="images/rollercoaster.jpg" alt="Park ride with moon in background" />
-                            </li>
-                        </ul>
-                    </li>
-                </ul>   
-                <h3><br>What is included?</h3>
-                <ul>
-                    <li>Scenic flight to the moon</li>
-                    <li>Moon landing and 2-hour space park adventure</li>
-                    <li>Experienced guide</li>
-                    <li>All equipment (full moon suit, oxygen, all the stuff you need)</li>
-                    <li>2-day compulsory space training</li>
-                </ul>
-                <br>
-                <h3>What to expect?</h3>
-                <p>Fly over earths magical moon before making a landing ... Buzz Aldrin Style! </p>
-                <p>Explore this one of a kind cratered fun park  on a 2-hour professionally guided joyride.</p>
-                <br><a class="button" href="" target="_blank"><b>Buy Now</b></a>
+                <div class='attractions_info'>
+                    <ul class="fly-away effect no-list">
+                        <li>
+                            <h3>
+                                Looking for something affordable?
+                            </h3>
+                            <p>
+                            Nothing like a quick weekend in space!<br>
+                            Scroll down and hit the <br> Buy Now Button!
+                            </p>
+                            <img class="top" src="images/rollercoaster.jpg" alt="Park ride with moon in background">
+                        </li>
+                    </ul>
+                </div>
+                <div class='attractions_info'>
+                    <h3>What is included?</h3>
+                    <ul>
+                        <li>Scenic flight to the moon</li>
+                        <li>Moon landing and 2-hour space park adventure</li>
+                        <li>Experienced guide</li>
+                        <li>All equipment (full moon suit, oxygen, all the stuff you need)</li>
+                        <li>2-day compulsory space training</li>
+                    </ul>
+                </div>
+                <div class='attractions_info'>
+                    <h3>What to expect?</h3>
+                    <p>Fly over earths magical moon before making a landing ... Buzz Aldrin Style! </p>
+                    <p>Explore this one of a kind cratered fun park  on a 2-hour professionally guided joyride.</p>
+                    <br><a class="button" href="" target="_blank"><b>Buy Now</b></a>
+               </div>
             </div>
             <!-- Split customers beteen day trippers and overnight visitors -->
             <!-- Change in thumbnail columns from 3 collumns to 2 collumns  -->
             <div class="thumbnail_large">
                 <h2>Overnight excursions</h2>
-                <ul class="no-list">
-                    <li>
-                        <ul class="fly-away effect no-list">
-                            <li>
-                                <h2>Want to stay longer?<br></h2>
-                                <h3>
-                                Grab this once in a lifetime opportunity!<br>
-                                Scroll down and hit the <br> Buy Now Button!<br>
-                                </h3>
-                                <img class="top" src="images/spaceman_package.jpg" alt="Moon Shot transfer aircraft" />
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <br>
-                <h3><br>What is included?</h3>
-                <ul>
-                    <li>Overnight stay for as many night as you like</li>
-                    <li>full access to all space park adventures</li>
-                    <li>Optional Daily moon fly-by's for the rocket addicts</li>
-                    <li>Fully cateres, of course</li>
-                    <li>3 day compulsory space training</li>
-                </ul>
-                <br>
-                <h3>What to expect?</h3>
-                <p>Get aclimitised to floating, this is a one of a kind experience</p>
-                <p>Delve into the moon's ancient history, learn about lunar maria and how it was formed.</p>
-                <br><a class="button" href="" target="_blank"><b>Buy Now</b></a>
+                <div class='attractions_info'>
+                    <ul class="fly-away effect no-list">
+                        <li>
+                            <h3>Want to stay longer?</h3>
+                            <p>
+                            Grab this once in a lifetime opportunity!<br>
+                            Scroll down and hit the <br> Buy Now Button!<br>
+                            </p>
+                            <img class="top" src="images/spaceman_package.jpg" alt="Moon Shot transfer aircraft">
+                        </li>
+                    </ul>
+                </div>
+                <div class='attractions_info'>
+                    <h3>What is included?</h3>
+                    <ul>
+                        <li>Overnight stay for as many night as you like</li>
+                        <li>full access to all space park adventures</li>
+                        <li>Optional Daily moon fly-by's for the rocket addicts</li>
+                        <li>Fully cateres, of course</li>
+                        <li>3 day compulsory space training</li>
+                    </ul>
+                </div>
+                <div class='attractions_info'>
+                    <h3>What to expect?</h3>
+                    <p>Get aclimitised to floating, this is a one of a kind experience</p>
+                    <p>Delve into the moon's ancient history, learn about lunar maria and how it was formed.</p>
+                    <br><a class="button" href="" target="_blank"><b>Buy Now</b></a>
+                </div>
             </div>
 
         </div>
@@ -152,10 +168,10 @@
         <button class="button" type="button" onclick="window.location.href='attractions.html#rides'">
             Best Rides
             </button>
-            <button class="button" type="button" onclick="window.location.href='planning.html'">
+            <button class="button" type="button" onclick="window.location.href='planning.html#packages'">
             Lowest Prices
             </button>
-            <button class="button" type="button" onclick="window.location.href='planning.html'">
+            <button class="button" type="button" onclick="window.location.href='planning.html#schedule'">
             All Year Round
             </button>
             <button class="button" type="button" onclick="window.location.href='index.html'">
@@ -167,15 +183,17 @@
         <div class="secondary_header">  
             <h3> Park Map</h3>
         </div>
-        <p>
-            Fly over earths magical moon before making a landing ... Buzz Aldrin Style!
-            <br>
-            Explore this one of a kind cratered fun park, on a 2-hour professionally guided joyride.
-            <br>
-            Within the fun park excursions include a thrill option or lunar history experience 
-            <br>
-            for the more academically inclined visitors.
-        </p>
+        <div class='attractions_descr'>
+            <p>
+                Fly over earths magical moon before making a landing ... Buzz Aldrin Style!
+                <br>
+                Explore this one of a kind cratered fun park, on a 2-hour professionally guided joyride.
+                <br>
+                Within the fun park excursions include a thrill option or lunar history experience 
+                <br>
+                for the more academically inclined visitors.
+            </p>
+        </div>
         <div id=map_Container> <!-- ID used as a link target from index page href='attractions.html#map_Container' -->
                 <img src="images/map.jpg" alt="Map of the Park" usemap="#parkmap" width="800">
                 <map name="parkmap">
@@ -198,13 +216,17 @@
         <img class = "footer_element" id='footer_logo' src="images/MoonshotLogo.png" alt="Moon Shot Company Logo">
         <div class = "footer_element" id="footer_addresstitle"><h4>Address</h4></div>
         <div class = "footer_element" id="footer_address">
-            <div class="covid_banner"><p>Office Closed Temporatily Due to COVID</p></div>
-            <address>
-            LunaCorp Moonshot Visitor Complex
-            <br>
-            23 - Space Commerce Way, Merritt Island, FL
-            <br>
-            </address>
+            <div class="covid_banner">
+                <p>Office Closed Temporatily Due to COVID</p>
+            </div>
+            <p>
+                <address>
+                LunaCorp Moonshot Visitor Complex
+                <br>
+                23 - Space Commerce Way, Merritt Island, FL
+                <br>
+                </address>
+            </p>
 
             <p id='copyright'>© Copyright 2020 LunaCorp</p>
         </div>
@@ -229,14 +251,13 @@
   
     <!--Static call to action button - repeated on each page-->
     
+<!--
     <div class = "fixed_button" onclick="javascript:document.location='mailto:info@moonshot.com'" >
         
         <span class="regular_btn_label">Buy Now</span></a> 
         <span class="hover_btn_label">GO!</span></a> 
     </div>
-    
-
-
+-->
 
 </body>
 

@@ -35,9 +35,36 @@
     </nav>
     <!-- Header image section, repeated for all pages except Home/Index -->
     <!-- Same styling with different image and text on each page -->
-    <div class="page_header">
-        <img class='image_header' src="images/contact.jpg" alt="Contact Banner Hand with cellphone">
-        <div class='page_title'><h1>Contact Us</h1></div> 
+    <div class='header_container'>
+        <div class="page_header">
+            <img class='image_header' src="images/contact.jpg" alt="Contact Banner Hand with cellphone">
+            <div class='page_title'><h1>Contact Us</h1></div> 
+        </div>
+        <div class='page_header_main'>
+        <h2>Contact Info</h2>
+        <p class='page_header_descr'>
+        phone: 1-800-567-MOON
+        <br>
+        email: <a href="mailto:info@moonshot.com">info@moonshot.com</a>
+        <br>
+        <br>
+        PLEASE NOTE!
+        <br>
+        <strong>We are currently closed due to Covid-19</strong>
+        <br>
+        until further notice!
+        <br>
+        we are hoping to see you very soon,
+        stay safe!
+        <br>
+        <br>
+            <address>LunaCorp Moonshot Visitor Complex
+            <br>
+            23 - Space Commerce Way, Merritt Island, FL
+            </address>
+        </p>
+        </div>
+        
     </div>
 
     <!-- Main content area -->   
@@ -92,13 +119,17 @@
         <img class = "footer_element" id='footer_logo' src="images/MoonshotLogo.png" alt="Moon Shot Company Logo">
         <div class = "footer_element" id="footer_addresstitle"><h4>Address</h4></div>
         <div class = "footer_element" id="footer_address">
-            <div class="covid_banner"><p>Office Closed Temporatily Due to COVID</p></div>
-            <address>
-            LunaCorp Moonshot Visitor Complex
-            <br>
-            23 - Space Commerce Way, Merritt Island, FL
-            <br>
-            </address>
+            <div class="covid_banner">
+                <p>Office Closed Temporatily Due to COVID</p>
+            </div>
+            <p>
+                <address>
+                LunaCorp Moonshot Visitor Complex
+                <br>
+                23 - Space Commerce Way, Merritt Island, FL
+                <br>
+                </address>
+            </p>
 
             <p id='copyright'>© Copyright 2020 LunaCorp</p>
         </div>
@@ -117,11 +148,13 @@
 
     </footer>
     <!--Static call to action button - repeated on each page-->
+<!--
     <div class = "fixed_button" onclick="javascript:document.location='mailto:info@moonshot.com'" >
         
         <span class="regular_btn_label">Buy Now</span></a> 
         <span class="hover_btn_label">GO!</span></a> 
     </div>
+-->
 
 </body>
 
