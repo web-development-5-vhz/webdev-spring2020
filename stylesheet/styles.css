@@ -7,10 +7,18 @@ body {
     padding: 0.5%;
 }
 
-h1, h2, h3, h4 {
+h1 {
     font-weight: 600;
     color: #3D4E54;
 }
+
+h2, h3, h4 {
+    font-weight: 600;
+    color: #3D4E54;
+    font-family: 'Raleway', sans-serif;
+}
+
+
 
 p {
     padding:5px;
@@ -73,6 +81,7 @@ nav a:active {
 /* Footer is repeated on each page */
 #footer_logo {
     width : 200px;
+   
 }
 
 #copyright {
@@ -156,8 +165,8 @@ a:hover {
 .fixed_button{ 
     width: 150px;
     position: fixed; 
-    bottom: 240px;
-    right: 5px;
+    bottom: 20px;
+    right: 0px;
     border: 0px solid #d6d6d6; 
     background-color: #D34869;  
     transform: translate(-50%, -50%); 
@@ -170,7 +179,7 @@ a:hover {
     color: #fff;
     font-weight: 700;
     font-size: 15px;
-    padding: 17px 60px;
+    padding: 10px;
     margin: 0 auto;
     box-shadow: 0 5px 15px rgba(0,0,0,0.20);
     }
@@ -466,6 +475,7 @@ input {
     left: 36%;
     transform: translate(-50%, -50%);
     color: #3D4E54;
+
 }
 
 .page_title h1{
@@ -581,7 +591,9 @@ input {
 #footer_address{
     
 }
-#footer_logo {grid-area:footer_logo;}
+#footer_logo {
+    grid-area:footer_logo; 
+    padding-top: 55px;}
 #footer_contactustitle {grid-area:footer_contactustitle;}
 #footer_contactus {grid-area:footer_contactus;}
 
