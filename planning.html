@@ -6,7 +6,7 @@
     <title>Moon Shot - Home</title>
     <meta name="description" content="Corporate Website for Moonshot Theme Park">
     <meta charset="UTF-8">
-    <meta name="keywords" content="Space Theme Park, Moon Shot, The Big Dipper">
+    <meta name="keywords" content="Space Theme Park, Moon Shot, Moonshot, Advanture Park, Moon Park, Moon Shuttle">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="refresh" content="600">
     <meta name="robots" content="noindex,nofollow">
@@ -27,48 +27,74 @@
         </a>
         </div>
             <!-- Navigation is completely styled with nav {} using flexbox, div id=nav_elements for future use  -->
-            <div id=nav_elements>
+        <div id=nav_elements>
                 <a href="index.html">Home</a>
                 <a href="attractions.html">Attractions</a>
                 <a href="planning.html">Planning</a>
                 <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-    <!-- Header image section, repeated for all pages except Home/Index -->
-    <!-- Same styling with different image and text on each page -->   <div class='header_container'>
-    <div class="page_header">
-        <img class='image_header' src="images/planning.jpg" alt="Planning Image of man working on a white board">
+        </div>
+    </nav>
+        
+    <!-- Header area, repeated for all pages except Index -->
+        
+    <div class='header_container'>
+        <!-- Header image area -->
+        <div class="page_header">
+            <img class='image_header' src="images/planning.jpg" alt="Planning Banner - a man looking on a white board">
+        </div>
+        
+        <!-- Heading and Paragraph area -->        
+        <div>     
+            <div class="page_header_main">
+                <h1>Planning</h1>
+                <p class='page_header_descr'>
+                    It's important to prepair for this special opportunity.
+                    <br>
+                    Not every day we get to <strong>travel to the moon</strong>, and that's why
+                    <br> it's important to bring your A-game when you plan!
+                    <br>
+                    As part of our all inclusive fee a specialist advisor will help you pack.
+                    <br>
+                    The main things you need to worry about are:
+                    <br>
+                    Which wonderfull <a href="planning.html#hotels" > 
+                        hotel</a> to stay in and
+                    <br>
+                    Where to <a href="planning.html#restaurants" >refuel</a> after a hard day of jet setting! 
+                </p>
+            </div>    
+        </div> 
         
     </div>
-    <div>
-    <!-- Header Description -->
-        <div class="page_header_main">
-            <h1><strong>Planning</strong></h1>
-            <p class='page_header_descr'>
-                It's important to prepair for this special opportunity.
-                <br>
-                Not every day we get to travel to the moon, and that's why
-                <br> it's important to bring your A-game when you plan!
-                <br>
-                As part of our all inclusive fee a specialist advisor will help you pack.
-                <br>
-                The main things you need to worry about is:
-                <br>
-                Which wonderfull <a href="planning.html#hotels" > 
-                    hotel</a> to stay in and
-                <br>
-                Where to <a href="planning.html#restaurants" >refuel</a> after a hard day of jet setting! 
-            </p>
-        </div>    
-    </div>
-</div>
 
     <!-- Main content area -->
     <main>        
         <!-- Schedule section containing info about public holidays, operating hours and upcoming events-->
         <section id="schedule">
-            <div class= "warning">
-                <h2>Schedule and Holidays</h2>
+            <h2>Schedule and Holidays</h2>
+
+            <div class ="slide_container">                
+                <div class="slide" id="upcoming_events">
+                    <div>
+                        <img src="images/waterfight_event.jpg" alt="Photo from the 2018 Waterfight">
+                        <h4 class='events'>The Annual Waterfight on the Moon</h4>
+                        <time datetime="2021-04-12">April 12, 2021</time>
+                    </div>
+                    <div>
+                        <img src="images/colours_event.jpg" alt="Photo from the Carnival of Colours 2019">
+                        <h4 class='events'>Carnival of Colours</h4>
+                        <time datetime="2020-10-15">November 15, 2020</time>
+                    </div>
+                    <div>
+                        <img src="images/spaceodyssey_event.jpg" alt="Photo from Space Odyssey 2019">
+                        <h4 class='events'>Space Odyssey Nights</h4>
+                        <time datetime="2020-09-07">September 7, 2020</time>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule_left"> 
+                <h3>Upcoming Events</h3>
                 <p class='page_header_descr'>
                 PLEASE NOTE!
                 <br>
@@ -76,8 +102,19 @@
                 <br>
                 We apologize the inconvenience and hoping to see you soon.
                 </p>
+                <ol>
+                    <li>
+                        Space Odyssey Nights - <time>September 7, 2020</time>
+                    </li>
+                    <li>
+                        Carnival of Colours - <time>November 15, 2020</time>
+                    </li>
+                    <li>
+                        The Annual Waterfight on the Moon - <time>April 12, 2021</time>
+                    </li>
+                </ol>
             </div>
-            <div class = "opening_hours">
+            <div class="schedule_left">
                 <h3>Hours of Operation</h3>
                 <table id="table_openinghours">
                     <tr>
@@ -97,33 +134,10 @@
                     </tr>
                 </table>
             </div>
-
-            <div class = "upcoming_events">
-                <h3>Upcoming Events</h3>
-            <div class="slide" id="upcoming_events">
-                <div class='event_container'>
-                    <img src="images/waterfight_event.jpg" alt="Photo from the 2018 Waterfight">
-                    <h4 class='events'>The Annual Waterfight on the Moon</h4>
-                    <br>
-                    <time datetime="2021-04-12">April 12, 2021</time>
-                </div>
-                <div class='event_container'>
-                    <img src="images/colours_event.jpg" alt="Photo from the Carnival of Colours 2019">
-                    <h4 class='events'>Carnival of Colours</h4>
-                    <br>
-                    <time datetime="2020-10-15">November 15, 2020</time>
-                </div>
-                <div class='event_container'>
-                    <img src="images/spaceodyssey_event.jpg" alt="Photo from Space Odyssey 2019">
-                    <h4 class='events'>Space Odyssey Nights</h4>
-                    <br>
-                    <time datetime="2020-09-07">September 7, 2020</time>
-                </div>
-            </div>
-        </div>
         </section>
 
-        <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
+        <!-- A visual separator with a call to action button -->
+        
         <div class="promo_banner">
             <h3>Our Spaceshuttles Deploy on Sunny Days Only</h3>
             <p>Find out more about weather conditions on weather.com</p>
@@ -203,42 +217,42 @@
         </div>
         <!-- Restaurants thumbnail container -->
         <section class="thumbnail_container" id="restaurants">
+            <figure class="thumbnail">
+                <img src="images/chubby_restaurant.jpg" alt="fast food available in Moon Shot Park">
 
-                <figure class="thumbnail">
-                    <img src="images/chubby_restaurant.jpg" alt="fast food available in Moon Shot Park">
+                <h4>The Chubby Spaceman</h4>
 
-                    <h4>The Chubby Spaceman</h4>
+                <p>$ Ⓥ</p>
+                <a class="button" href="https://www.opentable.com/" target="_blank">Reserve Now!</a>
 
-                    <p>$ Ⓥ</p>
-                    <a class="button" href="https://www.tripadvisor.com/" target="_blank">Reserve Now!</a>
+            </figure>
 
-                </figure>
+            <figure class="thumbnail">
+                <img src="images/moonshine_restaurant.jpg" alt="Inside the Moonshine Pub">
 
-                <figure class="thumbnail">
-                    <img src="images/moonshine_restaurant.jpg" alt="Inside the Moonshine Pub">
+                <h4>Moonshine Pub & Eatery</h4>
 
-                    <h4>Moonshine Pub & Eatery</h4>
+                <p>$$ +18</p>
 
-                    <p>$$ +18</p>
+                <a class="button" href="https://www.opentable.com/" target="_blank">Reserve Now!</a>
 
-                    <a class="button" href="https://www.tripadvisor.com/" target="_blank">Reserve Now!</a>
+            </figure>
 
-                </figure>
+            <figure class="thumbnail">
+                <img src="images/end_restaurant.jpg" alt="A sleek table with digital menus">
 
-                <figure class="thumbnail">
-                    <img src="images/end_restaurant.jpg" alt="A sleek table with digital menus">
+                <h4>Restaurant at the End of the Universe</h4>
 
-                    <h4>Restaurant at the End of the Universe</h4>
-
-                    <p>$$$ Ⓥ</p>
-                    <a class="button" href="https://www.tripadvisor.com/" target="_blank">Reserve Now!</a>
-                </figure>              
+                <p>$$$ Ⓥ</p>
+                <a class="button" href="https://www.opentable.com/" target="_blank">Reserve Now!</a>
+            </figure>              
 
         </section>
     </section>
     </main>
 
-    <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
+    <!-- A visual separator with a call to action button -->
+        
     <div class="promo_banner">
         <h3>We value your feedback and want to reward you!</h3>
         <p>Tell us about your experiance and enter a draw for a <strong>free yearly pass</strong></p><br><br>
@@ -246,50 +260,58 @@
         <a class="button promo_button" href="contact.html">Contact us!</a>
     </div>
 
-    <!--Description of different packages available-->
-    <div class="secondary_header" id="packages"> <!-- ID used as a link target from index page href='planning.html#packages' -->
-        <h3>Packages</h3>
-    </div>
-    <div class='page_header_descr'>
-        <p><br>Step up your planning game with our package deals!<br>
-            Cover all your dining, hospitality and transportation needs<br>
-            with one single transaction!<br>
-            Cheers for a worry-free vecation in out facilities!
-        </p>
-    </div>    
-    <section class="thumbnail_container">     
-        <figure class="thumbnail">
-            <img src="images/spaceman_package2.jpg" alt="Dehydrated food available in space" width=300>
-
-            <h4>True Spaceman Package</h4>
-
-            <p>Spaceshuttle + Hotel
+    <!-- PACKAGES section -->
+    <section>
+        <div class="secondary_header" id="packages"> 
+            <h3>Packages</h3>
+        </div>
+        <div>
+            <p class='page_header_descr'>
+                Step up your planning game with our <strong>package deals</strong>!
                 <br>
-                Unlimited Dehydrated Meals
-            </p>
-            <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
-        </figure>
-        <figure class="thumbnail">
-            <img src="images/morningglory_package.jpg" alt="Buffet Breakfast server with Morning Glory package" width=300>
-
-            <h4>Morning Glory Package</h4>
-
-            <p>Spaceshuttle + Hotel
+                Cover all your dining, hospitality and transportation needs
                 <br>
-                Buffet Breakfast Only
-            </p>
-            <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
-        </figure>
-        <figure class="thumbnail">
-            <img src="images/delux_package.jpg" alt="Hotel Dining Room , all meals and drinks included with Delux package" width=300>
-            <h4>The Delux Package</h4>
-            <p>
-                Spaceshuttle + Hotel + Fast Pass
+                with one single transaction.
                 <br>
-                All Inclussive Meals & Drinks<br>                
+                Cheers for a worry-free vecation in out facilities!
             </p>
-            <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
-        </figure>
+        </div>    
+
+        <section class="thumbnail_container">
+            
+            <figure class="thumbnail">
+                <img src="images/spaceman_package2.jpg" alt="Dehydrated food available in space" width=300>
+                <h4>True Spaceman Package</h4>
+                <p>
+                    Spaceshuttle + Hotel
+                    <br>
+                    Unlimited Dehydrated Meals
+                </p>
+                <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
+            </figure>
+            
+            <figure class="thumbnail">
+                <img src="images/morningglory_package.jpg" alt="Buffet Breakfast server with Morning Glory package">
+
+                <h4>Morning Glory Package</h4>
+                <p>
+                    Spaceshuttle + Hotel
+                    <br>
+                    Buffet Breakfast Only
+                </p>
+                <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
+            </figure>
+            <figure class="thumbnail">
+                <img src="images/delux_package.jpg" alt="Hotel Dining Room , all meals and drinks included with Delux package" width=300>
+                <h4>The Delux Package</h4>
+                <p>
+                    Spaceshuttle + Hotel + Fast Pass
+                    <br>
+                    All Inclussive Meals & Drinks<br>                
+                </p>
+                <a class="button" href="https://www.groupon.com/" target="_blank">Purchase Now!</a>
+            </figure>
+        </section>
     </section>
     <!-- Banner/Suggestion/Separator with a call to action button - FULL DEVICE WIDTH -->
     <div class="promo_banner">
@@ -297,39 +319,47 @@
         <p>Check out Groupon.com for more information</p>
         <a class="button promo_button" href="https://www.groupon.com/" target="_blank">More Deals!</a>
     </div>
-    <!--Footer Container - repeated on each page-->
+
+    <!-- FOOTER SECTION - same across all pages -->
+
     <footer class="footer">
-        <img class = "footer_element" id='footer_logo' src="images/MoonshotLogo.png" alt="Moon Shot Company Logo">
+        <img class = "footer_element" id='footer_logo' src="images/MoonshotLogo.png" alt="Moon Shot company logo">
         <div class = "footer_element" id="footer_addresstitle"><h4>Address</h4></div>
         <div class = "footer_element" id="footer_address">
             <div class="covid_banner">
-                <p>Office Closed Temporatily Due to COVID
-                </p>
+                <p>Office Closed Temporatily Due to COVID</p>
             </div>
-                <p>
-                    <address>
-                    LunaCorp Moonshot Visitor Complex
-                    <br>
-                    23 - Space Commerce Way, Merritt Island, FL
-                    <br>
-                    </address>
-                </p>
-    
+            <p>
+                <address>
+                LunaCorp Moonshot Visitor Complex
+                <br>
+                23 - Space Commerce Way, Merritt Island, FL
+                <br>
+                </address>
+            </p>
 
             <p id='copyright'>© Copyright 2020 LunaCorp</p>
         </div>
-        <div class="footer_element" id="footer_contactustitle"><h4>Contact us</h4></div>
-        <div class = "footer_element" id="footer_contactus"> <a href="#">
-            <img src="images/facebook.png" alt="Facebook logo" width="30" height="30">
-        </a>
-        <a href="#">
-            <img src="images/twitter.png" alt="Twitter logo" width="30" height="30">
-        </a>
-        <a href="#">
-            <img src="images/instagram.png" alt="Instagram logo" width="30" height="30"><br><br>
-        </a>
-        <a href="mailto:info@moonshot.com">info@moonshot.com</a></div>
 
+        <!-- social media -->
+        <div class="footer_element" id="footer_contactustitle">      
+            <h4>Follow us</h4>
+        </div>
+
+        <div class = "footer_element" id="footer_contactus">
+            <a href="https://facebook.com" target=_blank>
+                <img src="images/facebook.png" class="social_icon" alt="Facebook logo">
+            </a>
+            <a href="https://twitter.com" target=_blank>
+                <img src="images/twitter.png" class="social_icon" alt="Twitter logo">
+            </a>
+            <a href="https://instagram.com" target=_blank>
+                <img src="images/instagram.png" class="social_icon" alt="Instagram logo">
+            </a>
+            <br>
+            <br>
+            <a href="mailto:info@moonshot.com">info@moonshot.com</a>
+        </div>
 
     </footer>
 

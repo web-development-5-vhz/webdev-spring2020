@@ -1,4 +1,5 @@
 /* GENERAL*/
+
 body {
     background: #EDEDED;
     text-align: center;
@@ -18,11 +19,10 @@ h2, h3, h4 {
     font-family: 'Raleway', sans-serif;
 }
 
-
-
 p {
     padding:5px;
     margin:15px;
+    line-height: 1.5em;
 }
 
 address {
@@ -80,14 +80,15 @@ nav a:active {
 /* FOOTER*/
 /* Footer is repeated on each page */
 #footer_logo {
-    width : 200px;
-   
+    width : 200px;   
 }
 
 #copyright {
     font-size: 12px;
 }
+
 /* Styled for all pages, only active in footer email section */
+
 a {
     text-decoration: none;
     color: #21272B;
@@ -120,11 +121,9 @@ a:hover {
     padding: 5%;
 }
 
-
-
-
 /* BUTTON*/
 /* Used to style secondary menu on index page as well advertising section on attractions page */
+
 .button_container {
     padding-top: 1%;
     padding-bottom: 1%;
@@ -132,6 +131,7 @@ a:hover {
 }
 
 /* Used to style buttons throughout website , change carefully */
+
 .button {
     display: inline-block;
     font-weight: 400;
@@ -166,7 +166,7 @@ a:hover {
     width: 150px;
     position: fixed; 
     bottom: 20px;
-    right: 0px;
+    right: -0.75%;
     border: 0px solid #d6d6d6; 
     background-color: #D34869;  
     transform: translate(-50%, -50%); 
@@ -211,36 +211,15 @@ a:hover {
     transform: translateX(-9%) translateY(-25%) rotate(45deg);
     
 }
+
 /*Used to change label on the button when hovered"*/
+
 .fixed_button .hover_btn_label { display: none; }
 .fixed_button:hover .regular_btn_label { display: none; }
 .fixed_button:hover .hover_btn_label { display: inline; }
-
-
-/* CALL to ACTION */
-.call_to_action {
-    background-color: #333;
-    color: white;
-    display: inline-block;
-    border: 1px solid transparent;
-    font-size: 1.25rem;
-    border-radius: 0.3rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-}
-
-.call_to_action:hover {
-    background-color: white;
-    color: #333;
-}
-
-.call_to_action:active {
-    box-shadow: 0 5px ;
-    transform: translateY(4px);
-}
        
 /* used for call to action button on attractions and planning pages */
+
 .promo_button:hover {
     background-color: #21272B;
     color: white;
@@ -248,6 +227,7 @@ a:hover {
 
 
 /*MULTI-MEDIA*/
+
 .video_container {
     padding:30px;
     background-color: white;
@@ -261,20 +241,10 @@ a:hover {
 
 /* PAGE SPECIFIC STYLING */
 
-
 /* Used on ATTRACTIONS and PLANNING pages */
-.secondary_header h3{
-    color:white;
-}
 
-.secondary_header{
-    height: 50px;
-    font-weight: 500;
-    font-size: 1.75rem;
-    color: #f2f2f2;
-    background-color: #2E2735;
-    border-radius: 0.5rem;
-    margin: 15px;
+.thumbnail_container {
+    padding: 20px;
 }
 
 .thumbnail > img {
@@ -287,8 +257,7 @@ a:hover {
 
 .thumbnail_large {
     
-    width: 350px;
-    
+    width: 350px; 
 }
 
 /* used on INDEX page only */
@@ -320,21 +289,8 @@ a:hover {
     font-size: 26px;
 }
 
-/* used on ATTRACTIONS page only */
-#map_Container {
-    padding:20px;
-}
+/* 1. ATTRACTIONS */
 
-.thumbnail_container_large {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-evenly;
-    padding: 5%;
-    
-}
-
-/* used on ATTRACTIONS page only */
 .attractions_info {
     margin: 3em;
     width: 100%;
@@ -348,42 +304,19 @@ a:hover {
     font-weight: 800;
 }
 
-/* used on CONTACT page only */
-input {
-    padding: 5px;
-    margin: 5px;
-}
-textarea {
-    margin:15px;
-    padding: 10px;
+#map_Container {
+    padding:20px;
 }
 
-.feedback {
-    background-color: white;
-    padding: 15px;
+.thumbnail_container_large {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    
 }
 
-/* used on PLANNING page only */
-.primary_header {
-    padding: 2rem 0;
-    font-weight: 500;
-    font-size: 2rem;
-}
-
-.page_header_main {
-    padding: 1.5rem 0;
-    font-weight: 500;
-    font-size: 2rem;
-    background-color: #fff;
-}
-
-.page_header {
-    float:left;
-}
-
-.schedule {
-    float: none;
-}
+/* 2. PLANNING PAGE */
 
 .page_header_descr, .attractions_descr {
     font-size: 16px;
@@ -395,30 +328,50 @@ textarea {
     padding:5px;
 }
 
-.event_container time {
-    margin: 10px;
-}
-
 #table_openinghours {
     display: flex;
     justify-content: space-around;
 }
 
-.upcoming_events {
-    padding: 30px;
-    
+#table_openinghours time {
+    text-decoration: line-through;    
 }
+
+.slide_container {
+    float: right;
+}
+
+/* slideshow */
+
 .slide {
-    width:600px; 
-    height:400px;
+    width: 600px; 
+    height: 400px;
+    margin: 20px;
   
 }
 
+.schedule_left {
+    padding: 0.5%;
+    
+}
+
+.schedule_left li {
+    line-height: 25px;
+    list-style-type: none;
+}
+
+#schedule {
+    margin-bottom: 5%;
+}
+#schedule h2{
+    padding-top: 1%;
+    
+}
+/* slide elements */
+
 .slide div {
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 0.5%;
+    padding: 1%;
     position: absolute;
     animation: slide 21s infinite;
     opacity: 0;
@@ -433,10 +386,20 @@ textarea {
 }
 
 
-/* used on CONTACT page only */
-#contact_form {
-    padding: 3rem;
+/* PAGE #3 - CONTACT */
+
+/*form*/
+#contact_form_container {
+    padding-bottom: 2rem;
     text-align: center;
+}
+
+#contact {
+    padding: 15px;
+}
+
+#contact_form_header {
+    padding: 15px;
 }
 
 label {
@@ -453,21 +416,52 @@ input {
     height: 20px;
     flex: 0 0 100px;
     margin-left: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
-.contact {
-    padding: 3rem;
+
+textarea {
+    margin:15px;
+    padding: 10px;
+    width:400px;
+    height:150px;
 }
 
-/* used on ALL except INDEX page */
-/* Header */
+/* feedback promo */
+
+.feedback {
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.feedback h3 {
+    text-transform: uppercase;
+}
+
+/* ACROSS ALL 3 PAGES */
+
+/* a. header area */
+
+.page_header_main {
+    padding: 1.5rem 0;
+    font-weight: 500;
+    font-size: 2rem;
+    background-color: #fff;
+}
+
+/* header image */
+
 .page_header {
     position: relative;
     text-align: center;
     color: white;
     background-color: white;
     padding: 25px;
+    float:left;
 }
+
+/* header text */
 
 .page_title {
     position: absolute;
@@ -489,11 +483,35 @@ input {
     opacity: 70%;
 }
 
-/* Promo */
+/* b. secondary header */
+
+.secondary_header{
+
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: #2E2735;    
+    margin: 15px;
+}
+
+.secondary_header h3{
+    color: white;
+    padding: 0.5%;
+    background-color: #2E2735;
+    border-radius: 0.5rem;
+}
+
+
+/* c. promo banner / separator */
+
 .promo_banner {
     background-color: #9FBBC1;
-    padding: 3rem;
+    padding: 1.5rem;
 }
+
+.promo_banner h3 {
+    text-transform: uppercase;
+}
+
 
 
 /* KEYFRAMES & MEDIA SCREEN */
@@ -578,11 +596,7 @@ input {
     list-style-type:none;
 }
 
-
-
-
-
-
+/* FOOTER SECTION */
 
 #footer_logo {grid-area:footer_logo;} 
 #footer_addresstitle {grid-area:footer_addresstitle;}
@@ -596,6 +610,11 @@ input {
     padding-top: 55px;}
 #footer_contactustitle {grid-area:footer_contactustitle;}
 #footer_contactus {grid-area:footer_contactus;}
+
+.social_icon {
+    width: 30px;
+    height: 30px;
+}
 
 .covid_banner {
     background-color: #D34869;
