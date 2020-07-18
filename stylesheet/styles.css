@@ -251,6 +251,15 @@ a:hover {
     width: 280px;
 }
 
+.thumbnail > img:hover {
+    opacity: 0.5;
+  }
+
+.thumbnail_attr > img:hover {
+    filter: hue-rotate(180deg)
+  }
+
+
 .thumbnail_large > img {
     width: 350px;
 }
